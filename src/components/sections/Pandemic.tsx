@@ -16,9 +16,9 @@ export default function Pandemic() {
                     >
                         {/* Title with exact line breaks and highlight */}
                         <h2 className="text-[32px] md:text-[48px] font-extrabold leading-[1.1] text-white uppercase font-heading text-left">
-                            A pandemia<br />
+                            A pandemia da<br />
                             <div className="relative inline-block mt-2">
-                                <span className="relative z-10 px-3 py-0">da má comunicação</span>
+                                <span className="relative z-10 px-3 py-0">má comunicação</span>
                                 <motion.span
                                     initial={{ scaleX: 0 }}
                                     whileInView={{ scaleX: 1 }}
