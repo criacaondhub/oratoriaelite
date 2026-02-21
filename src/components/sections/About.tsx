@@ -61,9 +61,8 @@ const About = () => {
                     {/* Text Column */}
                     <div className="w-full lg:w-1/2 flex flex-col gap-8 text-white">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-[28px] md:text-6xl font-extrabold md:font-black uppercase font-heading leading-none">
-                                Sobre o <br />
-                                <span className="text-[#CC0000] drop-shadow-[0_0_15px_rgba(204,0,0,0.3)]">El Professor</span>
+                            <h2 className="text-[28px] md:text-6xl font-extrabold md:font-black uppercase font-heading leading-tight md:leading-none">
+                                Sobre o <span className="text-[#CC0000] drop-shadow-[0_0_15px_rgba(204,0,0,0.3)]">El Professor</span>
                             </h2>
                         </div>
 
