@@ -51,10 +51,10 @@ const TornPaperSection = () => {
     )
 
     return (
-        <section className="relative w-full min-h-[800px] flex flex-col items-center justify-center overflow-hidden py-32">
-            {/* Background de Papel Rasgado - Largura Total */}
+        <section className="relative w-full min-h-fit md:min-h-[800px] flex flex-col items-center justify-center overflow-hidden py-16 md:py-32 bg-white md:bg-transparent">
+            {/* Background de Papel Rasgado - Apenas Desktop */}
             <div
-                className="absolute inset-x-0 top-0 bottom-0 pointer-events-none"
+                className="absolute inset-x-0 top-0 bottom-0 pointer-events-none hidden md:block"
                 style={{
                     backgroundImage: `url('assets/papel-rasgado.webp')`,
                     backgroundSize: 'cover',
@@ -83,7 +83,7 @@ const TornPaperSection = () => {
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-black/5 shadow-inner">
+                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-8 md:bg-white/10 md:backdrop-blur-sm rounded-3xl md:p-12 md:border md:border-black/5 md:shadow-inner">
                     <Column items={column1} />
                     <Column items={column2} />
                     <Column items={column3} />
