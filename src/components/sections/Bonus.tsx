@@ -42,7 +42,7 @@ const Bonus = () => {
                         />
 
                         {/* Content Box (Yellow/Pink in diagram) */}
-                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-r-2xl p-8 md:p-12 flex flex-col gap-6 text-left max-w-xl z-10">
+                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-l-none md:rounded-r-2xl p-8 md:p-12 flex flex-col gap-6 text-center md:text-left items-center md:items-start max-w-xl z-10 -mt-6 md:mt-0">
                             <h3 className="text-[28px] md:text-4xl font-black md:font-black text-white leading-tight font-heading uppercase">
                                 Argumentação:<br /> Como Vencer Debates
                             </h3>
@@ -74,9 +74,9 @@ const Bonus = () => {
                         />
 
                         {/* Content Box (Yellow/Pink in diagram - Left) */}
-                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-l-2xl p-8 md:p-12 flex flex-col gap-6 text-left max-w-xl z-10">
+                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-r-none md:rounded-l-2xl p-8 md:p-12 flex flex-col gap-6 text-center md:text-left items-center md:items-start max-w-xl z-10 -mt-6 md:mt-0">
                             <h3 className="text-[28px] md:text-4xl font-black md:font-black text-white leading-tight font-heading uppercase">
-                                Pense Rápido, Fale Melhor
+                                Pense Rápido,<br className="md:hidden" /> Fale Melhor
                             </h3>
                             <p className="text-gray-300 text-[16px] md:text-xl font-body leading-relaxed">
                                 As principais técnicas para você a montar um raciocínio enquanto fala e acabar com o branco, com o medo de ser pego de surpresa e com a sensação de que você só pensa na resposta certa depois que a conversa termina.
