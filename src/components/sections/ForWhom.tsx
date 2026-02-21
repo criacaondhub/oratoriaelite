@@ -5,21 +5,25 @@ export default function ForWhom() {
         {
             text: (
                 <>
-                    Trabalha com vendas e quer <strong className="font-bold text-white">potencializar seus resultados.</strong>
+                    Trabalha com vendas e quer <br className="hidden md:block" />
+                    <strong className="font-bold text-white">potencializar seus resultados.</strong>
                 </>
             ),
         },
         {
             text: (
                 <>
-                    <strong className="font-bold text-white">Sente que merece mais sucesso profissional,</strong> mas a comunicação não acompanha a competência.
+                    <strong className="font-bold text-white">Sente que merece mais sucesso</strong> <br className="hidden md:block" />
+                    <strong className="font-bold text-white">profissional,</strong> mas a comunicação <br className="hidden md:block" />
+                    não acompanha a competência.
                 </>
             ),
         },
         {
             text: (
                 <>
-                    <strong className="font-bold text-white">Precisa liderar uma equipe,</strong> inspirar pessoas e falar com autoridade.
+                    <strong className="font-bold text-white">Precisa liderar uma equipe,</strong> inspirar <br className="hidden md:block" />
+                    pessoas e falar com autoridade.
                 </>
             ),
         },
@@ -29,21 +33,25 @@ export default function ForWhom() {
         {
             text: (
                 <>
-                    <strong className="font-bold text-white">Quer acabar com a insegurança</strong> e fazer apresentações impactantes e memoráveis.
+                    <strong className="font-bold text-white">Quer acabar com a insegurança</strong> <br className="hidden md:block" />
+                    e fazer apresentações <br className="hidden md:block" />
+                    impactantes e memoráveis.
                 </>
             ),
         },
         {
             text: (
                 <>
-                    <strong className="font-bold text-white">Quer se tornar referência na sua área</strong> e não apenas mais um no mercado.
+                    <strong className="font-bold text-white">Quer se tornar referência na sua área</strong> <br className="hidden md:block" />
+                    e não apenas mais um no mercado.
                 </>
             ),
         },
         {
             text: (
                 <>
-                    <strong className="font-bold text-white">Quer se tornar o melhor comunicador</strong> que pode ser.
+                    <strong className="font-bold text-white">Quer se tornar o melhor</strong> <br className="hidden md:block" />
+                    <strong className="font-bold text-white">comunicador</strong> que pode ser.
                 </>
             ),
         },
