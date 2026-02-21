@@ -71,7 +71,7 @@ export default function ForWhom() {
 
                         {/* Left Content - Reduced to 3 columns to give more space to the boxes */}
                         <div className="lg:col-span-3 flex flex-col gap-8">
-                            <h2 className="text-[36px] md:text-[48px] font-extrabold leading-[1.1] text-white uppercase font-heading text-left">
+                            <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading text-left">
                                 Para quem é esse<br />
                                 treinamento?
                             </h2>
@@ -80,7 +80,7 @@ export default function ForWhom() {
                                 href="#preco"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
                                 Quero participar
                                 <motion.div
@@ -112,7 +112,7 @@ export default function ForWhom() {
                                             alt="Check"
                                             className="w-8 h-8 flex-shrink-0 mt-1"
                                         />
-                                        <p className="text-[18px] md:text-[20px] text-gray-300 leading-[1.3] font-body">
+                                        <p className="text-[16px] md:text-[20px] text-gray-300 leading-[1.3] font-body">
                                             {item.text}
                                         </p>
                                     </motion.div>
@@ -135,7 +135,7 @@ export default function ForWhom() {
                                             alt="Check"
                                             className="w-8 h-8 flex-shrink-0 mt-1"
                                         />
-                                        <p className="text-[18px] md:text-[20px] text-gray-300 leading-[1.3] font-body">
+                                        <p className="text-[16px] md:text-[20px] text-gray-300 leading-[1.3] font-body">
                                             {item.text}
                                         </p>
                                     </motion.div>

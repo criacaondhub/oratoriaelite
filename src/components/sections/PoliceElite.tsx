@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import React from "react"
 
 const PoliceElite = () => {
     return (
@@ -12,9 +11,9 @@ const PoliceElite = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="text-center text-3xl md:text-[48px] font-black font-heading text-white uppercase leading-[1.1] max-w-5xl"
+                    className="text-center text-[28px] md:text-[48px] font-extrabold md:font-black font-heading text-white uppercase leading-[1.2] md:leading-[1.1] max-w-5xl"
                 >
-                    <span className="relative inline-block">
+                    <span className="relative inline-block mb-2 md:mb-0">
                         <span className="relative z-10 px-4 py-1">Um método validado</span>
                         <motion.span
                             initial={{ scaleX: 0 }}
@@ -25,7 +24,7 @@ const PoliceElite = () => {
                             viewport={{ once: true }}
                         />
                     </span>{" "}
-                    por políticos, influentes,<br />
+                    por políticos, influentes,<br className="hidden md:block" />
                     bilionários e até a elite da polícia
                 </motion.h2>
             </div>

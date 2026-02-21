@@ -25,7 +25,7 @@ export default function Method() {
 
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
-                    <h2 className="text-[30px] md:text-[46px] font-extrabold leading-[1.1] text-white uppercase font-heading">
+                    <h2 className="text-[28px] md:text-[46px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading">
                         O Método usado por negociadores,<br className="hidden md:block" />
                         influenciadores e{" "}
                         <span className="relative inline-block mt-1">
@@ -41,7 +41,7 @@ export default function Method() {
                         </span>
                     </h2>
 
-                    <p className="text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.2] mt-4 font-body">
+                    <p className="text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] md:leading-[1.2] mt-4 font-body">
                         Dentro do <strong className="font-bold text-white">Oratória de Elite</strong> você aprende o método usado para treinar profissionais<br className="hidden md:block" />
                         que precisam se comunicar com <strong className="font-bold text-white">precisão, sob pressão, sem margem para erro.</strong>
                     </p>
@@ -96,7 +96,7 @@ export default function Method() {
                         href="#preco"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="group w-fit bg-[#CC0000] text-white px-8 py-4 rounded-[0.5rem] font-bold text-lg md:text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                        className="group w-fit bg-[#CC0000] text-white px-8 py-4 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                     >
                         Quero ter acesso ao Oratória de Elite
                         <motion.div

@@ -59,13 +59,13 @@ const Pricing = () => {
                             {/* Prices */}
                             <div className="flex flex-col items-center gap-4">
                                 <div className="flex flex-col items-center">
-                                    <span className="text-white/50 font-body text-[18px] md:text-[22px] line-through">De R$ 997,00</span>
-                                    <span className="text-white font-body text-[20px] md:text-[24px]">por apenas 12x de</span>
+                                    <span className="text-white/50 font-body text-[14px] md:text-[22px] line-through">De R$ 997,00</span>
+                                    <span className="text-white font-body text-[16px] md:text-[24px]">por apenas 12x de</span>
                                 </div>
                                 <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[80px] lg:text-[110px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
                                     R$ 52,13
                                 </div>
-                                <span className="text-white font-body text-[20px] md:text-[24px] font-medium transition-all">Ou apenas R$497,00 à vista</span>
+                                <span className="text-white font-body text-[16px] md:text-[24px] font-medium transition-all">Ou apenas R$497,00 à vista</span>
                             </div>
 
                             {/* Button - Styled like Hero CTA */}
@@ -75,7 +75,7 @@ const Pricing = () => {
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
                                 <span className="whitespace-nowrap">Quero ter acesso ao Oratória de Elite</span>
                                 <motion.div
@@ -138,7 +138,7 @@ const Pricing = () => {
                                 <p className="text-[#808080] font-body font-light text-[15px] leading-tight">O El Professor da Oratória</p>
                             </div>
                         </div>
-                        <p className="text-white font-body font-normal text-[18px] md:text-[22px] leading-relaxed w-full xl:max-w-[700px]">
+                        <p className="text-white font-body font-normal text-[16px] md:text-[22px] leading-relaxed w-full xl:max-w-[700px]">
                             “Eu criei o <span className="text-[#CC0000] font-bold">Oratória de Elite</span> para corrigir um problema comum, silencioso e ignorado, que faz pessoas excepcionais não serem levadas a sério”
                         </p>
                     </motion.div>

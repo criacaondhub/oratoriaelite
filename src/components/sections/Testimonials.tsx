@@ -57,13 +57,13 @@ const Testimonials = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-white text-[32px] md:text-[48px] font-black leading-none uppercase font-heading mb-6 inline-block">
+                    <h2 className="text-white text-[28px] md:text-[48px] font-extrabold md:font-black leading-none uppercase font-heading mb-6 inline-block">
                         <span className="relative inline-block px-4 py-3">
                             <span className="absolute inset-0 bg-[#CC0000]"></span>
                             <span className="relative text-white z-10">Resultados que falam por si</span>
                         </span>
                     </h2>
-                    <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto font-body leading-relaxed mt-4">
+                    <p className="text-gray-300 text-[16px] md:text-xl max-w-3xl mx-auto font-body leading-relaxed mt-4">
                         Dentro do <span className="font-bold text-white">Oratória de Elite</span> você aprende o método usado para treinar profissionais que precisam se comunicar com precisão, sob pressão, sem margem para erro.
                     </p>
                 </motion.div>

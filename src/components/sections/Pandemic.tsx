@@ -15,7 +15,7 @@ export default function Pandemic() {
                         className="lg:col-span-6 flex flex-col gap-8"
                     >
                         {/* Title with exact line breaks and highlight */}
-                        <h2 className="text-[32px] md:text-[48px] font-extrabold leading-[1.1] text-white uppercase font-heading text-left">
+                        <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading text-left">
                             A pandemia da<br />
                             <div className="relative inline-block mt-2">
                                 <span className="relative z-10 px-3 py-0">má comunicação</span>
@@ -31,7 +31,7 @@ export default function Pandemic() {
                         </h2>
 
                         {/* Subtitle with exact line breaks */}
-                        <div className="flex flex-col gap-6 text-[18px] md:text-[22px] font-medium text-gray-200 leading-[1.4] font-body text-left">
+                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] font-body text-left">
                             <p>
                                 Quando sua comunicação falha, você<br className="hidden md:block" />
                                 perde respeito, oportunidade e espaço.
@@ -59,7 +59,7 @@ export default function Pandemic() {
                                 href="#preco"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
                                 Quero ter acesso ao Oratória de Elite
                                 <motion.div

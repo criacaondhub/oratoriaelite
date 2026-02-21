@@ -102,7 +102,7 @@ const FAQ = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6 }}
                                 viewport={{ once: true }}
-                                className="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-neutral-900 uppercase leading-none"
+                                className="text-[28px] md:text-5xl lg:text-6xl font-extrabold md:font-black font-heading text-neutral-900 uppercase leading-none"
                             >
                                 Ainda restaram <br />
                                 <span className="text-[#CC0000]">dúvidas?</span>
@@ -112,7 +112,7 @@ const FAQ = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.1 }}
                                 viewport={{ once: true }}
-                                className="text-neutral-600 font-body text-lg md:text-xl leading-relaxed"
+                                className="text-neutral-600 font-body text-[16px] md:text-xl leading-relaxed"
                             >
                                 Veja ao lado algumas <span className="font-bold text-neutral-900">perguntas feitas com frequência</span> e, se ainda assim não esclarecerem suas dúvidas, <span className="font-bold text-neutral-900">entre em contato conosco:</span>
                             </motion.p>
@@ -128,23 +128,23 @@ const FAQ = () => {
                             whileHover={{ y: -10 }}
                             transition={{ duration: 0.3 }}
                             viewport={{ once: true }}
-                            className="relative overflow-hidden rounded-2xl p-[2px] group w-fit shadow-xl shadow-green-900/10"
+                            className="relative overflow-hidden rounded-2xl p-[2px] group w-full sm:w-fit shadow-xl shadow-green-900/10"
                         >
                             {/* Animated Border Gradient */}
                             <div className="absolute inset-[-1000%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#178837_360deg)] animate-[spin_4s_linear_infinite]" />
 
                             {/* Inner Content */}
-                            <div className="relative flex items-center gap-6 p-6 bg-[#3FB05E] rounded-[14px] z-10">
+                            <div className="relative flex flex-col sm:flex-row items-start sm:items-center gap-6 p-6 md:p-8 bg-[#3FB05E] rounded-[14px] z-10 w-full h-full">
                                 <img
                                     src="assets/icon-whats.webp"
                                     alt="WhatsApp"
-                                    className="w-16 h-16 shrink-0 object-contain drop-shadow-md"
+                                    className="w-12 h-12 md:w-16 md:h-16 shrink-0 object-contain drop-shadow-md"
                                 />
-                                <div className="flex flex-col gap-2">
-                                    <h3 className="text-xl font-body font-bold text-white uppercase">
+                                <div className="flex flex-col gap-2 w-full">
+                                    <h3 className="text-[18px] md:text-xl font-body font-bold text-white uppercase">
                                         Suporte no Whatsapp
                                     </h3>
-                                    <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-2 rounded-lg text-[12px] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all">
+                                    <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-3 rounded-lg text-[11px] md:text-[12px] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all text-center sm:text-left">
                                         Clique aqui e entre em contato
                                     </div>
                                 </div>

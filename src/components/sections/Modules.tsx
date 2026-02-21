@@ -11,7 +11,7 @@ export default function Modules() {
         <section className="relative py-20 overflow-hidden bg-transparent w-full">
             {/* 1. Header Area - Margem 32px (mb-8) */}
             <div className="container mx-auto px-6 mb-8 text-center uppercase">
-                <h2 className="text-[32px] md:text-[48px] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
+                <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
                     Tenha acesso ao treinamento de<br />
                     <div className="relative inline-block mt-2">
                         <span className="relative z-10 px-3 py-0">oratória mais completo do mundo</span>
@@ -38,7 +38,7 @@ export default function Modules() {
                     href="#preco"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="group w-fit bg-[#CC0000] text-white px-10 py-5 rounded-[0.5rem] font-bold text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                    className="group w-fit bg-[#CC0000] text-white px-10 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                 >
                     Quero participar
                     <motion.div

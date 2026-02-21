@@ -8,10 +8,14 @@ const About = () => {
     const mouseXSpring = useSpring(x)
     const mouseYSpring = useSpring(y)
 
+    // Only apply rotation on larger screens (desktop)
     const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["5deg", "-5deg"])
     const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-5deg", "5deg"])
 
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+        // Prevent 3D effect on small screens to avoid jumpy behavior
+        if (window.innerWidth < 1024) return;
+
         const rect = e.currentTarget.getBoundingClientRect()
         const width = rect.width
         const height = rect.height
@@ -29,17 +33,17 @@ const About = () => {
     }
 
     return (
-        <section className="relative w-full py-[80px] bg-transparent overflow-hidden font-body perspective-1000">
-            <div className="container mx-auto px-6 relative z-10">
+        <section className="relative w-full py-16 md:py-[80px] bg-transparent overflow-hidden font-body perspective-1000">
+            <div className="container mx-auto px-4 md:px-6 relative z-10">
                 <motion.div
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}
                     style={{
-                        rotateX,
-                        rotateY,
+                        rotateX: window.innerWidth >= 1024 ? rotateX : 0,
+                        rotateY: window.innerWidth >= 1024 ? rotateY : 0,
                         transformStyle: "preserve-3d",
                     }}
-                    className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 max-w-7xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-[30px] p-8 md:p-16 shadow-2xl"
+                    className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 max-w-7xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] md:rounded-[30px] p-6 md:p-16 shadow-2xl"
                 >
 
                     {/* Image Column */}
@@ -57,13 +61,13 @@ const About = () => {
                     {/* Text Column */}
                     <div className="w-full lg:w-1/2 flex flex-col gap-8 text-white">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-4xl md:text-6xl font-black uppercase font-heading leading-none">
+                            <h2 className="text-[28px] md:text-6xl font-extrabold md:font-black uppercase font-heading leading-none">
                                 Sobre o <br />
                                 <span className="text-[#CC0000] drop-shadow-[0_0_15px_rgba(204,0,0,0.3)]">El Professor</span>
                             </h2>
                         </div>
 
-                        <div className="flex flex-col gap-6 text-gray-300 text-lg md:text-lg leading-relaxed">
+                        <div className="flex flex-col gap-6 text-gray-300 text-[16px] md:text-lg leading-relaxed">
                             <p>
                                 Mais conhecido como <span className="text-[#CC0000] font-bold">El Professor da Oratória,</span> Giovanni Begossi é bicampeão brasileiro de oratória, palestrante internacional, advogado e TEDx Speaker, além de contar com mais de 20 prêmios de oratória em 3 línguas diferentes.
                             </p>

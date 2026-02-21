@@ -37,7 +37,7 @@ const TornPaperSection = () => {
         />
     )
 
-    const Column = ({ title, items }: { title?: string, items: string[] }) => (
+    const Column = ({ items }: { items: string[] }) => (
         <div className="flex flex-col gap-4">
             {items.map((item, idx) => (
                 <div key={idx} className="flex items-center gap-3">
@@ -73,7 +73,7 @@ const TornPaperSection = () => {
                     viewport={{ once: true }}
                     className="text-center mb-10"
                 >
-                    <h2 className="text-black text-[28px] md:text-[48px] font-black leading-tight max-w-4xl mx-auto uppercase">
+                    <h2 className="text-black text-[28px] md:text-[48px] font-extrabold md:font-black leading-tight max-w-4xl mx-auto uppercase">
                         O único que te ensina os{" "}
                         <span className="relative inline-block px-3 py-1 ml-2">
                             <span className="absolute inset-0 bg-[#CC0000] -rotate-1"></span>
