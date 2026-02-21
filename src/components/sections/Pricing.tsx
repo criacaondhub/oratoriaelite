@@ -5,42 +5,44 @@ const Pricing = () => {
         <section id="preco" className="relative w-full py-[70px] bg-transparent overflow-hidden font-body">
             <div className="container mx-auto px-6 relative z-10 flex flex-col items-center">
 
-                <div className="flex flex-col-reverse xl:flex-row items-center justify-center gap-10 xl:gap-[60px] w-full max-w-[1900px]">
+                <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[60px] w-full max-w-[1900px]">
 
-                    {/* Left Side: Features List (Originally on the right) */}
+                    {/* Left Side: Features List - Order 1 on mobile */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex flex-col gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto items-start min-w-[300px]"
+                        className="flex flex-col gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto items-center xl:items-start min-w-[300px] order-1 xl:order-1"
                     >
-                        {[
-                            { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 997,00" },
-                            { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
-                            { text: "Treinamento Pense Rápido, Fale Melhor - ", price: "R$ 197,00" },
-                            { text: "ECONOMIA DE: ", price: "R$ 994,00", highlight: true }
-                        ].map((item, i) => (
-                            <div key={i} className="flex items-center gap-[16px]">
-                                <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
-                                    <circle cx="10" cy="10" r="10" fill={item.highlight ? "#59FF74" : "#CC0000"} />
-                                    <path d="M14.7074 6.3313L9.70261 13.7065L5.79087 10.0765C5.61478 9.91348 5.60435 9.63826 5.76783 9.46217C5.93087 9.28565 6.20652 9.27609 6.38217 9.43913L9.551740 12.38L13.9878 5.84261C14.123% 5.64391 14.3935 5.59261 14.5917 5.72696C14.7909 5.86174 14.8426 6.13217 14.7074 6.3313Z" fill="white" />
-                                </svg>
-                                <p className={`font-body font-bold text-[18px] leading-tight uppercase ${item.highlight ? 'text-[#59FF74]' : 'text-[#CCCCCC]'}`}>
-                                    {item.text}
-                                    <span className={`${item.highlight ? 'text-[#59FF74]' : 'text-[#CC0000] line-through'}`}>{item.price}</span>
-                                </p>
-                            </div>
-                        ))}
+                        <div className="flex flex-col gap-[20px] xl:gap-[30px] w-fit">
+                            {[
+                                { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 997,00" },
+                                { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
+                                { text: "Treinamento Pense Rápido, Fale Melhor - ", price: "R$ 197,00" },
+                                { text: "ECONOMIA DE: ", price: "R$ 994,00", highlight: true }
+                            ].map((item, i) => (
+                                <div key={i} className="flex items-center gap-[16px]">
+                                    <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
+                                        <circle cx="10" cy="10" r="10" fill={item.highlight ? "#59FF74" : "#CC0000"} />
+                                        <path d="M14.7074 6.3313L9.70261 13.7065L5.79087 10.0765C5.61478 9.91348 5.60435 9.63826 5.76783 9.46217C5.93087 9.28565 6.20652 9.27609 6.38217 9.43913L9.551740 12.38L13.9878 5.84261C14.123% 5.64391 14.3935 5.59261 14.5917 5.72696C14.7909 5.86174 14.8426 6.13217 14.7074 6.3313Z" fill="white" />
+                                    </svg>
+                                    <p className={`font-body font-bold text-[18px] leading-tight uppercase ${item.highlight ? 'text-[#59FF74]' : 'text-[#CCCCCC]'}`}>
+                                        {item.text}
+                                        <span className={`${item.highlight ? 'text-[#59FF74]' : 'text-[#CC0000] line-through'}`}>{item.price}</span>
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
                     </motion.div>
 
-                    {/* Center: Pricing Card */}
+                    {/* Center: Pricing Card - Order 2 on mobile */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="relative shrink-0 w-full md:w-auto p-[2px] overflow-hidden rounded-[24px] md:rounded-[45px] group"
+                        className="relative shrink-0 w-full md:w-auto p-[2px] overflow-hidden rounded-[24px] md:rounded-[45px] group order-2 xl:order-2"
                     >
                         {/* Animated Border Gradient */}
                         <div className="absolute inset-[-1000%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#CC0000_360deg)] animate-[spin_4s_linear_infinite]" />
@@ -75,9 +77,9 @@ const Pricing = () => {
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                                className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
-                                <span className="whitespace-nowrap">Quero ter acesso ao Oratória de Elite</span>
+                                <span className="">Quero ter acesso ao <br className="md:hidden" /> Oratória de Elite</span>
                                 <motion.div
                                     animate={{ x: [0, 8, 0] }}
                                     transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
@@ -107,20 +109,20 @@ const Pricing = () => {
                                 </div>
                                 <img
                                     alt="Formas de Pagamento"
-                                    className="h-[30px] opacity-100 transition-all"
+                                    className="w-full max-w-[300px] h-auto opacity-100 transition-all"
                                     src="assets/Credit_Card_Logos.webp"
                                 />
                             </div>
                         </div>
                     </motion.div>
 
-                    {/* Right Side: Message (Originally on the left) */}
+                    {/* Right Side: Message - Order 3 on mobile */}
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex flex-col items-start gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto text-left min-w-[300px]"
+                        className="flex flex-col items-start xl:items-start gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto text-left min-w-[300px] order-3 xl:order-3"
                     >
                         <div className="flex items-center gap-[12px] justify-start w-full">
                             <div className="w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
