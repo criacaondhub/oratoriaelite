@@ -25,11 +25,11 @@ export default function Method() {
 
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
-                    <h2 className="text-[28px] md:text-[46px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading">
+                    <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading">
                         O Método usado por negociadores,<br className="hidden md:block" />
                         influenciadores e{" "}
                         <span className="relative inline-block mt-1">
-                            <span className="relative z-10 px-3 py-0 text-white">comunicadores de elite.</span>
+                            <span className="relative z-10 px-1 md:px-3 py-0 text-white">comunicadores de elite.</span>
                             <motion.span
                                 initial={{ scaleX: 0 }}
                                 whileInView={{ scaleX: 1 }}
@@ -85,29 +85,27 @@ export default function Method() {
                 </div>
 
                 {/* 3. CTA ZONE */}
-                <motion.div
-                    style={{
-                        opacity: useTransform(scrollYProgress, [0.9, 1], [0, 1]),
-                        y: useTransform(scrollYProgress, [0.9, 1], [10, 0])
-                    }}
-                    className="w-full flex justify-center z-50 pointer-events-auto"
-                >
+                <div className="w-full flex justify-center z-50 pointer-events-auto">
                     <motion.a
                         href="#preco"
+                        style={{
+                            opacity: useTransform(scrollYProgress, [0.9, 1], [0, 1]),
+                            y: useTransform(scrollYProgress, [0.9, 1], [10, 0])
+                        }}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="group w-fit bg-[#CC0000] text-white px-8 py-4 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                        className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 md:py-4 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-2 md:gap-4 mt-4 md:mt-6 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                     >
                         Quero ter acesso ao Oratória de Elite
                         <motion.div
                             animate={{ x: [0, 8, 0] }}
                             transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
-                            className="flex items-center justify-center"
+                            className="flex items-center justify-center pointer-events-none"
                         >
-                            <i className="fi fi-rr-arrow-right text-white text-2xl flex" />
+                            <i className="fi fi-rr-arrow-right text-white text-xl md:text-2xl flex" />
                         </motion.div>
                     </motion.a>
-                </motion.div>
+                </div>
 
             </div>
         </section>

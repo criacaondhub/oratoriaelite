@@ -59,7 +59,7 @@ export default function Hero() {
                             href="#preco"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-2 md:gap-4 mt-4 md:mt-6 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                            className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center gap-2 md:gap-4 mt-4 md:mt-6 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                         >
                             Quero ter acesso ao Oratória de Elite
                             <motion.div
@@ -79,7 +79,7 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.2 }}
-                className="absolute inset-x-0 top-0 w-full z-0 order-first lg:order-last lg:h-screen lg:right-0 lg:w-[60%] lg:flex lg:justify-end lg:items-end"
+                className="absolute inset-x-0 top-0 w-full z-0 order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-[60%] lg:flex lg:justify-end lg:items-end"
             >
                 <picture className="w-full h-auto lg:h-full">
                     <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp" />
