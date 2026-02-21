@@ -24,7 +24,7 @@ const PoliceElite = () => {
                             viewport={{ once: true }}
                         />
                     </span>{" "}<br className="block md:hidden" />
-                    por políticos, influentes,<br className="block md:hidden" />
+                    por políticos, influentes,<br className="hidden md:block" /><br className="block md:hidden" />
                     bilionários e até<br className="block md:hidden" />
                     a elite da polícia
                 </motion.h2>
