@@ -1,0 +1,152 @@
+import { motion } from "framer-motion"
+
+const Pricing = () => {
+    return (
+        <section id="preco" className="relative w-full py-[70px] bg-transparent overflow-hidden font-body">
+            <div className="container mx-auto px-6 relative z-10 flex flex-col items-center">
+
+                <div className="flex flex-col-reverse xl:flex-row items-center justify-center gap-10 xl:gap-[60px] w-full max-w-[1900px]">
+
+                    {/* Left Side: Features List (Originally on the right) */}
+                    <motion.div
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                        className="flex flex-col gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto items-start min-w-[300px]"
+                    >
+                        {[
+                            { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 997,00" },
+                            { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
+                            { text: "Treinamento Pense Rápido, Fale Melhor - ", price: "R$ 197,00" },
+                            { text: "ECONOMIA DE: ", price: "R$ 994,00", highlight: true }
+                        ].map((item, i) => (
+                            <div key={i} className="flex items-center gap-[16px]">
+                                <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
+                                    <circle cx="10" cy="10" r="10" fill={item.highlight ? "#59FF74" : "#CC0000"} />
+                                    <path d="M14.7074 6.3313L9.70261 13.7065L5.79087 10.0765C5.61478 9.91348 5.60435 9.63826 5.76783 9.46217C5.93087 9.28565 6.20652 9.27609 6.38217 9.43913L9.551740 12.38L13.9878 5.84261C14.123% 5.64391 14.3935 5.59261 14.5917 5.72696C14.7909 5.86174 14.8426 6.13217 14.7074 6.3313Z" fill="white" />
+                                </svg>
+                                <p className={`font-body font-bold text-[18px] leading-tight uppercase ${item.highlight ? 'text-[#59FF74]' : 'text-[#CCCCCC]'}`}>
+                                    {item.text}
+                                    <span className={`${item.highlight ? 'text-[#59FF74]' : 'text-[#CC0000] line-through'}`}>{item.price}</span>
+                                </p>
+                            </div>
+                        ))}
+                    </motion.div>
+
+                    {/* Center: Pricing Card */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                        className="relative shrink-0 w-full md:w-auto p-[2px] overflow-hidden rounded-[24px] md:rounded-[45px] group"
+                    >
+                        {/* Animated Border Gradient */}
+                        <div className="absolute inset-[-1000%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#CC0000_360deg)] animate-[spin_4s_linear_infinite]" />
+
+                        {/* Card Content Container */}
+                        <div
+                            className="w-full md:min-w-[600px] bg-black/90 rounded-[22px] md:rounded-[43px] px-[15px] py-[40px] md:px-[60px] md:py-[50px] flex flex-col items-center relative gap-[40px] backdrop-blur-md shadow-[0_0_50px_rgba(204,0,0,0.1)] z-10"
+                        >
+                            {/* Logo */}
+                            <img
+                                alt="Oratória de Elite"
+                                className="w-[200px] sm:w-[280px] h-auto drop-shadow-lg"
+                                src="assets/logo-ode-center.svg"
+                            />
+
+                            {/* Prices */}
+                            <div className="flex flex-col items-center gap-4">
+                                <div className="flex flex-col items-center">
+                                    <span className="text-white/50 font-body text-[18px] md:text-[22px] line-through">De R$ 997,00</span>
+                                    <span className="text-white font-body text-[20px] md:text-[24px]">por apenas 12x de</span>
+                                </div>
+                                <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[80px] lg:text-[110px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
+                                    R$ 52,13
+                                </div>
+                                <span className="text-white font-body text-[20px] md:text-[24px] font-medium transition-all">Ou apenas R$497,00 à vista</span>
+                            </div>
+
+                            {/* Button - Styled like Hero CTA */}
+                            <motion.a
+                                href="https://pay.hub.la/DMMuAf1s8viuWmQd1I1P"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-xl uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                            >
+                                <span className="whitespace-nowrap">Quero ter acesso ao Oratória de Elite</span>
+                                <motion.div
+                                    animate={{ x: [0, 8, 0] }}
+                                    transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
+                                    className="flex items-center justify-center pointer-events-none"
+                                >
+                                    <i className="fi fi-rr-arrow-right text-white text-2xl flex" />
+                                </motion.div>
+                            </motion.a>
+
+                            {/* Trust badges */}
+                            <div className="flex flex-col items-center gap-6 w-full pt-2">
+                                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-[#9CA3AF]">
+                                    <div className="flex items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#CC0000]">
+                                            <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                        </svg>
+                                        <span className="text-[#808080] font-body text-[16px] md:text-[20px]">Compra 100% segura</span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#CC0000]">
+                                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                            <path d="m9 12 2 2 4-4"></path>
+                                        </svg>
+                                        <span className="text-[#808080] font-body text-[16px] md:text-[20px]">Garantia de 7 dias</span>
+                                    </div>
+                                </div>
+                                <img
+                                    alt="Formas de Pagamento"
+                                    className="h-[30px] opacity-100 transition-all"
+                                    src="assets/Credit_Card_Logos.webp"
+                                />
+                            </div>
+                        </div>
+                    </motion.div>
+
+                    {/* Right Side: Message (Originally on the left) */}
+                    <motion.div
+                        initial={{ opacity: 0, x: 30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                        className="flex flex-col items-start gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto text-left min-w-[300px]"
+                    >
+                        <div className="flex items-center gap-[12px] justify-start w-full">
+                            <div className="w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
+                                <img
+                                    alt="Giovanni"
+                                    className="w-full h-full object-cover"
+                                    src="assets/avatar-giovanni.webp"
+                                    onError={(e) => {
+                                        (e.target as HTMLImageElement).src = "https://ui-avatars.com/api/?name=Giovanni+Begossi&background=CC0000&color=fff";
+                                    }}
+                                />
+                            </div>
+                            <div className="flex flex-col items-start gap-[1px]">
+                                <p className="text-white font-body font-bold text-[16.7px] leading-tight uppercase">Giovanni Begossi</p>
+                                <p className="text-[#808080] font-body font-light text-[15px] leading-tight">O El Professor da Oratória</p>
+                            </div>
+                        </div>
+                        <p className="text-white font-body font-normal text-[18px] md:text-[22px] leading-relaxed w-full xl:max-w-[700px]">
+                            “Eu criei o <span className="text-[#CC0000] font-bold">Oratória de Elite</span> para corrigir um problema comum, silencioso e ignorado, que faz pessoas excepcionais não serem levadas a sério”
+                        </p>
+                    </motion.div>
+
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default Pricing

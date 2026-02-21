@@ -69,7 +69,7 @@
   body {
     @apply text-foreground font-body antialiased;
     background-color: black;
-    background-image: url('assets/bg-parallax.webp');
+    background-image: url('assets/bg-parallax.webp?v=1.1');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
