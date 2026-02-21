@@ -16,15 +16,15 @@ const faqs = [
     },
     {
         question: "Por quanto tempo terei acesso às aulas?",
-        answer: "1 ano de acesso."
+        answer: "Você terá 1 ano de acesso a partir da data de aprovação da compra"
     },
     {
         question: "Quantos dias de garantia tenho do treinamento?",
-        answer: "7 dias de garantia por lei."
+        answer: "Por lei, você tem 7 dias de garantia."
     },
     {
-        question: "É possível destravar a minha comunicação com este treinamento?",
-        answer: "Sim, é totalmente possível você destravar a sua comunicação com este treinamento, pois milhares de alunos já passaram por mim e eu dediquei 110% do meu tempo para priorizar a sua evolução."
+        question: "É possível destravar, melhorar e desenvolver minha comunicação com este treinamento?",
+        answer: "Sim, é totalmente possível você melhorar e desenvolver a sua comunicação com este treinamento, pois milhares de alunos já usaram o Método 3C’s onde Giovanni Begossi dedicou 110% do seu tempo para priorizar a sua evolução."
     },
     {
         question: "Para quem é o curso?",
@@ -37,6 +37,10 @@ const faqs = [
     {
         question: "Por que deveria confiar neste método?",
         answer: "O Oratória de Elite foi baseado no que há de mais moderno na neurociência e comportamentos, além das otimizações com base nos feedbacks e resultados obtidos pelos milhares de alunos ao longo dos anos."
+    },
+    {
+        question: "Qual o contato do suporte?",
+        answer: "Nosso suporte atende diretamente no WhatsApp no número +55 11 96494-2986 ou via e-mail contato suporte@elprofessordaoratoria.com.br"
     }
 ]
 
@@ -88,7 +92,7 @@ const FAQ = () => {
     return (
         <section id="faq" className="relative w-full py-24 bg-white overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
-                <div className="flex flex-col lg:flex-row items-start justify-between gap-16 lg:gap-20 max-w-7xl mx-auto">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-20 max-w-7xl mx-auto">
 
                     {/* Left Column: Support info */}
                     <div className="w-full lg:w-[40%] flex flex-col gap-10">
@@ -114,9 +118,9 @@ const FAQ = () => {
                             </motion.p>
                         </div>
 
-                        {/* WhatsApp Button Card */}
+                        {/* WhatsApp Button Card with Animated Border */}
                         <motion.a
-                            href="https://wa.me/5511937607834"
+                            href="https://wa.me/5511937607834?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20atendente."
                             target="_blank"
                             rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0.95 }}
@@ -124,21 +128,25 @@ const FAQ = () => {
                             whileHover={{ y: -10 }}
                             transition={{ duration: 0.3 }}
                             viewport={{ once: true }}
-                            className="flex items-center gap-6 p-6 bg-neutral-50 rounded-2xl border border-neutral-100 shadow-xl shadow-neutral-200/50 group transition-all w-fit"
+                            className="relative overflow-hidden rounded-2xl p-[2px] group w-fit shadow-xl shadow-green-900/10"
                         >
-                            <div className="w-16 h-16 shrink-0 bg-white rounded-full flex items-center justify-center p-3 shadow-sm">
+                            {/* Animated Border Gradient */}
+                            <div className="absolute inset-[-1000%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#178837_360deg)] animate-[spin_4s_linear_infinite]" />
+
+                            {/* Inner Content */}
+                            <div className="relative flex items-center gap-6 p-6 bg-[#3FB05E] rounded-[14px] z-10">
                                 <img
-                                    src="https://elprofessordaoratoria.com.br/wp-content/uploads/2025/04/Logo-Whats.webp"
+                                    src="assets/icon-whats.webp"
                                     alt="WhatsApp"
-                                    className="w-full h-full object-contain"
+                                    className="w-16 h-16 shrink-0 object-contain drop-shadow-md"
                                 />
-                            </div>
-                            <div className="flex flex-col gap-1">
-                                <h3 className="text-xl font-body font-bold text-neutral-900 uppercase">
-                                    Suporte no <span className="text-[#25D366]">Whatsapp</span>
-                                </h3>
-                                <div className="text-[12px] font-bold tracking-widest text-[#CC0000] uppercase">
-                                    Clique aqui e entre em contato
+                                <div className="flex flex-col gap-2">
+                                    <h3 className="text-xl font-body font-bold text-white uppercase">
+                                        Suporte no Whatsapp
+                                    </h3>
+                                    <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-2 rounded-lg text-[12px] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all">
+                                        Clique aqui e entre em contato
+                                    </div>
                                 </div>
                             </div>
                         </motion.a>
@@ -151,10 +159,15 @@ const FAQ = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6 }}
                             viewport={{ once: true }}
+                            className="flex flex-col gap-8"
                         >
-                            <h3 className="text-2xl font-black font-heading text-neutral-400 uppercase tracking-[0.2em] mb-4">
-                                Perguntas Frequentes
-                            </h3>
+                            <div className="flex justify-center w-full">
+                                <img
+                                    src="assets/faq-vector.svg"
+                                    alt="Perguntas Frequentes"
+                                    className="h-[120px] md:h-[180px] w-auto"
+                                />
+                            </div>
                             <div className="flex flex-col border-t border-neutral-200">
                                 {faqs.map((faq, index) => (
                                     <FAQItem
