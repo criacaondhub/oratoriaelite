@@ -12,34 +12,46 @@ export default function Pandemic() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
-                        className="lg:col-span-6 flex flex-col gap-8"
+                        className="lg:col-span-6 flex flex-col gap-6 md:gap-8 items-center lg:items-start"
                     >
                         {/* Title with exact line breaks and highlight */}
-                        <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading text-left">
+                        <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1.1] text-white uppercase font-heading text-center lg:text-left">
                             A pandemia da<br />
-                            <div className="relative inline-block mt-2">
-                                <span className="relative z-10 px-3 py-0">má comunicação</span>
+                            <div className="relative inline-block mt-1">
+                                <span className="relative z-10 px-2 md:px-3 py-0">má comunicação</span>
                                 <motion.span
                                     initial={{ scaleX: 0 }}
                                     whileInView={{ scaleX: 1 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
-                                    className="absolute inset-0 bg-[#CC0000] -z-0"
+                                    className="absolute inset-x-0 bottom-0 top-0 bg-[#CC0000] -z-0"
                                     style={{ transformOrigin: "left" }}
                                 />
                             </div>
                         </h2>
 
+                        {/* Mobile Only News Image */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="block lg:hidden w-full"
+                        >
+                            <img
+                                src="assets/news-2.webp"
+                                alt="Notícia Má Comunicação"
+                                className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
+                            />
+                        </motion.div>
+
                         {/* Subtitle with exact line breaks */}
-                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] font-body text-left">
+                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] font-body text-center lg:text-left">
                             <p>
-                                Quando sua comunicação falha, você<br className="hidden md:block" />
-                                perde respeito, oportunidade e espaço.
+                                Quando sua comunicação falha, você perde respeito, oportunidade e espaço.
                             </p>
 
                             <p>
-                                Quantas vezes você já perdeu espaço não por<br className="hidden md:block" />
-                                falta de conteúdo, mas por falta de presença?
+                                Quantas vezes você já perdeu espaço não por falta de conteúdo, mas por falta de presença?
                             </p>
 
                             <p>
@@ -47,19 +59,17 @@ export default function Pandemic() {
                             </p>
 
                             <p>
-                                Porém, na hora de se expressar, sua<br className="hidden md:block" />
-                                comunicação trava e quem não aparece,<br className="hidden md:block" />
-                                não é lembrado. Mas é possível mudar isso!
+                                Porém, na hora de se expressar, sua comunicação trava e quem não aparece, não é lembrado. Mas é possível mudar isso!
                             </p>
                         </div>
 
                         {/* CTA */}
-                        <motion.div className="mt-4">
+                        <motion.div className="mt-4 w-full flex justify-center lg:justify-start">
                             <motion.a
                                 href="#preco"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                                className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
                                 Quero ter acesso ao Oratória de Elite
                                 <motion.div
@@ -73,8 +83,8 @@ export default function Pandemic() {
                         </motion.div>
                     </motion.div>
 
-                    {/* Right Content - News Stacking */}
-                    <div className="lg:col-span-6 relative flex flex-col items-center">
+                    {/* Right Content - News Stacking - HIDDEN ON MOBILE */}
+                    <div className="hidden lg:flex lg:col-span-6 relative flex-col items-center">
                         <div className="relative w-full max-w-[750px] flex flex-col items-center">
 
                             {/* News 1 - Top */}
