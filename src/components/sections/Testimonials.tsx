@@ -36,11 +36,11 @@ const testimonials = [
 const Testimonials = () => {
     return (
         <section className="relative w-full py-24 bg-transparent overflow-hidden font-body">
-            {/* Parallax Background Effect */}
+            {/* Parallax Background Effect - Desktop Only */}
             <div
-                className="absolute inset-0 z-0 pointer-events-none"
+                className="absolute inset-0 z-0 pointer-events-none hidden lg:block"
                 style={{
-                    backgroundImage: 'url("assets/bg-parallax.webp?v=1.1")',
+                    backgroundImage: 'url("/oratoria-de-elite/assets/bg-parallax.webp?v=1.1")',
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'center',
                     backgroundSize: 'cover'
