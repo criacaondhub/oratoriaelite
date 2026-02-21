@@ -15,17 +15,7 @@ import Footer from "./components/sections/Footer"
 
 function App() {
   return (
-    <main className="relative min-h-screen bg-black">
-      {/* Global Parallax Background - Desktop Only */}
-      <div
-        className="fixed inset-0 z-0 hidden lg:block pointer-events-none"
-        style={{
-          backgroundImage: 'url("/oratoria-de-elite/assets/bg-parallax.webp?v=1.1")',
-          backgroundAttachment: 'fixed',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover'
-        }}
-      />
+    <main className="relative min-h-screen">
       <div className="relative z-10">
         <Hero />
         <Method />
