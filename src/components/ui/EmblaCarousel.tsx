@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef } from 'react'
-import {
+import type {
     EmblaCarouselType,
     EmblaEventType,
     EmblaOptionsType
@@ -97,7 +97,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                                 <img
                                     src={src}
                                     alt={`Módulo ${index + 1}`}
-                                    className="w-full h-full object-contain rounded-xl shadow-2xl"
+                                    className="w-full h-auto md:h-full object-contain rounded-xl shadow-2xl"
                                 />
                             </div>
                         </div>
