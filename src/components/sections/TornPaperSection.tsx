@@ -51,7 +51,7 @@ const TornPaperSection = () => {
     )
 
     return (
-        <section className="relative w-full min-h-fit md:min-h-[800px] flex flex-col items-center justify-center overflow-hidden py-16 md:py-32 bg-white md:bg-transparent">
+        <section className="relative w-full min-h-fit md:min-h-[800px] flex flex-col items-center justify-center overflow-hidden py-16 md:py-32 bg-white">
             {/* Background de Papel Rasgado - Apenas Desktop */}
             <div
                 className="absolute inset-x-0 top-0 bottom-0 pointer-events-none hidden md:block"

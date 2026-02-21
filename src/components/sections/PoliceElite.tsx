@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const PoliceElite = () => {
     return (
-        <section className="relative w-full py-12 md:py-24 bg-black overflow-hidden font-body">
+        <section className="relative w-full py-12 md:py-24 bg-transparent overflow-hidden font-body">
             <div className="container mx-auto px-6 relative z-10 flex flex-col items-center mb-10 md:mb-24">
 
                 {/* Title */}

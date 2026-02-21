@@ -71,16 +71,6 @@
     background-color: black;
   }
 
-  @media (min-width: 1024px) {
-    body {
-      background-image: url('/oratoria-de-elite/assets/bg-parallax.webp?v=1.1');
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-  }
-
   h1,
   h2,
   h3,
