@@ -112,7 +112,7 @@ export default function Hero() {
                         className="w-1 h-2 bg-[#CC0000] rounded-full"
                     />
                 </div>
-                <span className="text-white/50 text-[10px] uppercase tracking-[0.2em] font-body">Scroll</span>
+
             </motion.div>
         </section>
     )
