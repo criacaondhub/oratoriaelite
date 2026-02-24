@@ -72,7 +72,7 @@ export default function ForWhom() {
                         {/* Left Content */}
                         <div className="lg:col-span-3 flex flex-col gap-8 w-full items-center lg:items-start order-1">
                             <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading text-center lg:text-left">
-                                Para quem é<br className="block md:hidden" /> esse treinamento?
+                                Um treinamento para<br className="block md:hidden" /> quem:
                             </h2>
 
                             <motion.a

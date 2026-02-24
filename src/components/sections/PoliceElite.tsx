@@ -11,7 +11,7 @@ const PoliceElite = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="text-center text-[28px] md:text-[48px] font-extrabold md:font-black font-heading text-white uppercase leading-[1.2] md:leading-[1.1] max-w-5xl"
+                    className="text-center text-[28px] md:text-[48px] font-extrabold md:font-extrabold font-heading text-white uppercase leading-[1.2] md:leading-[1.1] max-w-5xl"
                 >
                     <span className="relative inline-block mb-1 md:mb-0">
                         <span className="relative z-10 px-2 py-0 md:px-4 md:py-1">Um método validado</span>
@@ -25,7 +25,7 @@ const PoliceElite = () => {
                         />
                     </span>{" "}<br className="block md:hidden" />
                     por políticos, influentes,<br className="hidden md:block" /><br className="block md:hidden" />
-                    bilionários e até<br className="block md:hidden" />
+                    bilionários e até{" "}<br className="block md:hidden" />
                     a elite da polícia
                 </motion.h2>
             </div>

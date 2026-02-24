@@ -68,23 +68,15 @@ const About = () => {
 
                         <div className="flex flex-col gap-6 text-gray-300 text-[16px] md:text-lg leading-relaxed">
                             <p>
-                                Mais conhecido como <span className="text-[#CC0000] font-bold">El Professor da Oratória,</span> Giovanni Begossi é bicampeão brasileiro de oratória, palestrante internacional, advogado e TEDx Speaker, além de contar com mais de 20 prêmios de oratória em 3 línguas diferentes.
+                                Mais conhecido como <span className="text-white font-bold">El Professor da Oratória,</span> Giovanni Begossi é <span className="text-white font-bold">bicampeão brasileiro de oratória,</span> advogado, palestrante internacional, TEDx Speaker e autor do best seller <span className="text-white font-bold">COMO FALAR BEM E FICAR RICO,</span> o livro de oratória mais vendido da Amazon.
                             </p>
 
                             <p>
-                                É autor do best-seller <span className="text-white font-bold">Como Falar Bem e Ficar Rico</span> obra que alcançou o <span className="text-[#CC0000] font-bold">Top #1 na Amazon em "Falar em Público"</span> e também no PublishNews em "Negócios".
+                                Com mais de <span className="text-white font-bold">15 anos de experiência</span> e criador do maior perfil de oratória da América Latina com mais de <span className="text-white font-bold">4.5 milhões de seguidores</span> nas redes sociais, Giovanni treina a comunicação persuasiva de políticos, atletas campeões olímpicos, bilionários e grandes personalidades como Natalia Beauty, Sheila Mello e Cela, além de instituições renomadas como Falconi, Biogen, Johnson & Johnson e até mesmo da <span className="text-white font-bold">SWAT de São Paulo (GATE), do BOPE e do Exército Brasileiro (EsAO).</span>
                             </p>
 
                             <p>
-                                Com 15 anos de experiência em comunicação, Giovanni já foi mentor de grandes players como Natália Beauty, Cela e Tiago Reis, além de atender políticos, desembargadores, bilionários e atletas campeões olímpicos.
-                            </p>
-
-                            <p>
-                                Atualmente, é responsável pelo maior perfil de comunicação e oratória da América Latina no Instagram, onde soma mais de 4 milhões de seguidores e já faturou múltiplos milhões.
-                            </p>
-
-                            <p>
-                                Além disso, ministra treinamentos para grandes empresas como Biogen, Johnson & Johnson e Falconi e também para corporações de elite, como a SWAT de São Paulo (GATE) e o Exército Brasileiro (EsAO).
+                                Seu propósito é transformar a vida de cada vez mais pessoas por meio da comunicação.
                             </p>
                         </div>
                     </div>

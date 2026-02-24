@@ -12,7 +12,7 @@ export default function Modules() {
             {/* 1. Header Area - Margem 32px (mb-8) */}
             <div className="container mx-auto px-6 mb-8 text-center uppercase">
                 <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
-                    <span className="block md:inline">Tenha acesso ao</span>
+                    <span className="block md:inline">Tenha acesso ao{" "}</span>
                     <span className="block md:inline mt-1 md:mt-0">treinamento de oratória</span>
 
                     <div className="relative inline-block mt-1">

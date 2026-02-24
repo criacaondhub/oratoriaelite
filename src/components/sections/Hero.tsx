@@ -24,8 +24,8 @@ export default function Hero() {
 
                         {/* Title with 4 EXACT lines and Highlight */}
                         <h1 className="text-[28px] md:text-[58px] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1] tracking-tight text-white uppercase font-heading">
-                            Transforme sua comunicação<br />
-                            em uma verdadeira arma e esteja<br />
+                            Transforme sua comunicação<br className="hidden md:block" />{" "}
+                            em uma verdadeira arma e esteja<br className="hidden md:block" />{" "}
                             entre o {" "}
                             <span className="relative inline-block">
                                 <span className="relative z-10 px-2 py-0">1% das pessoas mais</span>
@@ -36,7 +36,7 @@ export default function Hero() {
                                     className="absolute inset-0 bg-[#CC0000] -z-0"
                                     style={{ transformOrigin: "left" }}
                                 />
-                            </span><br />
+                            </span><br className="hidden md:block" />
                             <span className="relative inline-block mt-2">
                                 <span className="relative z-10 px-2 py-0">influentes do mundo.</span>
                                 <motion.span
@@ -51,7 +51,7 @@ export default function Hero() {
 
                         {/* Subtitle */}
                         <p className="text-[16px] md:text-[30px] font-medium text-gray-200 leading-[1.2] md:leading-[1.1] max-w-2xl mt-2 md:mt-4 font-body">
-                            O método definitivo para convencer<br className="block md:hidden" /> qualquer pessoa e qualquer situação
+                            O método definitivo para convencer<br className="block md:hidden" /> qualquer pessoa e qualquer situação.
                         </p>
 
                         {/* CTA */}
