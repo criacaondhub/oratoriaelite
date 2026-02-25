@@ -58,9 +58,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                         const target = loopPoint.target()
 
                         if (slideIndex === loopPoint.index && target !== 0) {
-                            const sign = target > 0 ? -1 : 1
-                            if (sign === -1) diffToTarget = scrollSnap - (1 + scrollProgress)
-                            else diffToTarget = scrollSnap + (1 - scrollProgress)
+                            const sign = target > 0 ? 1 : -1
+                            if (sign === 1) diffToTarget = scrollSnap + 1 - scrollProgress
+                            else diffToTarget = scrollSnap - 1 - scrollProgress
                         }
                     })
                 }
