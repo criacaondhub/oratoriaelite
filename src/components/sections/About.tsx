@@ -47,12 +47,12 @@ const About = () => {
                 >
 
                     {/* Image Column */}
-                    <div className="relative w-full lg:w-1/2 flex justify-center">
-                        <div className="relative overflow-hidden rounded-2xl">
+                    <div className="relative w-full lg:w-1/2 flex justify-center items-start">
+                        <div className="relative overflow-hidden rounded-2xl w-full max-w-[550px] aspect-[3/4] lg:aspect-[4/5]">
                             <img
-                                src="assets/giovanni-bio.webp"
+                                src="assets/giovanni-bio-2.webp"
                                 alt="Giovanni Begossi"
-                                className="w-full max-w-[500px] h-auto object-cover drop-shadow-[0_0_50px_rgba(0,0,0,0.5)]"
+                                className="w-full h-full object-cover object-top drop-shadow-[0_0_50px_rgba(0,0,0,0.5)]"
                                 style={{ transform: "none" }}
                             />
                         </div>
