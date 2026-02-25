@@ -50,7 +50,7 @@ const About = () => {
                     <div className="relative w-full lg:w-1/2 flex justify-center items-start">
                         <div className="relative overflow-hidden rounded-2xl w-full max-w-[550px] aspect-[3/4] lg:aspect-[4/5]">
                             <img
-                                src="assets/giovanni-bio-2.webp"
+                                src="assets/giovanni-bio-2.webp?v=1.1"
                                 alt="Giovanni Begossi"
                                 className="w-full h-full object-cover object-top drop-shadow-[0_0_50px_rgba(0,0,0,0.5)]"
                                 style={{ transform: "none" }}

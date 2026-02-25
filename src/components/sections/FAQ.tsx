@@ -16,27 +16,27 @@ const faqs = [
     },
     {
         question: "Por quanto tempo terei acesso às aulas?",
-        answer: "Você terá 1 ano de acesso a partir da data de aprovação da compra"
+        answer: "Você terá 1 ano de acesso a partir da data de aprovação da compra."
     },
     {
         question: "Quantos dias de garantia tenho do treinamento?",
         answer: "Por lei, você tem 7 dias de garantia."
     },
     {
-        question: "É possível destravar, melhorar e desenvolver minha comunicação com este treinamento?",
-        answer: "Sim, é totalmente possível você melhorar e desenvolver a sua comunicação com este treinamento, pois milhares de alunos já usaram o Método 3C’s onde Giovanni Begossi dedicou 110% do seu tempo para priorizar a sua evolução."
+        question: "Funciona para melhorar oratória?",
+        answer: "O Oratória de Elite foi baseado no que há de mais moderno na neurociência e comportamentos, além das otimizações com base nos feedbacks e resultados obtidos pelos milhares de alunos ao longo dos anos. Milhares de alunos ja usaram o Método 3C's para desenvolver sua comunicação."
     },
     {
-        question: "Para quem é o curso?",
-        answer: "Para todos que estão insatisfeitos com a própria comunicação e querem falar com mais clareza, sem vícios de linguagem e com uma dicção impecável."
+        question: "Para quem é o Oratória de Elite?",
+        answer: "Para todos que estão insatisfeitos com a própria comunicação e querem falar com mais clareza, confiança e convencimento, usando 100% da sua capacidade de comunicação para convencer qualquer pessoa em qualquer situação."
     },
     {
         question: "E se eu não tiver resultados?",
         answer: "Com os direcionamentos do método, é quase impossível não transformar sua comunicação. Um sábio não nega conhecimento, mas também não deixa parado."
     },
     {
-        question: "Por que deveria confiar neste método?",
-        answer: "O Oratória de Elite foi baseado no que há de mais moderno na neurociência e comportamentos, além das otimizações com base nos feedbacks e resultados obtidos pelos milhares de alunos ao longo dos anos."
+        question: "O Oratória de Elite possui certificado?",
+        answer: "Sim. Após concluir o treinamento completo, entre em contato diretamente com o nosso suporte para obtê-lo."
     },
     {
         question: "Qual o contato do suporte?",
