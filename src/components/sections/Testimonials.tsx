@@ -35,7 +35,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section id="depoimentos" className="relative w-full pt-24 pb-40 md:pt-32 md:pb-64 bg-[#CC0000] overflow-hidden font-body">
+        <section id="depoimentos" className="relative w-full pt-24 pb-40 md:pt-32 md:pb-64 bg-[#CC0000]/40 backdrop-blur-sm overflow-hidden font-body">
             {/* Elementos Decorativos de Fundo */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white/10 rounded-full blur-[120px] -mr-64 -mt-32 pointer-events-none" />
             <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-black/20 rounded-full blur-[100px] -ml-48 -mb-32 pointer-events-none" />
