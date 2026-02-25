@@ -5,6 +5,7 @@ import ForWhom from "./components/sections/ForWhom"
 import Modules from "./components/sections/Modules"
 import Bonus from "./components/sections/Bonus"
 import Testimonials from "./components/sections/Testimonials"
+import Guarantee from "./components/sections/Guarantee"
 import Pricing from "./components/sections/Pricing"
 import About from "./components/sections/About"
 import FAQ from "./components/sections/FAQ"
@@ -22,6 +23,7 @@ function App() {
         <Modules />
         <Bonus />
         <Testimonials />
+        <Guarantee />
         <Pricing />
         <About />
         <FAQ />
