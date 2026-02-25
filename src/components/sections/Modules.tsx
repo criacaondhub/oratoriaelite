@@ -47,7 +47,7 @@ export default function Modules() {
                     href="#preco"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="group w-full md:w-fit bg-[#CC0000] text-white px-8 md:px-10 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
+                    className="group w-full md:w-fit bg-[#CC0000] text-white px-8 md:px-10 py-5 rounded-[0.5rem] font-bold text-[15px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                 >
                     Quero fazer parte do 1%
                     <motion.div
