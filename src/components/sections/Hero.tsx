@@ -82,11 +82,11 @@ export default function Hero() {
                 className="absolute inset-x-0 top-0 w-full z-0 order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-[60%] lg:flex lg:justify-end lg:items-end"
             >
                 <picture className="w-full h-auto lg:h-full">
-                    <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp" />
+                    <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp?v=13" />
                     <img
-                        src="assets/hero-ode.webp?v=12"
+                        src="assets/hero-ode.webp?v=13"
                         alt="Giovanni Begossi"
-                        className="w-full h-auto lg:h-full lg:w-auto object-contain lg:object-cover object-top lg:object-bottom scale-100 origin-top lg:origin-bottom"
+                        className="w-full h-auto lg:h-full lg:w-auto object-contain lg:object-cover object-top lg:object-right-bottom scale-100 origin-top lg:origin-bottom"
                     />
                 </picture>
             </motion.div>

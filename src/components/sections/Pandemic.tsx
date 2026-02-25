@@ -45,21 +45,21 @@ export default function Pandemic() {
                         </motion.div>
 
                         {/* Subtitle with exact line breaks */}
-                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] font-body text-center lg:text-left">
+                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] font-body text-center lg:text-left">
                             <p>
-                                Quando sua comunicação falha, você perde respeito, oportunidade e espaço.
+                                Quando sua comunicação falha, <strong className="font-bold text-white">você perde respeito, oportunidade e espaço.</strong>
                             </p>
 
                             <p>
-                                Quantas vezes você já perdeu espaço não por falta de conteúdo, mas por falta de presença?
+                                Quantas vezes você já perdeu espaço <strong className="font-bold text-white">não por falta de conteúdo, mas por falta de presença?</strong>
                             </p>
 
                             <p>
-                                Você tem a ideia. Você tem a capacidade.
+                                <strong className="font-bold text-white">Você tem a ideia. Você tem a capacidade.</strong>
                             </p>
 
                             <p>
-                                Porém, na hora de se expressar, sua comunicação trava e quem não aparece, não é lembrado. Mas é possível mudar isso!
+                                Porém, <strong className="font-bold text-white">na hora de se expressar, sua comunicação trava e quem não aparece, não é lembrado.</strong> Mas é possível mudar isso!
                             </p>
                         </div>
 
@@ -71,7 +71,7 @@ export default function Pandemic() {
                                 whileTap={{ scale: 0.95 }}
                                 className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
-                                Quero ter acesso ao Oratória de Elite
+                                Preciso desbloquear minha oratória
                                 <motion.div
                                     animate={{ x: [0, 8, 0] }}
                                     transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}

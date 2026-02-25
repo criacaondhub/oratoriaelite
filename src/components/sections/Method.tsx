@@ -26,10 +26,8 @@ export default function Method() {
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
                     <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading">
-                        O Método usado por negociadores,<br className="hidden md:block" />
-                        influenciadores e{" "}
-                        <span className="relative inline-block mt-1">
-                            <span className="relative z-10 px-1 md:px-3 py-0 text-white">comunicadores de elite.</span>
+                        <span className="relative inline-block">
+                            <span className="relative z-10 px-1 md:px-3 py-0 text-white">O método validado</span>
                             <motion.span
                                 initial={{ scaleX: 0 }}
                                 whileInView={{ scaleX: 1 }}
@@ -38,12 +36,12 @@ export default function Method() {
                                 className="absolute inset-x-0 bottom-0 top-0 bg-[#CC0000] -z-0"
                                 style={{ transformOrigin: "left" }}
                             />
-                        </span>
+                        </span>{" "}
+                        por negociadores, políticos, influencers, bilionários e até a elite da polícia.
                     </h2>
 
-                    <p className="text-[16px] md:text-[22px] font-medium text-gray-200 leading-[1.4] md:leading-[1.2] mt-4 font-body">
-                        Dentro do <strong className="font-bold text-white">Oratória de Elite</strong> você aprende o método usado para treinar profissionais<br className="hidden md:block" />
-                        que precisam se comunicar com <strong className="font-bold text-white">precisão, sob pressão, sem margem para erro.</strong>
+                    <p className="text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] md:leading-[1.2] mt-4 font-body">
+                        Você terá acesso ao conteúdo usado para treinar profissionais que precisam se comunicar com <strong className="font-bold text-white">precisão, sob pressão, sem margem para erro.</strong>
                     </p>
                 </div>
 
@@ -53,7 +51,7 @@ export default function Method() {
                     {/* Pasta 1 (Clareza) - Base */}
                     <div className="absolute inset-0 z-10 flex items-center justify-center">
                         <img
-                            src="assets/pasta-1.webp"
+                            src="assets/pasta-1.webp?v=1.1"
                             alt="Clareza - Passo 1"
                             className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
                         />
@@ -65,7 +63,7 @@ export default function Method() {
                         className="absolute inset-0 z-20 flex items-center justify-center"
                     >
                         <img
-                            src="assets/pasta-2.webp"
+                            src="assets/pasta-2.webp?v=1.1"
                             alt="Confiança - Passo 2"
                             className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
                         />
@@ -77,7 +75,7 @@ export default function Method() {
                         className="absolute inset-0 z-30 flex items-center justify-center"
                     >
                         <img
-                            src="assets/pasta-3.webp"
+                            src="assets/pasta-3.webp?v=1.1"
                             alt="Domínio - Passo 3"
                             className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
                         />
@@ -96,7 +94,7 @@ export default function Method() {
                         whileTap={{ scale: 0.95 }}
                         className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 md:py-4 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-2 md:gap-4 mt-4 md:mt-6 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                     >
-                        Quero ter acesso ao Oratória de Elite
+                        Quero Destravar a Oratória
                         <motion.div
                             animate={{ x: [0, 8, 0] }}
                             transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
