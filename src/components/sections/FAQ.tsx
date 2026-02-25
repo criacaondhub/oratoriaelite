@@ -121,7 +121,7 @@ const FAQ = () => {
 
                         {/* WhatsApp Button Card with Animated Border */}
                         <motion.a
-                            href="https://wa.me/5511937607834?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20atendente."
+                            href="https://api.whatsapp.com/send/?phone=5511937607834&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+gostaria+de+falar+com+um+atendente.&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0.95 }}

@@ -46,7 +46,16 @@ export default function Method() {
                 </div>
 
                 {/* 2. FOLDER ZONE - REINSTATED HEAVY SHADOWS */}
-                <div className="relative w-full max-w-[780px] h-[350px] md:h-[480px] flex items-center justify-center pointer-events-none">
+                <div className="relative w-full max-w-[780px] h-[400px] md:h-[520px] flex items-center justify-center pointer-events-none">
+
+                    {/* Imagem Fixa Esquerda (Desktop Only) */}
+                    <div className="hidden lg:block absolute right-[104%] top-1/2 -translate-y-1/2 w-[350px] h-auto">
+                        <img
+                            src="assets/img-1.webp?v=1.2"
+                            alt="Visual de apoio 1"
+                            className="w-full h-auto rounded-2xl shadow-2xl brightness-90"
+                        />
+                    </div>
 
                     {/* Pasta 1 (Clareza) - Base */}
                     <div className="absolute inset-0 z-10 flex items-center justify-center">
@@ -80,6 +89,15 @@ export default function Method() {
                             className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
                         />
                     </motion.div>
+
+                    {/* Imagem Fixa Direita (Desktop Only) */}
+                    <div className="hidden lg:block absolute left-[104%] top-1/2 -translate-y-1/2 w-[350px] h-auto">
+                        <img
+                            src="assets/img-2.webp?v=1.2"
+                            alt="Visual de apoio 2"
+                            className="w-full h-auto rounded-2xl shadow-2xl brightness-90"
+                        />
+                    </div>
                 </div>
 
                 {/* 3. CTA ZONE */}

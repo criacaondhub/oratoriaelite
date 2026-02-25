@@ -72,7 +72,7 @@ const Pricing = () => {
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
-                                href="https://pay.hub.la/DMMuAf1s8viuWmQd1I1P"
+                                href="https://pay.hub.la/ZKbJxUcq8sy54VpK45BJ"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
