@@ -32,7 +32,7 @@ export default function Modules() {
                 </h2>
 
                 <p className="text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] md:leading-[1.4] mt-6 font-body normal-case max-w-4xl mx-auto">
-                    São <strong className="font-bold text-white">mais de 10 horas de conteúdo altamente impactante</strong>, do básico ao avançado, do simples às técnicas mais poderosas de persuasão para você alcançar a <strong className="font-bold text-white">oratória da elite.</strong>
+                    São <strong className="font-bold text-white">mais de 10 horas de conteúdo altamente impactante</strong>, do básico ao avançado, do absoluto zero às técnicas mais poderosas de persuasão para você alcançar a <strong className="font-bold text-white">oratória da elite.</strong>
                 </p>
             </div>
 

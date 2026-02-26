@@ -18,14 +18,25 @@ export default function Method() {
     const opacityPasta3 = useTransform(scrollYProgress, [0.6, 0.7], [0, 1])
 
     return (
-        <section ref={containerRef} className="relative h-[350vh] overflow-visible bg-transparent">
+        <section ref={containerRef} className="relative h-[350vh] overflow-visible bg-white md:bg-transparent">
 
             {/* Sticky Container */}
             <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-between py-12 px-6 overflow-hidden">
+                {/* Background de Papel Rasgado - Apenas Desktop, preso no sticky */}
+                <div
+                    className="absolute inset-x-0 -top-[15vh] -bottom-[15vh] pointer-events-none hidden md:block -z-10"
+                    style={{
+                        backgroundImage: `url('assets/papel-rasgado.webp')`,
+                        backgroundSize: '100% 100%',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundPosition: 'center',
+                        filter: 'drop-shadow(0px -10px 20px rgba(0,0,0,0.5))'
+                    }}
+                />
 
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
-                    <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-white uppercase font-heading">
+                    <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading">
                         <span className="relative inline-block">
                             <span className="relative z-10 px-1 md:px-3 py-0 text-white">O método validado</span>
                             <motion.span
@@ -40,12 +51,12 @@ export default function Method() {
                         por negociadores, políticos, influencers, bilionários e até a elite da polícia.
                     </h2>
 
-                    <p className="text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] md:leading-[1.2] mt-4 font-body">
-                        Você terá acesso ao conteúdo usado para treinar profissionais que precisam se comunicar com <strong className="font-bold text-white">precisão, sob pressão, sem margem para erro.</strong>
+                    <p className="text-[16px] md:text-[22px] font-normal text-gray-800 leading-[1.4] md:leading-[1.2] mt-4 font-body">
+                        Você terá acesso ao conteúdo usado para treinar profissionais que precisam se comunicar com <strong className="font-bold text-black">precisão, sob pressão e sem margem para erro.</strong>
                     </p>
                 </div>
 
-                {/* 2. FOLDER ZONE - REINSTATED HEAVY SHADOWS */}
+                {/* 2. FOLDER ZONE */}
                 <div className="relative w-full max-w-[780px] h-[400px] md:h-[520px] flex items-center justify-center pointer-events-none">
 
                     {/* Imagem Fixa Esquerda (Desktop Only) */}
@@ -53,7 +64,7 @@ export default function Method() {
                         <img
                             src="assets/img-1.webp?v=1.2"
                             alt="Visual de apoio 1"
-                            className="w-full h-auto rounded-2xl shadow-2xl brightness-90"
+                            className="w-full h-auto"
                         />
                     </div>
 
@@ -62,7 +73,7 @@ export default function Method() {
                         <img
                             src="assets/pasta-1.webp?v=1.1"
                             alt="Clareza - Passo 1"
-                            className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
+                            className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                         />
                     </div>
 
@@ -74,7 +85,7 @@ export default function Method() {
                         <img
                             src="assets/pasta-2.webp?v=1.1"
                             alt="Confiança - Passo 2"
-                            className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
+                            className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                         />
                     </motion.div>
 
@@ -86,7 +97,7 @@ export default function Method() {
                         <img
                             src="assets/pasta-3.webp?v=1.1"
                             alt="Domínio - Passo 3"
-                            className="max-h-full w-auto drop-shadow-[0_30px_60px_rgba(0,0,0,1)]"
+                            className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                         />
                     </motion.div>
 
@@ -95,7 +106,7 @@ export default function Method() {
                         <img
                             src="assets/img-2.webp?v=1.2"
                             alt="Visual de apoio 2"
-                            className="w-full h-auto rounded-2xl shadow-2xl brightness-90"
+                            className="w-full h-auto"
                         />
                     </div>
                 </div>

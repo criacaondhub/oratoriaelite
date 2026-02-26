@@ -71,7 +71,7 @@ export default function Pandemic() {
                                 whileTap={{ scale: 0.95 }}
                                 className="group w-full md:w-fit bg-[#CC0000] text-white px-8 py-5 rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_30px_rgba(204,0,0,0.5)] font-body"
                             >
-                                Preciso desbloquear minha oratória
+                                Preciso desbloquear<br className="block md:hidden" /> minha oratória
                                 <motion.div
                                     animate={{ x: [0, 8, 0] }}
                                     transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}

@@ -51,7 +51,7 @@ export default function Hero() {
 
                         {/* Subtitle */}
                         <p className="text-[16px] md:text-[30px] font-medium text-gray-200 leading-[1.2] md:leading-[1.1] max-w-2xl mt-2 md:mt-4 font-body">
-                            O método definitivo para convencer<br className="block md:hidden" /> qualquer pessoa e qualquer situação.
+                            O método definitivo para convencer<br className="block md:hidden" /> qualquer pessoa em qualquer situação.
                         </p>
 
                         {/* CTA */}
@@ -79,7 +79,7 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.2 }}
-                className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-[60%] lg:flex lg:justify-end lg:items-end"
+                className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-auto lg:flex lg:justify-end lg:items-end"
             >
                 <picture className="w-full h-auto lg:h-full">
                     <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp?v=13" />
