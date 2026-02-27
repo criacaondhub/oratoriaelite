@@ -90,7 +90,7 @@ const UpsellPricing = () => {
 
                             {/* Refuse Offer Link */}
                             <a
-                                href="https://hub.la/g/DMMuAf1s8viuWmQd1I1P"
+                                href="https://hub.la/g/M1w9Tsjvc5zJadbwasPZ"
                                 className="text-white font-body font-bold text-[14px] md:text-[16px] uppercase underline decoration-white hover:text-white/80 transition-all mt-[-20px]"
                             >
                                 RECUSAR ESSA OFERTA ESPECIAL

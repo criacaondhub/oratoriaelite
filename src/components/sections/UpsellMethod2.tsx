@@ -81,7 +81,7 @@ export default function UpsellMethod2() {
                 {/* 3. CTA ZONE */}
                 <div className="w-full flex justify-center">
                     <motion.a
-                        href="#oferta"
+                        href="#preco"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"

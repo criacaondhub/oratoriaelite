@@ -86,7 +86,7 @@ export default function UpsellHero() {
 
                             {/* CTA */}
                             <motion.a
-                                href="#oferta"
+                                href="#preco"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center mt-6 md:mt-8 transition-all font-body isolate"
