@@ -18,24 +18,14 @@ export default function Method() {
     const opacityPasta3 = useTransform(scrollYProgress, [0.6, 0.7], [0, 1])
 
     return (
-        <section ref={containerRef} className="relative h-[400vh] overflow-visible bg-white md:bg-transparent">
+        <section ref={containerRef} className="relative h-[400vh] overflow-visible bg-white">
 
             {/* Top Image (Mobile Only) */}
             <img src="assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover" />
 
             {/* Sticky Container */}
-            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-between py-12 md:py-[60px] px-6 lg:px-16 overflow-hidden -mt-[35px]">
-                {/* Background de Papel Rasgado - Apenas Desktop, preso no sticky */}
-                <div
-                    className="absolute inset-x-0 -top-[15vh] -bottom-[15vh] pointer-events-none hidden md:block -z-10"
-                    style={{
-                        backgroundImage: `url('assets/papel-rasgado.webp')`,
-                        backgroundSize: '100% 100%',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center',
-                        filter: 'drop-shadow(0px -10px 20px rgba(0,0,0,0.5))'
-                    }}
-                />
+            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center gap-8 md:gap-10 py-12 md:py-[80px] px-6 lg:px-16 overflow-hidden -mt-[35px] md:mt-0">
+
 
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
