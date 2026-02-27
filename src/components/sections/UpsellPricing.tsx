@@ -56,7 +56,7 @@ const UpsellPricing = () => {
                             <img
                                 alt="Oratória de Elite"
                                 className="w-[200px] sm:w-[280px] h-auto drop-shadow-lg"
-                                src="assets/logo-ode-center.svg"
+                                src="/oratoria-de-elite/assets/logo-ode-center.svg"
                             />
 
                             {/* Prices */}
@@ -103,7 +103,7 @@ const UpsellPricing = () => {
                                 <img
                                     alt="Formas de Pagamento"
                                     className="w-full max-w-[300px] h-auto opacity-100 transition-all"
-                                    src="assets/Credit_Card_Logos.webp"
+                                    src="/oratoria-de-elite/assets/Credit_Card_Logos.webp"
                                 />
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const UpsellPricing = () => {
                                 <img
                                     alt="Giovanni"
                                     className="w-full h-full object-cover"
-                                    src="assets/avatar-giovanni.webp"
+                                    src="/oratoria-de-elite/assets/avatar-giovanni.webp"
                                     onError={(e) => {
                                         (e.target as HTMLImageElement).src = "https://ui-avatars.com/api/?name=Giovanni+Begossi&background=CC0000&color=fff";
                                     }}

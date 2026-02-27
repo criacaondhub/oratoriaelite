@@ -3,7 +3,7 @@ import EmblaCarousel from "../ui/EmblaCarousel"
 import "../ui/embla.css"
 
 export default function UpsellModules() {
-    const images = Array.from({ length: 15 }, (_, i) => `assets/modulo-${String(i + 1).padStart(2, '0')}.webp`)
+    const images = Array.from({ length: 15 }, (_, i) => `/oratoria-de-elite/assets/modulo-${String(i + 1).padStart(2, '0')}.webp`)
 
     const OPTIONS = {
         loop: true,

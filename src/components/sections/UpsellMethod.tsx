@@ -4,7 +4,7 @@ export default function UpsellMethod() {
     return (
         <section className="relative w-full overflow-hidden bg-white pt-0 pb-16 md:py-24">
             {/* Top Image (Mobile Only) */}
-            <img src="assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover mb-10" />
+            <img src="/oratoria-de-elite/assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover mb-10" />
 
             <div className="container mx-auto px-6 lg:px-12 flex flex-col items-center">
 
@@ -41,7 +41,7 @@ export default function UpsellMethod() {
                         className="w-full md:w-1/3 flex justify-center z-10"
                     >
                         <img
-                            src="assets/pasta-1-verde.webp"
+                            src="/oratoria-de-elite/assets/pasta-1-verde.webp"
                             alt="Clareza - Desbloqueado"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-2xl"
                         />
@@ -56,7 +56,7 @@ export default function UpsellMethod() {
                         className="w-full md:w-1/3 flex justify-center opacity-60 z-0"
                     >
                         <img
-                            src="assets/pasta-2.webp"
+                            src="/oratoria-de-elite/assets/pasta-2.webp"
                             alt="Confiança"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
                         />
@@ -71,7 +71,7 @@ export default function UpsellMethod() {
                         className="w-full md:w-1/3 flex justify-center opacity-60 z-0"
                     >
                         <img
-                            src="assets/pasta-3.webp"
+                            src="/oratoria-de-elite/assets/pasta-3.webp"
                             alt="Domínio"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
                         />

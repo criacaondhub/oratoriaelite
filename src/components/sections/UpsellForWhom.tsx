@@ -65,7 +65,7 @@ export default function UpsellForWhom() {
             <div
                 className="absolute inset-0 z-0 hidden md:block opacity-100"
                 style={{
-                    backgroundImage: `url('assets/bg-forwhom.webp')`,
+                    backgroundImage: `url('/oratoria-de-elite/assets/bg-forwhom.webp')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
@@ -109,7 +109,7 @@ export default function UpsellForWhom() {
                                     className="flex items-center gap-4 p-5 md:p-6 bg-white border border-white/10 rounded-2xl hover:bg-neutral-100 transition-all group lg:min-h-[100px]"
                                 >
                                     <img
-                                        src="assets/check-square-green.svg"
+                                        src="/oratoria-de-elite/assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
                                     />
@@ -128,7 +128,7 @@ export default function UpsellForWhom() {
                                     className="flex items-center gap-4 p-5 md:p-6 bg-white border border-white/10 rounded-2xl hover:bg-neutral-100 transition-all group lg:min-h-[100px]"
                                 >
                                     <img
-                                        src="assets/check-square-green.svg"
+                                        src="/oratoria-de-elite/assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
                                     />

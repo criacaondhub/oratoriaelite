@@ -50,7 +50,7 @@ const About = () => {
                     <div className="relative w-full lg:w-1/2 flex justify-center items-start">
                         <div className="relative overflow-hidden rounded-2xl w-full max-w-[550px] aspect-[3/4] lg:aspect-[4/5]">
                             <img
-                                src="assets/giovanni-bio-2.webp?v=1.1"
+                                src="/oratoria-de-elite/assets/giovanni-bio-2.webp?v=1.1"
                                 alt="Giovanni Begossi"
                                 className="w-full h-full object-cover object-top drop-shadow-[0_0_50px_rgba(0,0,0,0.5)]"
                                 style={{ transform: "none" }}
@@ -87,7 +87,7 @@ const About = () => {
 
                             <div className="w-[180px] sm:w-[150px] md:w-[180px] flex-shrink-0 relative z-10 transition-transform duration-500 ease-out group-hover:scale-105 group-hover:-translate-y-2">
                                 <img
-                                    src="assets/livros.webp"
+                                    src="/oratoria-de-elite/assets/livros.webp"
                                     alt="Livros Best Sellers"
                                     className="w-full h-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.5)] group-hover:drop-shadow-[0_20px_35px_rgba(204,0,0,0.3)] transition-all duration-500"
                                 />

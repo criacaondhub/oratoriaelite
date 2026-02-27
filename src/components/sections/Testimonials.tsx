@@ -4,31 +4,31 @@ const testimonials = [
     {
         name: "Camila Skorie",
         role: "Especialista em Desenvolvimento Humano",
-        image: "assets/foto-camila.webp",
+        image: "/oratoria-de-elite/assets/foto-camila.webp",
         content: "Para minha surpresa, no primeiro mês tendo acesso aos conteúdos, <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>ministrei o melhor treinamento da minha vida e com isso e fui promovida!</span> Além disso, fiz 2 palestras e já estou com a 3ª agendada. <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>Os conteúdos foram muito além da comunicação.</span> Sou muito feliz e muito grata a todo o suporte e treinamento."
     },
     {
         name: "Nei Garcia",
         role: "Técnico Agrícola",
-        image: "assets/foto-nei.webp",
+        image: "/oratoria-de-elite/assets/foto-nei.webp",
         content: "Eu ja tinha feito diversos cursos com outros mentores, porém sempre foi mais do mesmo e não tive resultados. <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>Entrar no curso do Giovanni foi o melhor investimento que fiz em minha vida profissional e pessoal!</span> Ele entrega mais do que promete, isso sem contar a didática e a comunicação dele que é fora de série. Gratidão El Professor."
     },
     {
         name: "Jordana Amorim",
         role: "Empresária Contadora",
-        image: "assets/foto-jordana.webp",
+        image: "/oratoria-de-elite/assets/foto-jordana.webp",
         content: "Apesar do meu conhecimento técnico, sempre tive dificuldade em me expressar, ser valorizada e trazer clareza aos meus clientes. <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>O curso foi um divisor de águas em minha vida, onde o valor do investimento já retornou em mais de 100%.</span> Graças a autoridade que desenvolvi com as aulas, estou participando de podcasts, lancei meu curso, fui convidada a palestrar e ainda melhorei meu fechamento de contratos!"
     },
     {
         name: "Ana Augusta",
         role: "Representante Comercial",
-        image: "assets/foto-ana.webp",
+        image: "/oratoria-de-elite/assets/foto-ana.webp",
         content: "Eu entrei pro curso para aprimorar as minhas habilidades de comunicação, afinal, ela está em 90% do meu dia. <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>A entrega foi espetacular, do acesso à entrega do conteúdo!</span> Quando eu aprendi a me comunicar melhor, <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>meu salário subiu, e consegui ganhar mais de R$10.000,00</span> no mês. Só tenho a agradecer, porque este curso foi transformador na minha vida."
     },
     {
         name: "Marcelo Luz",
         role: "Especialista em Consórcios",
-        image: "assets/foto-marcelo.webp",
+        image: "/oratoria-de-elite/assets/foto-marcelo.webp",
         content: "Eu achava que minha oratória era boa, mas sabia que ela precisava ser lapidada! <span class='bg-[#CC0000]/10 text-[#CC0000] px-1 font-bold'>O curso foi um divisor de águas para mim!</span> Foi uma enxurrada de informações do básico ao avançado. Agradeço ao Giovanni por todo aprendizado."
     }
 ]

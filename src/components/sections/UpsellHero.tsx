@@ -13,7 +13,7 @@ export default function UpsellHero() {
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="flex items-center justify-center gap-3 md:gap-6">
                         <motion.img
-                            src="assets/alert.svg"
+                            src="/oratoria-de-elite/assets/alert.svg"
                             alt="Alerta"
                             className="w-5 h-5 md:w-6 md:h-6"
                             animate={{ scale: [1, 1.2, 1], opacity: [1, 0.7, 1] }}
@@ -25,7 +25,7 @@ export default function UpsellHero() {
                         </p>
 
                         <motion.img
-                            src="assets/alert.svg"
+                            src="/oratoria-de-elite/assets/alert.svg"
                             alt="Alerta"
                             className="w-5 h-5 md:w-6 md:h-6"
                             animate={{ scale: [1, 1.2, 1], opacity: [1, 0.7, 1] }}
@@ -72,13 +72,13 @@ export default function UpsellHero() {
                                 className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 md:p-6 rounded-2xl flex items-center gap-6 md:gap-10 mt-2 md:mt-4"
                             >
                                 <img
-                                    src="assets/logo-ode-center.svg"
+                                    src="/oratoria-de-elite/assets/logo-ode-center.svg"
                                     alt="Logo Oratória de Elite"
                                     className="w-[130px] md:w-[260px] h-auto"
                                 />
                                 <span className="text-white text-3xl md:text-5xl font-light opacity-50">+</span>
                                 <img
-                                    src="assets/logo-fsv.svg"
+                                    src="/oratoria-de-elite/assets/logo-fsv.svg"
                                     alt="Logo FSV"
                                     className="h-10 md:h-20 w-auto"
                                 />
@@ -110,9 +110,9 @@ export default function UpsellHero() {
                     className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-auto lg:flex lg:justify-end lg:items-end pointer-events-none"
                 >
                     <picture className="w-full h-auto lg:h-full">
-                        <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp?v=13" />
+                        <source media="(max-width: 1023px)" srcSet="/oratoria-de-elite/assets/hero-ode-mobile.webp?v=13" />
                         <img
-                            src="assets/hero-ode.webp?v=13"
+                            src="/oratoria-de-elite/assets/hero-ode.webp?v=13"
                             alt="Giovanni Begossi"
                             className="w-full h-auto lg:h-[95vh] lg:w-auto object-contain lg:object-cover object-top lg:object-right-bottom scale-100 origin-top lg:origin-bottom"
                         />
