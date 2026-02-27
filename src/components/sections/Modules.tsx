@@ -13,7 +13,7 @@ export default function Modules() {
     return (
         <section className="relative py-20 overflow-hidden bg-transparent w-full">
             {/* 1. Header Area */}
-            <div className="container mx-auto px-6 mb-12 text-center uppercase">
+            <div className="container mx-auto px-6 lg:px-16 mb-12 text-center uppercase">
                 <h2 className="text-[28px] md:text-[48px] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
                     <div className="relative inline-block">
                         <span className="relative z-10 px-2 md:px-3 py-0">
@@ -42,7 +42,7 @@ export default function Modules() {
             </div>
 
             {/* 3. CTA Area */}
-            <div className="container mx-auto px-6 mt-12 flex justify-center">
+            <div className="container mx-auto px-6 lg:px-16 mt-12 flex justify-center">
                 <motion.a
                     href="#preco"
                     whileHover={{ scale: 1.05 }}

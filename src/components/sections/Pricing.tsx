@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const Pricing = () => {
     return (
         <section id="preco" className="relative w-full py-[70px] bg-transparent overflow-hidden font-body">
-            <div className="container mx-auto px-6 relative z-10 flex flex-col items-center">
+            <div className="container mx-auto px-6 lg:px-16 relative z-10 flex flex-col items-center">
 
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[60px] w-full max-w-[1900px]">
 

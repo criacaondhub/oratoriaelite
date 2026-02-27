@@ -77,7 +77,7 @@ const Testimonials = () => {
                 ))}
             </div>
 
-            <div className="container mx-auto px-6 relative z-10">
+            <div className="container mx-auto px-6 lg:px-16 relative z-10">
                 {/* Title & Subtitle */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

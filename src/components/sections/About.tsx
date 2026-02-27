@@ -34,7 +34,7 @@ const About = () => {
 
     return (
         <section className="relative w-full py-16 md:py-[80px] bg-transparent overflow-hidden font-body perspective-1000">
-            <div className="container mx-auto px-4 md:px-6 relative z-10">
+            <div className="container mx-auto px-4 md:px-6 lg:px-16 relative z-10">
                 <motion.div
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}

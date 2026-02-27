@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export default function Guarantee() {
     return (
         <section className="relative w-full bg-transparent pb-12 md:pb-20">
-            <div className="container mx-auto px-6 relative z-10">
+            <div className="container mx-auto px-6 lg:px-16 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}

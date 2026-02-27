@@ -24,7 +24,7 @@ export default function Method() {
             <img src="assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover" />
 
             {/* Sticky Container */}
-            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-between py-12 px-6 overflow-hidden -mt-[35px]">
+            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-between py-12 md:py-[60px] px-6 lg:px-16 overflow-hidden -mt-[35px]">
                 {/* Background de Papel Rasgado - Apenas Desktop, preso no sticky */}
                 <div
                     className="absolute inset-x-0 -top-[15vh] -bottom-[15vh] pointer-events-none hidden md:block -z-10"
