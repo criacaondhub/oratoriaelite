@@ -1,7 +1,7 @@
 import UpsellHero from "../components/sections/UpsellHero"
 import UpsellMethod from "../components/sections/UpsellMethod"
 import UpsellForWhom from "../components/sections/UpsellForWhom"
-import Modules from "../components/sections/Modules"
+import UpsellModules from "../components/sections/UpsellModules"
 import Bonus from "../components/sections/Bonus"
 import Testimonials from "../components/sections/Testimonials"
 import Guarantee from "../components/sections/Guarantee"
@@ -40,7 +40,7 @@ function UpsellPage() {
                 <UpsellHero />
                 <UpsellMethod />
                 <UpsellForWhom />
-                <Modules />
+                <UpsellModules />
                 <Bonus />
                 <Testimonials />
                 <Guarantee />
