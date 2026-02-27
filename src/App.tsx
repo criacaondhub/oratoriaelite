@@ -7,7 +7,7 @@ function App() {
     <Router basename="/oratoria-de-elite">
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/oratoria-de-elite-presente-1" element={<UpsellPage />} />
+        <Route path="/presente1" element={<UpsellPage />} />
       </Routes>
     </Router>
   )
