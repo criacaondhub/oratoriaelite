@@ -2,6 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5D9MX8XB');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oratória de Elite | Giovanni Begossi - O El Professor da Oratória</title>
@@ -42,8 +52,47 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D9MX8XB" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+
+  <!-- UTM HUBLA -->
+  <script>
+    var _prefixDomains = ["https://pay.hub.la", "https://invoice.hub.la", "https://app.hub.la", "https://hub.la"];
+    function _getUtmParams() {
+      var a = "", r = window.top.location.href, e = new URL(r);
+      if (null !== e) {
+        var t = e.searchParams.get("utm_source") || "";
+        var n = e.searchParams.get("utm_medium") || "";
+        var m = e.searchParams.get("utm_campaign") || "";
+        var o = e.searchParams.get("utm_term") || "";
+        var s = e.searchParams.get("utm_content") || "";
+        if (t || n || m || o || s) {
+          a = "&sck=" + t + "|" + n + "|" + m + "|" + o + "|" + s;
+        }
+      } return a
+    }
+    function _applyUtmToLinks() {
+      var a = new URLSearchParams(window.location.search);
+      if (!a.toString()) return;
+      document.querySelectorAll("a").forEach(function (r) {
+        for (var e = 0; e < _prefixDomains.length; e++) {
+          if (r.href.indexOf(_prefixDomains[e]) !== -1 && r.href.indexOf("utm_source") === -1) {
+            var utms = _getUtmParams();
+            r.href += (r.href.indexOf("?") === -1 ? "?" : "&") + a.toString() + utms;
+          }
+        }
+      });
+    }
+
+    // Executa ao carregar e observa mudanças no DOM (para componentes Lazy)
+    _applyUtmToLinks();
+    new MutationObserver(_applyUtmToLinks).observe(document.body, { childList: true, subtree: true });
+  </script>
+  <!-- END UTM HUBLA -->
 </body>
 
 </html>
