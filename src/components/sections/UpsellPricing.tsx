@@ -21,7 +21,7 @@ const UpsellPricing = () => {
                                 { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
                                 { text: "Treinamento Pense Rápido, Fale Melhor - ", price: "R$ 197,00" },
                                 { text: "FALE SEM VÍCIO - ", price: "R$ 97,00" },
-                                { text: "ECONOMIA DE: ", price: "R$ 1.091,00", highlight: true }
+                                { text: "ECONOMIA DE: ", price: "R$ 1.240,10", highlight: true }
                             ].map((item, i) => (
                                 <div key={i} className="flex items-center gap-[16px]">
                                     <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
