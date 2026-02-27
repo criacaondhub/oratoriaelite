@@ -152,16 +152,14 @@ export default function ForWhom() {
                         href="#preco"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="group w-full md:w-fit bg-[#CC0000] text-white px-10 py-6 md:py-5 rounded-[0.5rem] font-bold text-[18px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center gap-4 transition-all hover:bg-[#EE0000] hover:shadow-[0_0_40px_rgba(204,0,0,0.6)] font-body"
+                        className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[18px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"
                     >
-                        Quero participar
                         <motion.div
-                            animate={{ x: [0, 8, 0] }}
-                            transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
-                            className="flex items-center justify-center pointer-events-none"
-                        >
-                            <i className="fi fi-rr-arrow-right text-white text-2xl flex" />
-                        </motion.div>
+                            animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
+                            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                            className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
+                        />
+                        <span className="text-white px-10 py-6 md:py-5 text-center w-full relative z-10">Quero participar</span>
                     </motion.a>
                 </motion.div>
             </div>
