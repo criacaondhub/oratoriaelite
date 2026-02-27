@@ -4,7 +4,7 @@ import UpsellPage from "./pages/UpsellPage"
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/oratoria-de-elite">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/oratoria-de-elite-presente-1" element={<UpsellPage />} />

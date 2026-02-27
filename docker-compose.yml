@@ -14,7 +14,7 @@ services:
       labels:
         - traefik.enable=true
         # Regra para o domínio e o caminho específico
-        - traefik.http.routers.oratoria_elite.rule=Host(`cursos.elprofessordaoratoria.com.br`)
+        - traefik.http.routers.oratoria_elite.rule=Host(`cursos.elprofessordaoratoria.com.br`) && PathPrefix(`/oratoria-de-elite`)
         - traefik.http.routers.oratoria_elite.entrypoints=websecure
         - traefik.http.routers.oratoria_elite.tls.certresolver=letsencryptresolver
         - traefik.http.routers.oratoria_elite.service=oratoria_elite
