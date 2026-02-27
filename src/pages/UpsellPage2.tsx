@@ -1,11 +1,11 @@
-import UpsellHero from "../components/sections/UpsellHero"
-import UpsellMethod from "../components/sections/UpsellMethod"
+import UpsellHero2 from "../components/sections/UpsellHero2"
+import UpsellMethod2 from "../components/sections/UpsellMethod2"
 import UpsellForWhom from "../components/sections/UpsellForWhom"
 import UpsellModules from "../components/sections/UpsellModules"
-import UpsellBonus from "../components/sections/UpsellBonus"
+import UpsellBonus2 from "../components/sections/UpsellBonus2"
 import Testimonials from "../components/sections/Testimonials"
 import Guarantee from "../components/sections/Guarantee"
-import UpsellPricing from "../components/sections/UpsellPricing"
+import UpsellPricing2 from "../components/sections/UpsellPricing2"
 import About from "../components/sections/About"
 import FAQ from "../components/sections/FAQ"
 import FloatingWhatsApp from "../components/FloatingWhatsApp"
@@ -37,14 +37,14 @@ function UpsellPage2() {
             </div>
 
             <div className="relative z-10">
-                <UpsellHero />
-                <UpsellMethod />
+                <UpsellHero2 />
+                <UpsellMethod2 />
                 <UpsellForWhom />
                 <UpsellModules />
-                <UpsellBonus />
+                <UpsellBonus2 />
                 <Testimonials />
                 <Guarantee />
-                <UpsellPricing />
+                <UpsellPricing2 />
                 <About />
                 <FAQ />
 
