@@ -79,6 +79,29 @@ const About = () => {
                                 Seu propósito é transformar a vida de cada vez mais pessoas por meio da comunicação.
                             </p>
                         </div>
+
+                        {/* Showcase de Livros */}
+                        <div className="mt-2 bg-gradient-to-br from-black/40 to-black/10 md:bg-black/20 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col sm:flex-row items-center gap-6 md:gap-8 relative overflow-hidden group shadow-inner">
+                            {/* Inner Glow Animado */}
+                            <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+
+                            <div className="w-[180px] sm:w-[150px] md:w-[180px] flex-shrink-0 relative z-10 transition-transform duration-500 ease-out group-hover:scale-105 group-hover:-translate-y-2">
+                                <img
+                                    src="assets/livros.webp"
+                                    alt="Livros Best Sellers"
+                                    className="w-full h-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.5)] group-hover:drop-shadow-[0_20px_35px_rgba(204,0,0,0.3)] transition-all duration-500"
+                                />
+                            </div>
+
+                            <div className="flex flex-col gap-3 relative z-10 text-center sm:text-left">
+                                <h3 className="text-[18px] md:text-[22px] font-bold font-body uppercase tracking-wide bg-gradient-to-r from-yellow-300 via-yellow-100 to-yellow-500 text-transparent bg-clip-text">
+                                    Autor Bestseller
+                                </h3>
+                                <p className="text-gray-300 text-[14px] md:text-[16px] leading-[1.3] md:leading-[1.4] tracking-tight">
+                                    Autor de obras consagradas que já transformaram a comunicação de milhares de pessoas em todo o Brasil: <strong className="text-white font-bold">Como Falar Bem e Ficar Rico</strong> e <strong className="text-white font-bold">Como Fazer Amigos e Influenciar Pessoas.</strong>
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                 </motion.div>

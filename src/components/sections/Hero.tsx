@@ -15,10 +15,17 @@ export default function Hero() {
                     >
                         {/* Logo */}
                         <div className="w-fit mb-2 md:mb-4">
+                            {/* Logo Desktop */}
                             <img
                                 src="assets/logo-ode-left.svg"
                                 alt="Logo Oratória de Elite"
-                                className="h-16 md:h-24 w-auto"
+                                className="h-16 md:h-24 w-auto hidden md:block"
+                            />
+                            {/* Logo Mobile */}
+                            <img
+                                src="assets/logo-ode-center.svg"
+                                alt="Logo Oratória de Elite"
+                                className="h-16 md:h-24 w-auto block md:hidden mx-auto"
                             />
                         </div>
 
