@@ -49,7 +49,7 @@ const Pricing = () => {
 
                         {/* Card Content Container */}
                         <div
-                            className="w-full md:min-w-[600px] bg-black/90 rounded-[22px] md:rounded-[43px] px-[15px] py-[40px] md:px-[60px] md:py-[50px] flex flex-col items-center relative gap-[40px] backdrop-blur-md shadow-[0_0_50px_rgba(204,0,0,0.1)] z-10"
+                            className="w-full md:min-w-[480px] xl:min-w-[600px] bg-black/90 rounded-[22px] md:rounded-[43px] px-[15px] py-[40px] md:px-[40px] xl:px-[60px] md:py-[50px] flex flex-col items-center relative gap-[40px] backdrop-blur-md shadow-[0_0_50px_rgba(204,0,0,0.1)] z-10"
                         >
                             {/* Logo */}
                             <img
@@ -64,7 +64,7 @@ const Pricing = () => {
                                     <span className="text-white/50 font-body text-[14px] md:text-[22px] line-through">De R$ 997,00</span>
                                     <span className="text-white font-body text-[16px] md:text-[24px]">por apenas 12x de</span>
                                 </div>
-                                <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[80px] lg:text-[110px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
+                                <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[70px] lg:text-[80px] xl:text-[100px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
                                     R$ 52,13
                                 </div>
                                 <span className="text-white font-body text-[16px] md:text-[24px] font-medium transition-all">Ou apenas R$497,00 à vista</span>

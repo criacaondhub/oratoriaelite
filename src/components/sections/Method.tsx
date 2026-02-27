@@ -50,10 +50,10 @@ export default function Method() {
                 </div>
 
                 {/* 2. FOLDER ZONE */}
-                <div className="relative w-full max-w-[780px] h-[400px] md:h-[520px] flex items-center justify-center pointer-events-none">
+                <div className="relative w-full max-w-[780px] h-[400px] md:h-[400px] lg:h-[420px] xl:h-[520px] flex items-center justify-center pointer-events-none">
 
                     {/* Imagem Fixa Esquerda (Desktop Only) */}
-                    <div className="hidden lg:block absolute right-[104%] top-1/2 -translate-y-1/2 w-[350px] h-auto">
+                    <div className="hidden lg:block absolute right-full xl:right-[102%] 2xl:right-[104%] top-1/2 -translate-y-1/2 w-[180px] xl:w-[250px] 2xl:w-[320px] h-auto">
                         <img
                             src="assets/img-1.webp?v=1.2"
                             alt="Visual de apoio 1"
@@ -95,7 +95,7 @@ export default function Method() {
                     </motion.div>
 
                     {/* Imagem Fixa Direita (Desktop Only) */}
-                    <div className="hidden lg:block absolute left-[104%] top-1/2 -translate-y-1/2 w-[350px] h-auto">
+                    <div className="hidden lg:block absolute left-full xl:left-[102%] 2xl:left-[104%] top-1/2 -translate-y-1/2 w-[180px] xl:w-[250px] 2xl:w-[320px] h-auto">
                         <img
                             src="assets/img-2.webp?v=1.2"
                             alt="Visual de apoio 2"
