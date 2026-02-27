@@ -66,14 +66,14 @@ const UpsellPricing = () => {
                                     <span className="text-white font-body text-[16px] md:text-[24px]">por apenas 12x de</span>
                                 </div>
                                 <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[70px] lg:text-[80px] xl:text-[100px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
-                                    R$ 52,13
+                                    R$ 36,50
                                 </div>
-                                <span className="text-white font-body text-[16px] md:text-[24px] font-medium transition-all">Ou apenas R$497,00 à vista</span>
+                                <span className="text-white font-body text-[16px] md:text-[24px] font-medium transition-all">Ou apenas R$ 347,90 à vista</span>
                             </div>
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
-                                href="https://pay.hub.la/ZKbJxUcq8sy54VpK45BJ"
+                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
@@ -87,6 +87,14 @@ const UpsellPricing = () => {
                                 />
                                 <span className="text-white px-8 py-5 text-center w-full relative z-10">Quero ter acesso ao <br className="md:hidden" /> Oratória de Elite</span>
                             </motion.a>
+
+                            {/* Refuse Offer Link */}
+                            <a
+                                href="https://hub.la/g/DMMuAf1s8viuWmQd1I1P"
+                                className="text-white font-body font-bold text-[14px] md:text-[16px] uppercase underline decoration-white hover:text-white/80 transition-all mt-[-20px]"
+                            >
+                                RECUSAR ESSA OFERTA ESPECIAL
+                            </a>
 
                             {/* Trust badges */}
                             <div className="flex flex-col items-center gap-6 w-full pt-2">
