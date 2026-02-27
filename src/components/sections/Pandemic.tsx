@@ -76,7 +76,7 @@ export default function Pandemic() {
                                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                                     className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
                                 />
-                                <span className="text-white px-8 py-5 text-center w-full relative z-10">Preciso desbloquear<br className="block md:hidden" /> minha oratória</span>
+                                <span className="text-white px-8 py-5 text-center w-full relative z-10">Preciso desbloquear<br className="md:hidden" /><span className="hidden md:inline"> </span>minha oratória</span>
                             </motion.a>
                         </motion.div>
                     </motion.div>
