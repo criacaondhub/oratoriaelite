@@ -140,6 +140,10 @@ const FAQ = () => {
                                     src="assets/icon-whats.webp"
                                     alt="WhatsApp"
                                     className="w-12 h-12 md:w-16 md:h-16 shrink-0 object-contain drop-shadow-md"
+                                    width={64}
+                                    height={64}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                                 <div className="flex flex-col gap-2 w-full items-center lg:items-start">
                                     <h3 className="text-[18px] md:text-xl font-body font-bold text-white uppercase">
@@ -167,6 +171,10 @@ const FAQ = () => {
                                     src="assets/faq-vector.svg"
                                     alt="Perguntas Frequentes"
                                     className="h-[120px] md:h-[180px] w-auto"
+                                    width={180}
+                                    height={180}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <div className="flex flex-col border-t border-neutral-200">

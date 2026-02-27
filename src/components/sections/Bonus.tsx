@@ -42,6 +42,10 @@ const Bonus = () => {
                             src="assets/bonus-1.webp?v=1.1"
                             alt="Argumentação: Como Vencer Debates"
                             className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            width={420}
+                            height={420}
+                            loading="lazy"
+                            decoding="async"
                         />
 
                         {/* Content Box */}
@@ -74,6 +78,10 @@ const Bonus = () => {
                             src="assets/bonus-2.webp?v=1.1"
                             alt="Pense Rápido, Fale Melhor"
                             className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            width={420}
+                            height={420}
+                            loading="lazy"
+                            decoding="async"
                         />
 
                         {/* Content Box */}

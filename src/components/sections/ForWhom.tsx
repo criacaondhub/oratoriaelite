@@ -111,6 +111,10 @@ export default function ForWhom() {
                                         src="assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
+                                        width={32}
+                                        height={32}
+                                        loading="lazy"
+                                        decoding="async"
                                     />
                                     <p className="text-[16px] md:text-[18px] text-zinc-800 leading-[1.3] font-body text-left">
                                         {item.text}
@@ -130,6 +134,10 @@ export default function ForWhom() {
                                         src="assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
+                                        width={32}
+                                        height={32}
+                                        loading="lazy"
+                                        decoding="async"
                                     />
                                     <p className="text-[16px] md:text-[18px] text-zinc-800 leading-[1.3] font-body text-left">
                                         {item.text}

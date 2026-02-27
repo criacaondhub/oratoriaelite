@@ -92,6 +92,10 @@ export default function Hero() {
                         src="assets/hero-ode.webp?v=13"
                         alt="Giovanni Begossi"
                         className="w-full h-auto lg:h-full lg:w-auto object-contain lg:object-cover object-top lg:object-right-bottom scale-100 origin-top lg:origin-bottom"
+                        width={1616}
+                        height={933}
+                        fetchPriority="high"
+                        decoding="async"
                     />
                 </picture>
             </motion.div>

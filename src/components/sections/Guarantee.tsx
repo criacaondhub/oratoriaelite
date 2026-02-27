@@ -25,6 +25,10 @@ export default function Guarantee() {
                                     src="/oratoria-de-elite/assets/garantia.svg"
                                     alt="Selo de 7 Dias de Garantia"
                                     className="w-40 md:w-56 h-auto drop-shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
+                                    width={224}
+                                    height={224}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </motion.div>
                             {/* Brilho atrás do selo */}

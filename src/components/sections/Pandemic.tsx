@@ -41,6 +41,10 @@ export default function Pandemic() {
                                 src="assets/news-2.webp"
                                 alt="Notícia Má Comunicação"
                                 className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
+                                width={750}
+                                height={300}
+                                loading="lazy"
+                                decoding="async"
                             />
                         </motion.div>
 
@@ -97,6 +101,10 @@ export default function Pandemic() {
                                     src="assets/news-1.webp"
                                     alt="Notícia 1"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
+                                    width={750}
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </motion.div>
 
@@ -112,6 +120,10 @@ export default function Pandemic() {
                                     src="assets/news-2.webp"
                                     alt="Notícia 2"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
+                                    width={750}
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </motion.div>
 
@@ -127,6 +139,10 @@ export default function Pandemic() {
                                     src="assets/news-3.webp"
                                     alt="Notícia 3"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
+                                    width={750}
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </motion.div>
                         </div>

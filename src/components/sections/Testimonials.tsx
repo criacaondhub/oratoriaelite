@@ -118,6 +118,10 @@ const Testimonials = () => {
                                             alt={testimonial.name}
                                             className="w-full h-full object-cover"
                                             src={testimonial.image}
+                                            width={64}
+                                            height={64}
+                                            loading="lazy"
+                                            decoding="async"
                                             onError={(e) => {
                                                 (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${testimonial.name}&background=CC0000&color=fff`
                                             }}

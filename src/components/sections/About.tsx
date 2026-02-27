@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion"
-import React from "react"
+import React, { useRef } from "react"
 
 const About = () => {
     const x = useMotionValue(0)
@@ -12,11 +12,16 @@ const About = () => {
     const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["5deg", "-5deg"])
     const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-5deg", "5deg"])
 
+    const rectRef = useRef<DOMRect | null>(null)
+
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        // Prevent 3D effect on small screens to avoid jumpy behavior
         if (window.innerWidth < 1024) return;
 
-        const rect = e.currentTarget.getBoundingClientRect()
+        if (!rectRef.current) {
+            rectRef.current = e.currentTarget.getBoundingClientRect()
+        }
+
+        const rect = rectRef.current
         const width = rect.width
         const height = rect.height
         const mouseX = e.clientX - rect.left
@@ -27,7 +32,12 @@ const About = () => {
         y.set(yPct)
     }
 
+    const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
+        rectRef.current = e.currentTarget.getBoundingClientRect()
+    }
+
     const handleMouseLeave = () => {
+        rectRef.current = null
         x.set(0)
         y.set(0)
     }
@@ -37,6 +47,7 @@ const About = () => {
             <div className="container mx-auto px-4 md:px-6 lg:px-16 relative z-10">
                 <motion.div
                     onMouseMove={handleMouseMove}
+                    onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                     style={{
                         rotateX: window.innerWidth >= 1024 ? rotateX : 0,
@@ -53,6 +64,10 @@ const About = () => {
                                 src="/oratoria-de-elite/assets/giovanni-bio-2.webp?v=1.1"
                                 alt="Giovanni Begossi"
                                 className="w-full h-full object-cover object-top drop-shadow-[0_0_50px_rgba(0,0,0,0.5)]"
+                                width={550}
+                                height={733}
+                                loading="lazy"
+                                decoding="async"
                                 style={{ transform: "none" }}
                             />
                         </div>
@@ -90,6 +105,10 @@ const About = () => {
                                     src="/oratoria-de-elite/assets/livros.webp"
                                     alt="Livros Best Sellers"
                                     className="w-full h-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.5)] group-hover:drop-shadow-[0_20px_35px_rgba(204,0,0,0.3)] transition-all duration-500"
+                                    width={180}
+                                    height={180}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
 

@@ -58,6 +58,10 @@ export default function Method() {
                             src="assets/img-1.webp?v=1.2"
                             alt="Visual de apoio 1"
                             className="w-full h-auto"
+                            width={320}
+                            height={411}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
 
@@ -67,6 +71,10 @@ export default function Method() {
                             src="assets/pasta-1.webp?v=1.1"
                             alt="Clareza - Passo 1"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
+                            width={582}
+                            height={445}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
 
@@ -79,6 +87,10 @@ export default function Method() {
                             src="assets/pasta-2.webp?v=1.1"
                             alt="Confiança - Passo 2"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
+                            width={582}
+                            height={445}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </motion.div>
 
@@ -91,6 +103,10 @@ export default function Method() {
                             src="assets/pasta-3.webp?v=1.1"
                             alt="Domínio - Passo 3"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
+                            width={582}
+                            height={445}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </motion.div>
 
@@ -100,6 +116,10 @@ export default function Method() {
                             src="assets/img-2.webp?v=1.2"
                             alt="Visual de apoio 2"
                             className="w-full h-auto"
+                            width={320}
+                            height={411}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
                 </div>

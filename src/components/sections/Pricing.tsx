@@ -56,6 +56,9 @@ const Pricing = () => {
                                 alt="Oratória de Elite"
                                 className="w-[200px] sm:w-[280px] h-auto drop-shadow-lg"
                                 src="assets/logo-ode-center.svg"
+                                width={280}
+                                height={80}
+                                decoding="async"
                             />
 
                             {/* Prices */}
@@ -103,6 +106,10 @@ const Pricing = () => {
                                     alt="Formas de Pagamento"
                                     className="w-full max-w-[300px] h-auto opacity-100 transition-all"
                                     src="assets/Credit_Card_Logos.webp"
+                                    width={300}
+                                    height={40}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                         </div>
@@ -122,6 +129,10 @@ const Pricing = () => {
                                     alt="Giovanni"
                                     className="w-full h-full object-cover"
                                     src="assets/avatar-giovanni.webp"
+                                    width={59}
+                                    height={59}
+                                    loading="lazy"
+                                    decoding="async"
                                     onError={(e) => {
                                         (e.target as HTMLImageElement).src = "https://ui-avatars.com/api/?name=Giovanni+Begossi&background=CC0000&color=fff";
                                     }}
