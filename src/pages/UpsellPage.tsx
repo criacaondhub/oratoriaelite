@@ -2,10 +2,10 @@ import UpsellHero from "../components/sections/UpsellHero"
 import UpsellMethod from "../components/sections/UpsellMethod"
 import UpsellForWhom from "../components/sections/UpsellForWhom"
 import UpsellModules from "../components/sections/UpsellModules"
-import Bonus from "../components/sections/Bonus"
+import UpsellBonus from "../components/sections/UpsellBonus"
 import Testimonials from "../components/sections/Testimonials"
 import Guarantee from "../components/sections/Guarantee"
-import Pricing from "../components/sections/Pricing"
+import UpsellPricing from "../components/sections/UpsellPricing"
 import About from "../components/sections/About"
 import FAQ from "../components/sections/FAQ"
 import FloatingWhatsApp from "../components/FloatingWhatsApp"
@@ -41,10 +41,10 @@ function UpsellPage() {
                 <UpsellMethod />
                 <UpsellForWhom />
                 <UpsellModules />
-                <Bonus />
+                <UpsellBonus />
                 <Testimonials />
                 <Guarantee />
-                <Pricing />
+                <UpsellPricing />
                 <About />
                 <FAQ />
 
