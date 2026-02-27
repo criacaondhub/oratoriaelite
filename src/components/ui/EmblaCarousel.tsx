@@ -98,6 +98,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                                     src={src}
                                     alt={`Módulo ${index + 1}`}
                                     className="w-full h-auto md:h-full object-contain rounded-xl shadow-2xl"
+                                    loading="lazy"
+                                    width={261}
+                                    height={392}
                                 />
                             </div>
                         </div>

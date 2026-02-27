@@ -26,7 +26,7 @@ const UpsellPricing2 = () => {
                                 <div key={i} className="flex items-center gap-[16px]">
                                     <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
                                         <circle cx="10" cy="10" r="10" fill={item.highlight ? "#59FF74" : "#CC0000"} />
-                                        <path d="M14.7074 6.3313L9.70261 13.7065L5.79087 10.0765C5.61478 9.91348 5.60435 9.63826 5.76783 9.46217C5.93087 9.28565 6.20652 9.27609 6.38217 9.43913L9.551740 12.38L13.9878 5.84261C14.123% 5.64391 14.3935 5.59261 14.5917 5.72696C14.7909 5.86174 14.8426 6.13217 14.7074 6.3313Z" fill="white" />
+                                        <path d="M14.7074 6.3313L9.70261 13.7065L5.79087 10.0765C5.61478 9.91348 5.60435 9.63826 5.76783 9.46217C5.93087 9.28565 6.20652 9.27609 6.38217 9.43913L9.551740 12.38L13.9878 5.84261C14.123 5.64391 14.3935 5.59261 14.5917 5.72696C14.7909 5.86174 14.8426 6.13217 14.7074 6.3313Z" fill="white" />
                                     </svg>
                                     <p className={`font-body font-bold text-[18px] leading-tight uppercase ${item.highlight ? 'text-[#59FF74]' : 'text-[#CCCCCC]'}`}>
                                         {item.text}

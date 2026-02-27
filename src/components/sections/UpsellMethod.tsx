@@ -44,6 +44,10 @@ export default function UpsellMethod() {
                             src="/oratoria-de-elite/assets/pasta-1-verde.webp"
                             alt="Clareza - Desbloqueado"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-2xl"
+                            width={453}
+                            height={346}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </motion.div>
 
@@ -59,6 +63,10 @@ export default function UpsellMethod() {
                             src="/oratoria-de-elite/assets/pasta-2.webp"
                             alt="Confiança"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
+                            width={453}
+                            height={346}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </motion.div>
 
@@ -74,6 +82,10 @@ export default function UpsellMethod() {
                             src="/oratoria-de-elite/assets/pasta-3.webp"
                             alt="Domínio"
                             className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
+                            width={453}
+                            height={346}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </motion.div>
                 </div>
