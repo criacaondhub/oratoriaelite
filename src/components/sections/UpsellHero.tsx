@@ -36,7 +36,7 @@ export default function UpsellHero() {
             </div>
 
             <section className="relative w-full min-h-[calc(100vh-60px)] flex flex-col overflow-hidden">
-                <div className="container mx-auto px-6 lg:px-12 relative z-10 flex-grow flex items-center pb-[68px] lg:pb-0">
+                <div className="container mx-auto px-6 lg:px-12 relative z-10 flex-grow flex items-center pb-0 lg:pb-0">
                     {/* Added pt-10 on mobile to push content 40px down */}
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-[18px] md:gap-8 items-center w-full mt-10 lg:mt-0 pt-10 md:pt-0">
 

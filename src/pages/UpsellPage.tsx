@@ -1,7 +1,6 @@
 import UpsellHero from "../components/sections/UpsellHero"
-import Method from "../components/sections/Method"
-import Pandemic from "../components/sections/Pandemic"
-import ForWhom from "../components/sections/ForWhom"
+import UpsellMethod from "../components/sections/UpsellMethod"
+import UpsellForWhom from "../components/sections/UpsellForWhom"
 import Modules from "../components/sections/Modules"
 import Bonus from "../components/sections/Bonus"
 import Testimonials from "../components/sections/Testimonials"
@@ -39,9 +38,8 @@ function UpsellPage() {
 
             <div className="relative z-10">
                 <UpsellHero />
-                <Method />
-                <Pandemic />
-                <ForWhom />
+                <UpsellMethod />
+                <UpsellForWhom />
                 <Modules />
                 <Bonus />
                 <Testimonials />
