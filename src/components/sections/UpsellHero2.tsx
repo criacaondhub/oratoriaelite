@@ -86,7 +86,7 @@ export default function UpsellHero2() {
 
                             {/* CTA */}
                             <motion.a
-                                href="#preco"
+                                href="#metodo"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center mt-6 md:mt-8 transition-all font-body isolate"
@@ -96,7 +96,7 @@ export default function UpsellHero2() {
                                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                                     className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
                                 />
-                                <span className="text-white px-8 py-5 text-center w-full relative z-10 uppercase">Quero garantir minha vaga</span>
+                                <span className="text-white px-8 py-5 text-center w-full relative z-10 uppercase">Leia a página inteira para entender</span>
                             </motion.a>
                         </motion.div>
                     </div>

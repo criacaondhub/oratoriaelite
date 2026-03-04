@@ -6,9 +6,7 @@ import UpsellBonus2 from "../components/sections/UpsellBonus2"
 import Testimonials from "../components/sections/Testimonials"
 import Guarantee from "../components/sections/Guarantee"
 import UpsellPricing2 from "../components/sections/UpsellPricing2"
-import About from "../components/sections/About"
-import FAQ from "../components/sections/FAQ"
-import FloatingWhatsApp from "../components/FloatingWhatsApp"
+import UpsellSupport from "../components/sections/UpsellSupport"
 import Footer from "../components/sections/Footer"
 import LiquidEther from "../components/ui/LiquidEther"
 
@@ -45,10 +43,8 @@ function UpsellPage2() {
                 <Testimonials />
                 <Guarantee />
                 <UpsellPricing2 />
-                <About />
-                <FAQ />
 
-                <FloatingWhatsApp />
+                <UpsellSupport />
                 <Footer />
             </div>
         </main>
