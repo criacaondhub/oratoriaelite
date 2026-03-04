@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export default function UpsellMethod() {
     return (
-        <section className="relative w-full overflow-hidden bg-white pt-0 pb-16 md:py-24">
+        <section id="metodo" className="relative w-full overflow-hidden bg-white pt-0 pb-16 md:py-24">
             {/* Top Image (Mobile Only) */}
             <img src="/oratoria-de-elite/assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover mb-10" />
 
