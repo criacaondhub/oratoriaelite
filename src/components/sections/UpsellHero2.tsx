@@ -96,7 +96,7 @@ export default function UpsellHero2() {
                                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                                     className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
                                 />
-                                <span className="text-white px-8 py-5 text-center w-full relative z-10 uppercase">Leia a página inteira para entender</span>
+                                <span className="text-white px-8 py-5 text-center w-full relative z-10 uppercase">Leia a página inteira <br className="md:hidden" /> para entender</span>
                             </motion.a>
                         </motion.div>
                     </div>
