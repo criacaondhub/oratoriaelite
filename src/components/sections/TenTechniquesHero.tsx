@@ -1,0 +1,137 @@
+import { motion } from "framer-motion"
+
+export default function TenTechniquesHero() {
+    return (
+        <section className="relative w-full h-screen min-h-[700px] flex items-end lg:items-center overflow-hidden">
+            <div className="container mx-auto px-6 lg:px-12 relative z-10 h-full flex items-end lg:items-center pb-[68px] lg:pb-0">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-[18px] md:gap-8 items-center w-full">
+
+                    {/* Left Content */}
+                    <motion.div
+                        initial={{ opacity: 0, x: -50 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.8 }}
+                        className="lg:col-span-8 flex flex-col gap-[18px] md:gap-6 items-center lg:items-start text-center lg:text-left"
+                    >
+                        {/* Logo */}
+                        <div className="w-fit mb-2 md:mb-4">
+                            {/* Logo Desktop */}
+                            <img
+                                src="/oratoria-de-elite/assets/logo-ode-left.svg"
+                                alt="Logo Oratória de Elite"
+                                className="h-16 md:h-24 w-auto hidden md:block"
+                            />
+                            {/* Logo Mobile */}
+                            <img
+                                src="/oratoria-de-elite/assets/logo-ode-center.svg"
+                                alt="Logo Oratória de Elite"
+                                className="h-16 md:h-24 w-auto block md:hidden mx-auto"
+                            />
+                        </div>
+
+                        {/* Title with Highlights */}
+                        <h1 className="text-[28px] md:text-[2.8vw] lg:text-[2.6vw] xl:text-[3.0208vw] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1] tracking-tight text-white uppercase font-heading max-w-4xl">
+                            Tenha {" "}
+                            <span className="relative inline-block">
+                                <span className="relative z-10 px-2 py-0">confiança</span>
+                                <motion.span
+                                    initial={{ scaleX: 0 }}
+                                    animate={{ scaleX: 1 }}
+                                    transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
+                                    className="absolute inset-0 bg-[#CC0000] -z-0"
+                                    style={{ transformOrigin: "left" }}
+                                />
+                            </span> {" "} na sua comunicação,<br className="hidden md:block" /> {" "}
+                            <span className="relative inline-block mt-2">
+                                <span className="relative z-10 px-2 py-0">clareza</span>
+                                <motion.span
+                                    initial={{ scaleX: 0 }}
+                                    animate={{ scaleX: 1 }}
+                                    transition={{ delay: 0.7, duration: 0.8, ease: "easeOut" }}
+                                    className="absolute inset-0 bg-[#CC0000] -z-0"
+                                    style={{ transformOrigin: "left" }}
+                                />
+                            </span> {" "} na sua fala e<br className="hidden md:block" /> domine as 10 principais<br className="hidden md:block" /> técnicas de {" "}
+                            <span className="relative inline-block mt-2">
+                                <span className="relative z-10 px-2 py-0">convencimento.</span>
+                                <motion.span
+                                    initial={{ scaleX: 0 }}
+                                    animate={{ scaleX: 1 }}
+                                    transition={{ delay: 0.9, duration: 0.8, ease: "easeOut" }}
+                                    className="absolute inset-0 bg-[#CC0000] -z-0"
+                                    style={{ transformOrigin: "left" }}
+                                />
+                            </span>
+                        </h1>
+
+                        {/* Subtitle */}
+                        <p className="text-[16px] md:text-[1.5625vw] font-medium text-gray-200 leading-[1.2] md:leading-[1.1] max-w-2xl mt-2 md:mt-4 font-body">
+                            Essa metodologia já transformou<br className="md:hidden" /> a comunicação de <br className="md:hidden" />
+                            <strong className="font-bold text-white">+70.000 alunos por todo o mundo.</strong>
+                        </p>
+
+                        {/* CTA */}
+                        <motion.a
+                            href="#preco"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center mt-4 md:mt-6 transition-all font-body isolate"
+                        >
+                            <motion.div
+                                animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
+                                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                                className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
+                            />
+                            <span className="text-white px-8 py-5 text-center w-full relative z-10">Quero ter acesso <br className="block md:hidden" /> ao Oratória de Elite</span>
+                        </motion.a>
+                    </motion.div>
+                </div>
+            </div>
+
+            {/* Right Image - FIXED TOTAL HEIGHT */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 0.2 }}
+                className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-auto lg:flex lg:justify-end lg:items-end"
+            >
+                <picture className="w-full h-auto lg:h-full">
+                    <source media="(max-width: 1023px)" srcSet="/oratoria-de-elite/assets/hero-ode-mobile.webp?v=13" />
+                    <img
+                        src="/oratoria-de-elite/assets/hero-ode.webp?v=13"
+                        alt="Giovanni Begossi"
+                        className="w-full h-auto lg:h-full lg:w-auto object-contain lg:object-cover object-top lg:object-right-bottom scale-100 origin-top lg:origin-bottom"
+                        width={1616}
+                        height={933}
+                        fetchPriority="high"
+                        decoding="async"
+                    />
+                </picture>
+            </motion.div>
+
+            {/* Scroll Indicator - Desktop Only */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 1 }}
+                className="absolute bottom-[2.0833vw] left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-[0.4167vw]"
+            >
+                <div className="w-[1.5625vw] h-[2.6042vw] border-2 border-white/30 rounded-full flex justify-center p-2">
+                    <motion.div
+                        animate={{
+                            y: [0, "0.7813vw", 0],
+                            opacity: [1, 0, 1]
+                        }}
+                        transition={{
+                            duration: 1.5,
+                            repeat: Infinity,
+                            ease: "easeInOut"
+                        }}
+                        className="w-1 h-2 bg-[#CC0000] rounded-full"
+                    />
+                </div>
+
+            </motion.div>
+        </section>
+    )
+}
