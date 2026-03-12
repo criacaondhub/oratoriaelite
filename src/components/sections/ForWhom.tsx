@@ -76,7 +76,7 @@ export default function ForWhom() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-[28px] md:text-[48px] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading text-center mb-[30px]"
+                    className="text-[28px] md:text-[2.5000vw] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading text-center mb-[30px]"
                 >
                     Um <span className="relative inline-block">
                         <span className="relative z-10 px-2 md:px-3 text-white">treinamento</span>
@@ -105,7 +105,7 @@ export default function ForWhom() {
                             {column1.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[100px]"
+                                    className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[5.2083vw]"
                                 >
                                     <img
                                         src="assets/check-square-green.svg"
@@ -116,7 +116,7 @@ export default function ForWhom() {
                                         loading="lazy"
                                         decoding="async"
                                     />
-                                    <p className="text-[16px] md:text-[18px] text-zinc-800 leading-[1.3] font-body text-left">
+                                    <p className="text-[16px] md:text-[0.9375vw] text-zinc-800 leading-[1.3] font-body text-left">
                                         {item.text}
                                     </p>
                                 </div>
@@ -128,7 +128,7 @@ export default function ForWhom() {
                             {column2.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[100px]"
+                                    className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[5.2083vw]"
                                 >
                                     <img
                                         src="assets/check-square-green.svg"
@@ -139,7 +139,7 @@ export default function ForWhom() {
                                         loading="lazy"
                                         decoding="async"
                                     />
-                                    <p className="text-[16px] md:text-[18px] text-zinc-800 leading-[1.3] font-body text-left">
+                                    <p className="text-[16px] md:text-[0.9375vw] text-zinc-800 leading-[1.3] font-body text-left">
                                         {item.text}
                                     </p>
                                 </div>

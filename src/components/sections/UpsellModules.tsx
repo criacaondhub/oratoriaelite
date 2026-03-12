@@ -14,7 +14,7 @@ export default function UpsellModules() {
         <section className="relative py-20 overflow-hidden bg-transparent w-full">
             {/* 1. Header Area */}
             <div className="container mx-auto px-6 lg:px-16 mb-12 text-center uppercase">
-                <h2 className="text-[28px] md:text-[48px] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-6xl text-center">
+                <h2 className="text-[28px] md:text-[2.5000vw] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-6xl text-center">
                     TENHA ACESSO AOS <br className="block md:hidden" />
                     3 TREINAMENTOS DE ORATÓRIA <br className="block" />
                     <span className="relative inline-block mt-1 md:mt-1">
@@ -32,7 +32,7 @@ export default function UpsellModules() {
                     </span>
                 </h2>
 
-                <p className="text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] md:leading-[1.4] mt-6 font-body normal-case max-w-5xl mx-auto">
+                <p className="text-[16px] md:text-[1.1458vw] font-normal text-gray-200 leading-[1.4] md:leading-[1.4] mt-6 font-body normal-case max-w-5xl mx-auto">
                     Fale sem vícios de linguagem, perca sua timidez e construa uma <strong className="font-bold text-white uppercase">ORATÓRIA DE ELITE!</strong>
                 </p>
             </div>

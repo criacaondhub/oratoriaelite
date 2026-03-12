@@ -5,7 +5,7 @@ const UpsellPricing = () => {
         <section id="preco" className="relative w-full py-[70px] bg-transparent overflow-hidden font-body">
             <div className="container mx-auto px-6 lg:px-16 relative z-10 flex flex-col items-center">
 
-                <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[60px] w-full max-w-[1900px]">
+                <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[3.1250vw] w-full md:max-w-[98.9583vw]">
 
                     {/* Left Side: Features List - Order 1 on mobile */}
                     <motion.div
@@ -13,9 +13,9 @@ const UpsellPricing = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex flex-col gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto items-center xl:items-start min-w-[300px] order-1 xl:order-1"
+                        className="flex flex-col gap-[20px] xl:gap-[1.5625vw] flex-1 w-full xl:w-auto items-center xl:items-start min-w-[300px] order-1 xl:order-1"
                     >
-                        <div className="flex flex-col gap-[20px] xl:gap-[30px] w-fit">
+                        <div className="flex flex-col gap-[20px] xl:gap-[1.5625vw] w-fit">
                             {[
                                 { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 997,00" },
                                 { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
@@ -43,32 +43,32 @@ const UpsellPricing = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="relative shrink-0 w-full md:w-auto p-[2px] overflow-hidden rounded-[24px] md:rounded-[45px] group order-2 xl:order-2"
+                        className="relative shrink-0 w-full md:w-auto p-[2px] overflow-hidden md:rounded-[1.2500vw] md:rounded-[1.2500vw] rounded-[24px] md:rounded-[2.3438vw] group order-2 xl:order-2"
                     >
                         {/* Animated Border Gradient */}
                         <div className="absolute inset-[-1000%] bg-[conic-gradient(from_0deg,transparent_0deg,transparent_300deg,#CC0000_360deg)] animate-[spin_4s_linear_infinite]" />
 
                         {/* Card Content Container */}
                         <div
-                            className="w-full md:min-w-[480px] xl:min-w-[600px] bg-black/90 rounded-[22px] md:rounded-[43px] px-[15px] py-[40px] md:px-[40px] xl:px-[60px] md:py-[50px] flex flex-col items-center relative gap-[40px] backdrop-blur-md shadow-[0_0_50px_rgba(204,0,0,0.1)] z-10"
+                            className="w-full md:min-w-[25.0000vw] xl:min-w-[31.2500vw] bg-black/90 rounded-[22px] md:rounded-[2.2396vw] px-[15px] py-[40px] md:px-[2.0833vw] xl:px-[3.1250vw] md:py-[2.6042vw] flex flex-col items-center relative gap-[40px] backdrop-blur-md shadow-[0_0_50px_rgba(204,0,0,0.1)] z-10"
                         >
                             {/* Logo */}
                             <img
                                 alt="Oratória de Elite"
-                                className="w-[200px] sm:w-[280px] h-auto drop-shadow-lg"
+                                className="md:w-[14.5833vw] w-[200px] h-auto drop-shadow-lg"
                                 src="/oratoria-de-elite/assets/logo-ode-center.svg"
                             />
 
                             {/* Prices */}
-                            <div className="flex flex-col items-center gap-4">
+                            <div className="flex flex-col items-center md:gap-[0.8333vw] gap-4">
                                 <div className="flex flex-col items-center">
-                                    <span className="text-white/50 font-body text-[14px] md:text-[22px] line-through">De R$ 997,00</span>
-                                    <span className="text-white font-body text-[16px] md:text-[24px]">por apenas 12x de</span>
+                                    <span className="text-white/50 font-body text-[14px] md:text-[1.1458vw] line-through">De R$ 997,00</span>
+                                    <span className="text-white font-body text-[16px] md:text-[1.2500vw]">por apenas 12x de</span>
                                 </div>
-                                <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[70px] lg:text-[80px] xl:text-[100px] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
+                                <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[3.6458vw] lg:text-[4.1667vw] xl:text-[5.2083vw] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
                                     R$ 36,50
                                 </div>
-                                <span className="text-white font-body text-[16px] md:text-[24px] font-medium transition-all">Ou apenas R$ 347,90 à vista</span>
+                                <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$ 347,90 à vista</span>
                             </div>
 
                             {/* Button - Styled like Hero CTA */}
@@ -91,26 +91,26 @@ const UpsellPricing = () => {
                             {/* Refuse Offer Link */}
                             <a
                                 href="https://hub.la/g/M1w9Tsjvc5zJadbwasPZ"
-                                className="text-white font-body font-bold text-[14px] md:text-[16px] uppercase underline decoration-white hover:text-white/80 transition-all mt-[-20px]"
+                                className="text-white font-body font-bold text-[14px] md:text-[0.8333vw] uppercase underline decoration-white hover:text-white/80 transition-all mt-[-20px]"
                             >
                                 RECUSAR ESSA OFERTA ESPECIAL
                             </a>
 
                             {/* Trust badges */}
                             <div className="flex flex-col items-center gap-6 w-full pt-2">
-                                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-[#9CA3AF]">
+                                <div className="flex flex-wrap items-center justify-center md:gap-[0.8333vw] gap-4 md:gap-8 text-[#9CA3AF]">
                                     <div className="flex items-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#CC0000]">
                                             <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
                                             <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                                         </svg>
-                                        <span className="text-[#808080] font-body text-[16px] md:text-[20px]">Compra 100% segura</span>
+                                        <span className="text-[#808080] font-body text-[16px] md:text-[1.0417vw]">Compra 100% segura</span>
                                     </div>
 
                                 </div>
                                 <img
                                     alt="Formas de Pagamento"
-                                    className="w-full max-w-[300px] h-auto opacity-100 transition-all"
+                                    className="w-full md:max-w-[15.6250vw] max-w-[300px] h-auto opacity-100 transition-all"
                                     src="/oratoria-de-elite/assets/Credit_Card_Logos.webp"
                                 />
                             </div>
@@ -123,10 +123,10 @@ const UpsellPricing = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex flex-col items-start xl:items-start gap-[20px] xl:gap-[30px] flex-1 w-full xl:w-auto text-left min-w-[300px] order-3 xl:order-3"
+                        className="flex flex-col items-start xl:items-start gap-[20px] xl:gap-[1.5625vw] flex-1 w-full xl:w-auto text-left min-w-[300px] order-3 xl:order-3"
                     >
                         <div className="flex items-center gap-[12px] justify-start w-full">
-                            <div className="w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
+                            <div className="md:w-[3.0729vw] md:h-[3.0729vw] w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
                                 <img
                                     alt="Giovanni"
                                     className="w-full h-full object-cover"
@@ -141,7 +141,7 @@ const UpsellPricing = () => {
                                 <p className="text-[#808080] font-body font-light text-[15px] leading-tight">O El Professor da Oratória</p>
                             </div>
                         </div>
-                        <p className="text-white font-body font-normal text-[16px] md:text-[22px] leading-relaxed w-full xl:max-w-[700px]">
+                        <p className="text-white font-body font-normal text-[16px] md:text-[1.1458vw] leading-relaxed w-full xl:max-w-[36.4583vw]">
                             “Eu criei o <span className="text-[#CC0000] font-bold">Oratória de Elite</span> para corrigir um problema comum, silencioso e ignorado, que faz pessoas excepcionais não serem levadas a sério”
                         </p>
                     </motion.div>

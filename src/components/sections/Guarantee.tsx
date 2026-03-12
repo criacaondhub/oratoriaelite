@@ -38,16 +38,16 @@ export default function Guarantee() {
 
                     {/* Lado Direito: Conteúdo de Texto */}
                     <div className="w-full md:w-[70%] text-center md:text-left flex flex-col gap-4">
-                        <h2 className="text-zinc-900 text-[24px] md:text-[42px] font-black uppercase font-heading leading-tight">
+                        <h2 className="text-zinc-900 text-[24px] md:text-[2.1875vw] font-black uppercase font-heading leading-tight">
                             VOCÊ NÃO TEM <span className="text-[#CC0000]">RISCO NENHUM</span>
                         </h2>
 
                         <div className="flex flex-col gap-4">
-                            <p className="text-zinc-700 text-[15px] md:text-[18px] font-body leading-relaxed tracking-tight">
+                            <p className="text-zinc-700 text-[15px] md:text-[0.9375vw] font-body leading-relaxed tracking-tight">
                                 Se por qualquer motivo, você acreditar que este treinamento não é para você, ou que o conteúdo não está do seu agrado, você terá o direito ao estorno total do seu dinheiro de forma incondicional e sem letrinhas miúdas dentro do período de <span className="text-zinc-900 font-bold">7 dias.</span>
                             </p>
 
-                            <p className="text-zinc-900 font-bold text-[16px] md:text-[20px] font-body tracking-tight leading-tight">
+                            <p className="text-zinc-900 font-bold text-[16px] md:text-[1.0417vw] font-body tracking-tight leading-tight">
                                 Satisfação garantida ou devolvemos seu dinheiro sem mais perguntas!
                             </p>
                         </div>

@@ -1,8 +1,8 @@
 
 const Footer = () => {
     return (
-        <footer className="relative w-full bg-transparent py-[50px] px-[15px] xl:px-[120px] flex items-center justify-center font-body border-t border-white/5">
-            <div className="text-center text-white/90 text-[14px] md:text-[16px] leading-[1.6] max-w-[1200px]">
+        <footer className="relative w-full bg-transparent md:py-[2.6042vw] py-12 md:px-[0.7813vw] px-4 xl:px-[6.2500vw] flex items-center justify-center font-body border-t border-white/5">
+            <div className="text-center text-white/90 text-[14px] md:text-[0.8333vw] leading-[1.6] max-w-[62.5000vw]">
                 <p className="mb-0 font-normal">
                     Desenvolvido por{" "}
                     <a

@@ -30,7 +30,7 @@ export default function Hero() {
                         </div>
 
                         {/* Title with 4 EXACT lines and Highlight */}
-                        <h1 className="text-[28px] md:text-[58px] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1] tracking-tight text-white uppercase font-heading">
+                        <h1 className="text-[28px] md:text-[3.0208vw] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1] tracking-tight text-white uppercase font-heading">
                             Transforme sua comunicação<br className="hidden md:block" />{" "}
                             em uma verdadeira arma e esteja<br className="hidden md:block" />{" "}
                             entre o {" "}
@@ -57,7 +57,7 @@ export default function Hero() {
                         </h1>
 
                         {/* Subtitle */}
-                        <p className="text-[16px] md:text-[30px] font-medium text-gray-200 leading-[1.2] md:leading-[1.1] max-w-2xl mt-2 md:mt-4 font-body">
+                        <p className="text-[16px] md:text-[1.5625vw] font-medium text-gray-200 leading-[1.2] md:leading-[1.1] max-w-2xl mt-2 md:mt-4 font-body">
                             O método definitivo para convencer<br className="block md:hidden" /> qualquer pessoa em qualquer situação.
                         </p>
 
@@ -105,12 +105,12 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2"
+                className="absolute bottom-[2.0833vw] left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-[0.4167vw]"
             >
-                <div className="w-[30px] h-[50px] border-2 border-white/30 rounded-full flex justify-center p-2">
+                <div className="w-[1.5625vw] h-[2.6042vw] border-2 border-white/30 rounded-full flex justify-center p-2">
                     <motion.div
                         animate={{
-                            y: [0, 15, 0],
+                            y: [0, "0.7813vw", 0],
                             opacity: [1, 0, 1]
                         }}
                         transition={{

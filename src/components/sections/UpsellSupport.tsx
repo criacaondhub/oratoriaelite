@@ -4,14 +4,14 @@ const UpsellSupport = () => {
     return (
         <section className="relative w-full py-12 md:py-24 bg-white overflow-hidden">
             <div className="container mx-auto px-6 lg:px-16 relative z-10 flex flex-col items-center">
-                <div className="w-full max-w-4xl flex flex-col gap-10 items-center text-center">
+                <div className="w-full md:max-w-[46.6667vw] flex flex-col gap-[2.0833vw] items-center text-center">
                     <div className="flex flex-col gap-4 w-full items-center">
                         <motion.h2
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
                             viewport={{ once: true }}
-                            className="text-[28px] md:text-5xl lg:text-6xl font-extrabold md:font-black font-heading text-neutral-900 uppercase leading-none whitespace-nowrap"
+                            className="text-[28px] md:text-[2.5000vw] lg:text-[3.1250vw] font-extrabold md:font-black font-heading text-neutral-900 uppercase leading-none whitespace-nowrap"
                         >
                             Ainda restaram <span className="text-[#CC0000]">dúvidas?</span>
                         </motion.h2>
@@ -20,7 +20,7 @@ const UpsellSupport = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.1 }}
                             viewport={{ once: true }}
-                            className="text-neutral-600 font-body text-[16px] md:text-xl leading-relaxed max-w-2xl"
+                            className="text-neutral-600 font-body text-[16px] md:text-[1.0417vw] leading-relaxed md:max-w-[33.3333vw]"
                         >
                             Se você ainda tem alguma dúvida e quer falar com a nossa equipe especializada, <span className="font-bold text-neutral-900">entre em contato conosco agora mesmo:</span>
                         </motion.p>
@@ -56,7 +56,7 @@ const UpsellSupport = () => {
                                 <h3 className="text-[18px] md:text-xl font-body font-bold text-white uppercase">
                                     Suporte no Whatsapp
                                 </h3>
-                                <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-3 rounded-lg text-[11px] md:text-[12px] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all text-center">
+                                <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-3 rounded-lg text-[11px] md:text-[0.6250vw] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all text-center">
                                     Clique aqui e entre em contato
                                 </div>
                             </div>

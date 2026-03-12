@@ -24,12 +24,12 @@ export default function Method() {
             <img src="assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover" />
 
             {/* Sticky Container */}
-            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center gap-8 md:gap-10 py-12 md:py-[80px] px-6 lg:px-16 overflow-hidden -mt-[35px] md:mt-0">
+            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center gap-8 md:gap-10 py-12 md:py-[4.1667vw] px-6 lg:px-16 overflow-hidden -mt-[35px] md:mt-0">
 
 
                 {/* 1. HEADER ZONE */}
                 <div className="w-full max-w-5xl text-center z-50">
-                    <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading">
+                    <h2 className="text-[28px] md:text-[2.3958vw] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading">
                         <span className="relative inline-block">
                             <span className="relative z-10 px-1 md:px-3 py-0 text-white">O método validado</span>
                             <motion.span
@@ -44,16 +44,16 @@ export default function Method() {
                         por negociadores, políticos, influencers, bilionários e até a elite da polícia.
                     </h2>
 
-                    <p className="text-[16px] md:text-[22px] font-normal text-gray-800 leading-[1.4] md:leading-[1.2] mt-4 font-body">
+                    <p className="text-[16px] md:text-[1.1458vw] font-normal text-gray-800 leading-[1.4] md:leading-[1.2] mt-4 font-body">
                         Você terá acesso ao conteúdo usado para treinar profissionais que precisam se comunicar com <strong className="font-bold text-black">precisão, sob pressão e sem margem para erro.</strong>
                     </p>
                 </div>
 
                 {/* 2. FOLDER ZONE */}
-                <div className="relative w-full max-w-[780px] h-[400px] md:h-[400px] lg:h-[420px] xl:h-[520px] flex items-center justify-center pointer-events-none">
+                <div className="relative w-full xl:max-w-[40.6250vw] max-w-[780px] h-[400px] md:h-[20.8333vw] lg:h-[21.8750vw] xl:h-[27.0833vw] flex items-center justify-center pointer-events-none">
 
                     {/* Imagem Fixa Esquerda (Desktop Only) */}
-                    <div className="hidden 2xl:block absolute right-[104%] top-1/2 -translate-y-1/2 w-[320px] h-auto">
+                    <div className="hidden 2xl:block absolute right-[104%] top-1/2 -translate-y-1/2 w-[16.6667vw] h-auto">
                         <img
                             src="assets/img-1.webp?v=1.2"
                             alt="Visual de apoio 1"
@@ -111,7 +111,7 @@ export default function Method() {
                     </motion.div>
 
                     {/* Imagem Fixa Direita (Desktop Only) */}
-                    <div className="hidden 2xl:block absolute left-[104%] top-1/2 -translate-y-1/2 w-[320px] h-auto">
+                    <div className="hidden 2xl:block absolute left-[104%] top-1/2 -translate-y-1/2 w-[16.6667vw] h-auto">
                         <img
                             src="assets/img-2.webp?v=1.2"
                             alt="Visual de apoio 2"

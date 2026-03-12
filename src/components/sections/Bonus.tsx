@@ -13,7 +13,7 @@ const Bonus = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-white text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-tight uppercase font-heading max-w-4xl mx-auto">
+                    <h2 className="text-white text-[28px] md:text-[2.5000vw] font-extrabold md:font-extrabold leading-tight uppercase font-heading max-w-4xl mx-auto">
                         E você ainda <br className="block md:hidden" />
                         <span className="hidden md:inline">ganha de </span>
                         <span className="relative inline-block px-3 py-1">
@@ -41,7 +41,7 @@ const Bonus = () => {
                         <img
                             src="assets/bonus-1.webp?v=1.1"
                             alt="Argumentação: Como Vencer Debates"
-                            className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}
                             height={420}
                             loading="lazy"
@@ -77,7 +77,7 @@ const Bonus = () => {
                         <img
                             src="assets/bonus-2.webp?v=1.1"
                             alt="Pense Rápido, Fale Melhor"
-                            className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}
                             height={420}
                             loading="lazy"

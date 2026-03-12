@@ -43,7 +43,7 @@ const About = () => {
     }
 
     return (
-        <section className="relative w-full py-16 md:py-[80px] bg-transparent overflow-hidden font-body perspective-1000">
+        <section className="relative w-full py-16 md:py-[4.1667vw] bg-transparent overflow-hidden font-body perspective-1000">
             <div className="container mx-auto px-4 md:px-6 lg:px-16 relative z-10">
                 <motion.div
                     onMouseMove={handleMouseMove}
@@ -54,12 +54,12 @@ const About = () => {
                         rotateY: window.innerWidth >= 1024 ? rotateY : 0,
                         transformStyle: "preserve-3d",
                     }}
-                    className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 max-w-7xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] md:rounded-[30px] p-6 md:p-16 shadow-2xl"
+                    className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-[5.2083vw] max-w-7xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] md:rounded-[1.5625vw] p-6 md:p-[4.1667vw] shadow-2xl"
                 >
 
                     {/* Image Column */}
                     <div className="relative w-full lg:w-1/2 flex justify-center items-start">
-                        <div className="relative overflow-hidden rounded-2xl w-full max-w-[550px] aspect-[3/4] lg:aspect-[4/5]">
+                        <div className="relative overflow-hidden md:rounded-[0.8333vw] rounded-2xl w-full max-w-[28.6458vw] aspect-[3/4] lg:aspect-[4/5]">
                             <img
                                 src="/oratoria-de-elite/assets/giovanni-bio-2.webp?v=1.1"
                                 alt="Giovanni Begossi"
@@ -76,12 +76,12 @@ const About = () => {
                     {/* Text Column */}
                     <div className="w-full lg:w-1/2 flex flex-col gap-8 text-white">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-[28px] md:text-6xl font-extrabold md:font-black uppercase font-heading leading-tight md:leading-none">
+                            <h2 className="text-[28px] md:text-[3.1250vw] font-extrabold md:font-black uppercase font-heading leading-tight md:leading-none">
                                 Sobre o <span className="text-[#CC0000] drop-shadow-[0_0_15px_rgba(204,0,0,0.3)]">El Professor</span>
                             </h2>
                         </div>
 
-                        <div className="flex flex-col gap-6 text-gray-300 text-[16px] md:text-lg leading-relaxed">
+                        <div className="flex flex-col gap-6 text-gray-300 text-[16px] md:text-[0.9375vw] leading-relaxed">
                             <p>
                                 Mais conhecido como <span className="text-white font-bold">El Professor da Oratória,</span> Giovanni Begossi é <span className="text-white font-bold">bicampeão brasileiro de oratória,</span> advogado, palestrante internacional, TEDx Speaker e autor do best seller <span className="text-white font-bold">COMO FALAR BEM E FICAR RICO,</span> o livro de oratória mais vendido da Amazon.
                             </p>
@@ -96,11 +96,11 @@ const About = () => {
                         </div>
 
                         {/* Showcase de Livros */}
-                        <div className="mt-2 bg-gradient-to-br from-black/40 to-black/10 md:bg-black/20 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col sm:flex-row items-center gap-6 md:gap-8 relative overflow-hidden group shadow-inner">
+                        <div className="mt-2 bg-gradient-to-br from-black/40 to-black/10 md:bg-black/20 border border-white/10 md:rounded-[0.8333vw] rounded-2xl p-6 md:p-8 flex flex-col sm:flex-row items-center gap-6 md:gap-8 relative overflow-hidden group shadow-inner">
                             {/* Inner Glow Animado */}
                             <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
-                            <div className="w-[180px] sm:w-[150px] md:w-[180px] flex-shrink-0 relative z-10 transition-transform duration-500 ease-out group-hover:scale-105 group-hover:-translate-y-2">
+                            <div className="w-[9.3750vw] sm:w-[150px] md:w-[9.3750vw] flex-shrink-0 relative z-10 transition-transform duration-500 ease-out group-hover:scale-105 group-hover:-translate-y-2">
                                 <img
                                     src="/oratoria-de-elite/assets/livros.webp"
                                     alt="Livros Best Sellers"
@@ -113,10 +113,10 @@ const About = () => {
                             </div>
 
                             <div className="flex flex-col gap-3 relative z-10 text-center sm:text-left">
-                                <h3 className="text-[18px] md:text-[22px] font-bold font-body uppercase tracking-wide bg-gradient-to-r from-yellow-300 via-yellow-100 to-yellow-500 text-transparent bg-clip-text">
+                                <h3 className="text-[18px] md:text-[1.1458vw] font-bold font-body uppercase tracking-wide bg-gradient-to-r from-yellow-300 via-yellow-100 to-yellow-500 text-transparent bg-clip-text">
                                     Autor Bestseller
                                 </h3>
-                                <p className="text-gray-300 text-[14px] md:text-[16px] leading-[1.3] md:leading-[1.4] tracking-tight">
+                                <p className="text-gray-300 text-[14px] md:text-[0.8333vw] leading-[1.3] md:leading-[1.4] tracking-tight">
                                     Autor de obras consagradas que já transformaram a comunicação de milhares de pessoas em todo o Brasil: <strong className="text-white font-bold">Como Falar Bem e Ficar Rico</strong> e <strong className="text-white font-bold">Como Fazer Amigos e Influenciar Pessoas.</strong>
                                 </p>
                             </div>

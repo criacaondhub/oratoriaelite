@@ -51,7 +51,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answ
                 onClick={onClick}
                 className="w-full py-6 flex items-center justify-between text-left group focus:outline-none"
             >
-                <span className={`text-[18px] md:text-[20px] font-body font-bold uppercase transition-colors ${isOpen ? 'text-[#CC0000]' : 'text-neutral-800'}`}>
+                <span className={`text-[18px] md:text-[1.0417vw] font-body font-bold uppercase transition-colors ${isOpen ? 'text-[#CC0000]' : 'text-neutral-800'}`}>
                     {question}
                 </span>
                 <span className="shrink-0 ml-4">
@@ -76,7 +76,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answ
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                         className="overflow-hidden"
                     >
-                        <div className="pb-6 text-neutral-600 font-body text-[16px] md:text-[18px] leading-relaxed">
+                        <div className="pb-6 text-neutral-600 font-body text-[16px] md:text-[0.9375vw] leading-relaxed">
                             {answer}
                         </div>
                     </motion.div>
@@ -149,7 +149,7 @@ const FAQ = () => {
                                     <h3 className="text-[18px] md:text-xl font-body font-bold text-white uppercase">
                                         Suporte no Whatsapp
                                     </h3>
-                                    <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-3 rounded-lg text-[11px] md:text-[12px] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all text-center">
+                                    <div className="bg-gradient-to-r from-white to-gray-100 text-[#178837] px-4 py-3 rounded-lg text-[11px] md:text-[0.6250vw] font-black tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all text-center">
                                         Clique aqui e entre em contato
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@ const FAQ = () => {
                                 <img
                                     src="assets/faq-vector.svg"
                                     alt="Perguntas Frequentes"
-                                    className="h-[120px] md:h-[180px] w-auto"
+                                    className="h-[120px] md:h-[9.3750vw] w-auto"
                                     width={180}
                                     height={180}
                                     loading="lazy"

@@ -15,7 +15,7 @@ export default function Pandemic() {
                         className="lg:col-span-6 flex flex-col gap-6 md:gap-8 items-center lg:items-start"
                     >
                         {/* Title with exact line breaks and highlight */}
-                        <h2 className="text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1.1] text-white uppercase font-heading text-center lg:text-left">
+                        <h2 className="text-[28px] md:text-[2.5000vw] font-extrabold md:font-extrabold leading-[1.1] md:leading-[1.1] text-white uppercase font-heading text-center lg:text-left">
                             A pandemia da<br />
                             <div className="relative inline-block mt-1">
                                 <span className="relative z-10 px-2 md:px-3 py-0">má comunicação</span>
@@ -49,7 +49,7 @@ export default function Pandemic() {
                         </motion.div>
 
                         {/* Subtitle with exact line breaks */}
-                        <div className="flex flex-col gap-6 text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] font-body text-center lg:text-left">
+                        <div className="flex flex-col gap-6 text-[16px] md:text-[1.1458vw] font-normal text-gray-200 leading-[1.4] font-body text-center lg:text-left">
                             <p>
                                 Quando sua comunicação falha, <strong className="font-bold text-white">você perde respeito, oportunidade e espaço.</strong>
                             </p>
@@ -87,7 +87,7 @@ export default function Pandemic() {
 
                     {/* Right Content - News Stacking - HIDDEN ON MOBILE */}
                     <div className="hidden lg:flex lg:col-span-6 relative flex-col items-center">
-                        <div className="relative w-full max-w-[750px] flex flex-col items-center">
+                        <div className="relative w-full max-w-[39.0625vw] flex flex-col items-center">
 
                             {/* News 1 - Top */}
                             <motion.div

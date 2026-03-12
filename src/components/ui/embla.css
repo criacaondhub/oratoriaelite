@@ -1,11 +1,11 @@
 .embla {
     max-width: 100%;
     margin: auto;
-    --slide-height: 440px;
+    --slide-height: 22.9167vw;
     --slide-spacing: 2rem;
-    --slide-size: 293px;
+    --slide-size: 15.2604vw;
     position: relative;
-    padding: 0 4rem;
+    padding: 0 4.1667vw;
 }
 
 @media (max-width: 768px) {

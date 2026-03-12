@@ -14,7 +14,7 @@ export default function Modules() {
         <section className="relative py-20 overflow-hidden bg-transparent w-full">
             {/* 1. Header Area */}
             <div className="container mx-auto px-6 lg:px-16 mb-12 text-center uppercase">
-                <h2 className="text-[28px] md:text-[48px] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
+                <h2 className="text-[28px] md:text-[2.5000vw] font-extrabold leading-[1.1] text-white font-heading mx-auto max-w-4xl text-center">
                     <div className="relative inline-block">
                         <span className="relative z-10 px-2 md:px-3 py-0">
                             O treinamento de oratória
@@ -31,7 +31,7 @@ export default function Modules() {
                     <span className="block mt-2">mais completo do mundo</span>
                 </h2>
 
-                <p className="text-[16px] md:text-[22px] font-normal text-gray-200 leading-[1.4] md:leading-[1.4] mt-6 font-body normal-case max-w-5xl mx-auto">
+                <p className="text-[16px] md:text-[1.1458vw] font-normal text-gray-200 leading-[1.4] md:leading-[1.4] mt-6 font-body normal-case max-w-5xl mx-auto">
                     São <strong className="font-bold text-white">mais de 10 horas de conteúdo altamente impactante</strong>, do básico ao avançado, do absoluto zero às técnicas mais poderosas de persuasão para você alcançar a <strong className="font-bold text-white">oratória da elite.</strong>
                 </p>
             </div>

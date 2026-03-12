@@ -86,19 +86,19 @@ const Testimonials = () => {
                     viewport={{ once: true }}
                     className="text-center mb-20"
                 >
-                    <h2 className="text-white text-[28px] md:text-[52px] font-extrabold leading-tight uppercase font-heading mb-8">
+                    <h2 className="text-white text-[28px] md:text-[2.7083vw] font-extrabold leading-tight uppercase font-heading mb-8">
                         <span className="relative inline-block px-5 py-3 mb-4">
                             <span className="absolute inset-0 bg-white"></span>
                             <span className="relative text-[#CC0000] z-10 font-black">+70 mil pessoas destravadas</span>
                         </span>
-                        <p className="text-white/90 text-[16px] md:text-[22px] max-w-4xl mx-auto font-body leading-relaxed mt-4 font-normal normal-case tracking-normal">
+                        <p className="text-white/90 text-[16px] md:text-[1.1458vw] max-w-4xl mx-auto font-body leading-relaxed mt-4 font-normal normal-case tracking-normal">
                             De profissionais liberais à empresários, de líderes à liderados de pequenas, médias e grandes empresas, até mesmo políticos, artistas e pastores. <strong className="font-bold text-white">Este é um treinamento para todas as profissões!</strong>
                         </p>
                     </h2>
                 </motion.div>
 
                 {/* Testimonials Grid */}
-                <div className="w-full max-w-[1800px] mx-auto flex flex-wrap justify-center gap-6 md:gap-10">
+                <div className="w-full max-w-[1800px] mx-auto flex flex-wrap justify-center gap-6 md:gap-[2.6042vw]">
                     {testimonials.map((testimonial, index) => (
                         <motion.div
                             key={index}
@@ -106,14 +106,14 @@ const Testimonials = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="flex flex-col gap-6 w-full max-w-[430px]"
+                            className="flex flex-col gap-6 w-full md:max-w-[22.3958vw]"
                         >
                             {/* Card de Depoimento - White clean theme */}
-                            <div className="relative border border-white/10 rounded-[2rem] p-8 md:p-10 bg-white shadow-[0_20px_50px_rgba(0,0,0,0.15)] flex flex-col items-start gap-8 min-h-[360px] h-full transition-all hover:scale-[1.02] duration-300 group">
+                            <div className="relative border border-white/10 md:rounded-[1.6667vw] rounded-[2rem] p-8 md:p-[2.6042vw] bg-white shadow-[0_20px_50px_rgba(0,0,0,0.15)] flex flex-col items-start gap-8 min-h-[360px] h-full transition-all hover:scale-[1.02] duration-300 group">
 
                                 {/* Header: Foto + Nome dentro do card */}
                                 <div className="flex items-center gap-4 shrink-0">
-                                    <div className="w-16 h-16 rounded-full bg-neutral-100 flex items-center justify-center border-2 border-[#CC0000]/10 shrink-0 overflow-hidden relative">
+                                    <div className="md:w-[3.3333vw] md:h-[3.3333vw] w-16 h-16 rounded-full bg-neutral-100 flex items-center justify-center border-2 border-[#CC0000]/10 shrink-0 overflow-hidden relative">
                                         <img
                                             alt={testimonial.name}
                                             className="w-full h-full object-cover"
@@ -128,10 +128,10 @@ const Testimonials = () => {
                                         />
                                     </div>
                                     <div className="flex flex-col">
-                                        <h3 className="text-zinc-900 text-lg font-bold leading-tight uppercase font-body">
+                                        <h3 className="text-zinc-900 md:text-[0.9375vw] text-lg font-bold leading-tight uppercase font-body">
                                             {testimonial.name}
                                         </h3>
-                                        <p className="text-zinc-500 text-sm font-medium leading-tight">
+                                        <p className="text-zinc-500 md:text-[0.7292vw] text-sm font-medium leading-tight">
                                             {testimonial.role}
                                         </p>
                                     </div>
@@ -140,7 +140,7 @@ const Testimonials = () => {
                                 {/* Texto do Depoimento */}
                                 <div className="relative z-10 flex-1 w-full">
                                     <p
-                                        className="text-zinc-800 font-body font-normal text-[15px] md:text-[16px] leading-[1.7]"
+                                        className="text-zinc-800 font-body font-normal text-[15px] md:text-[0.8333vw] leading-[1.7]"
                                         dangerouslySetInnerHTML={{ __html: testimonial.content }}
                                     />
                                 </div>

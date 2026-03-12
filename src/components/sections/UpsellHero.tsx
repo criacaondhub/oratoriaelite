@@ -4,7 +4,7 @@ export default function UpsellHero() {
     return (
         <div className="flex flex-col w-full">
             {/* Disclaimer Ribbon - Height 60px on desktop */}
-            <div className="w-full bg-[#CC0000] h-auto md:h-[60px] py-3 md:py-0 z-[20] shadow-[0_4px_20px_rgba(204,0,0,0.4)] relative overflow-hidden flex items-center">
+            <div className="w-full bg-[#CC0000] h-auto md:h-[3.1250vw] py-3 md:py-0 z-[20] shadow-[0_4px_20px_rgba(204,0,0,0.4)] relative overflow-hidden flex items-center">
                 {/* Animated background patterns */}
                 <div className="absolute inset-0 opacity-10 pointer-events-none">
                     <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.2)_50%,transparent_75%)] bg-[length:250px_250px] animate-[pulse_3s_linear_infinite]" />
@@ -20,7 +20,7 @@ export default function UpsellHero() {
                             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
                         />
 
-                        <p className="text-white text-center font-body font-black text-[14px] md:text-[20px] uppercase tracking-wider leading-tight">
+                        <p className="text-white text-center font-body font-black text-[14px] md:text-[1.0417vw] uppercase tracking-wider leading-tight">
                             Não feche a página, ela contém um convite exclusivo!
                         </p>
 
@@ -41,10 +41,10 @@ export default function UpsellHero() {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="w-full max-w-5xl flex flex-col gap-8 items-center text-center"
+                        className="w-full md:max-w-[53.3333vw] flex flex-col gap-8 items-center text-center"
                     >
                         {/* Title - Centralized and slightly smaller */}
-                        <h1 className="text-[28px] md:text-[48px] font-extrabold leading-[1.2] md:leading-[1.1] tracking-tight text-white uppercase font-heading max-w-4xl">
+                        <h1 className="text-[28px] md:text-[2.5000vw] font-extrabold leading-[1.2] md:leading-[1.1] tracking-tight text-white uppercase font-heading md:max-w-[46.8750vw]">
                             Você acabou de DESBLOQUEAR o <br className="md:hidden" /> acesso à <br className="hidden md:block" />
                             <span className="relative inline-block">
                                 <span className="relative z-10 px-2 py-0 text-white">TRÍADE DE CURSOS</span>
@@ -59,12 +59,12 @@ export default function UpsellHero() {
                         </h1>
 
                         {/* Subtitle */}
-                        <p className="text-white text-[16px] md:text-[20px] font-body leading-relaxed max-w-4xl md:whitespace-nowrap">
+                        <p className="text-white text-[16px] md:text-[1.0417vw] font-body leading-relaxed md:max-w-[46.8750vw] md:whitespace-nowrap">
                             <strong className="font-bold">Não feche essa página!</strong> Assista o vídeo abaixo que eu tenho um recado <strong className="font-bold">muito importante</strong>
                         </p>
 
                         {/* Video Container */}
-                        <div className="w-full max-w-[850px] aspect-video rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
+                        <div className="w-full md:max-w-[44.2708vw] aspect-video rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
                             <iframe
                                 width="100%"
                                 height="100%"

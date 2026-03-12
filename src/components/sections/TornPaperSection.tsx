@@ -51,7 +51,7 @@ const TornPaperSection = () => {
     )
 
     return (
-        <section className="relative w-full min-h-fit md:min-h-[800px] flex flex-col items-center justify-center overflow-hidden py-16 md:py-32 bg-white md:bg-transparent">
+        <section className="relative w-full min-h-fit md:min-h-[41.6667vw] flex flex-col items-center justify-center overflow-hidden py-16 md:py-32 bg-white md:bg-transparent">
             {/* Background de Papel Rasgado - Apenas Desktop */}
             <div
                 className="absolute inset-x-0 top-0 bottom-0 pointer-events-none hidden md:block"
@@ -73,7 +73,7 @@ const TornPaperSection = () => {
                     viewport={{ once: true }}
                     className="text-center mb-10"
                 >
-                    <h2 className="text-black text-[28px] md:text-[48px] font-extrabold md:font-black leading-tight max-w-4xl mx-auto uppercase">
+                    <h2 className="text-black text-[28px] md:text-[2.5000vw] font-extrabold md:font-black leading-tight max-w-4xl mx-auto uppercase">
                         O único que te ensina os{" "}
                         <span className="relative inline-block px-3 py-1 ml-2">
                             <span className="absolute inset-0 bg-[#CC0000] -rotate-1"></span>

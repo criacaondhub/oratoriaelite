@@ -13,7 +13,7 @@ const UpsellBonus2 = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-white text-[28px] md:text-[48px] font-extrabold md:font-extrabold leading-tight uppercase font-heading max-w-4xl mx-auto">
+                    <h2 className="text-white text-[28px] md:text-[2.5000vw] font-extrabold md:font-extrabold leading-tight uppercase font-heading max-w-4xl mx-auto">
                         E você ainda <br className="block md:hidden" />
                         <span className="hidden md:inline">ganha de </span>
                         <span className="relative inline-block px-3 py-1">
@@ -27,7 +27,7 @@ const UpsellBonus2 = () => {
                 </motion.div>
 
                 {/* Bonus Content Container */}
-                <div className="flex flex-col items-center gap-16 max-w-7xl mx-auto">
+                <div className="flex flex-col items-center gap-[4.1667vw] md:max-w-[66.6667vw] mx-auto">
 
                     {/* Bonus 1 */}
                     <motion.div
@@ -41,15 +41,15 @@ const UpsellBonus2 = () => {
                         <img
                             src="/oratoria-de-elite/assets/bonus-1.webp?v=1.1"
                             alt="Argumentação: Como Vencer Debates"
-                            className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                         />
 
                         {/* Content Box */}
-                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-l-none md:rounded-r-2xl p-8 md:p-12 flex flex-col gap-6 text-center md:text-left items-center md:items-start max-w-xl z-10 -mt-6 md:mt-0">
-                            <h3 className="text-[28px] md:text-4xl font-black md:font-black text-white leading-tight font-heading uppercase">
+                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-l-none md:rounded-r-2xl p-8 md:p-[3.1250vw] flex flex-col gap-[1.5625vw] text-center md:text-left items-center md:items-start md:max-w-[29.9479vw] z-10 -mt-6 md:mt-0">
+                            <h3 className="text-[28px] md:text-[1.8750vw] font-black md:font-black text-white leading-tight font-heading uppercase">
                                 Argumentação:<br /> Como Vencer Debates
                             </h3>
-                            <p className="text-gray-300 text-[16px] md:text-xl font-normal font-body leading-relaxed">
+                            <p className="text-gray-300 text-[16px] md:text-[1.0417vw] font-normal font-body leading-relaxed">
                                 Aprenda a <strong className="font-bold text-white">organizar ideias sob pressão, sustentar seu ponto de vista sem agressividade e manter seus argumentos</strong> em reuniões, discussões ou decisões importantes.
                             </p>
                             <div className="text-xl md:text-2xl font-bold font-body">
@@ -73,15 +73,15 @@ const UpsellBonus2 = () => {
                         <img
                             src="/oratoria-de-elite/assets/bonus-2.webp?v=1.1"
                             alt="Pense Rápido, Fale Melhor"
-                            className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                         />
 
                         {/* Content Box */}
-                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-r-none md:rounded-l-2xl p-8 md:p-12 flex flex-col gap-6 text-center md:text-left items-center md:items-start max-w-xl z-10 -mt-6 md:mt-0">
-                            <h3 className="text-[28px] md:text-4xl font-black md:font-black text-white leading-tight font-heading uppercase">
+                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-r-none md:rounded-l-2xl p-8 md:p-[3.1250vw] flex flex-col gap-[1.5625vw] text-center md:text-left items-center md:items-start md:max-w-[29.9479vw] z-10 -mt-6 md:mt-0">
+                            <h3 className="text-[28px] md:text-[1.8750vw] font-black md:font-black text-white leading-tight font-heading uppercase">
                                 Pense Rápido,<br className="md:hidden" /> Fale Melhor
                             </h3>
-                            <p className="text-gray-300 text-[16px] md:text-xl font-normal font-body leading-relaxed">
+                            <p className="text-gray-300 text-[16px] md:text-[1.0417vw] font-normal font-body leading-relaxed">
                                 Descubra como montar um raciocínio enquanto fala e <strong className="font-bold text-white">acabar com o branco, com o medo de ser pego de surpresa e com a sensação de que você só pensa na resposta certa depois que a conversa termina.</strong>
                             </p>
                             <div className="text-xl md:text-2xl font-bold font-body">
@@ -105,15 +105,15 @@ const UpsellBonus2 = () => {
                         <img
                             src="/oratoria-de-elite/assets/bonus-4.webp?v=1.1"
                             alt="PROTOCOLO ZERO TIMIDEZ"
-                            className="h-[320px] lg:h-[350px] xl:h-[420px] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+                            className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                         />
 
                         {/* Content Box */}
-                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-l-none md:rounded-r-2xl p-8 md:p-12 flex flex-col gap-6 text-center md:text-left items-center md:items-start max-w-xl z-10 -mt-6 md:mt-0">
-                            <h3 className="text-[28px] md:text-4xl font-black md:font-black text-white leading-tight font-heading uppercase">
+                        <div className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-md rounded-2xl md:rounded-l-none md:rounded-r-2xl p-8 md:p-[3.1250vw] flex flex-col gap-[1.5625vw] text-center md:text-left items-center md:items-start md:max-w-[29.9479vw] z-10 -mt-6 md:mt-0">
+                            <h3 className="text-[28px] md:text-[1.8750vw] font-black md:font-black text-white leading-tight font-heading uppercase">
                                 PROTOCOLO ZERO TIMIDEZ
                             </h3>
-                            <p className="text-gray-300 text-[16px] md:text-xl font-normal font-body leading-relaxed">
+                            <p className="text-gray-300 text-[16px] md:text-[1.0417vw] font-normal font-body leading-relaxed">
                                 Elimine de uma vez por todas a timidez, e medo e onervosismo que te travam na hora de falar e fazem você perder oportunidades que não voltam mais.
                             </p>
                             <div className="text-xl md:text-2xl font-bold font-body">

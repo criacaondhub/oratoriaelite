@@ -9,8 +9,8 @@ export default function UpsellMethod2() {
             <div className="container mx-auto px-6 lg:px-12 flex flex-col items-center">
 
                 {/* 1. HEADER ZONE */}
-                <div className="w-full max-w-4xl text-center mb-12 md:mb-16">
-                    <h2 className="text-[28px] md:text-[46px] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading">
+                <div className="w-full md:max-w-[46.8750vw] max-w-4xl text-center mb-12 md:mb-16">
+                    <h2 className="text-[28px] md:text-[2.3958vw] font-extrabold leading-[1.2] md:leading-[1.1] text-black uppercase font-heading">
                         Você acabou de desbloquear 1 C da comunicação, mas pode ter {" "}
                         <span className="relative inline-block whitespace-nowrap">
                             <span className="relative z-10 px-1 md:px-3 py-0 text-white">acesso aos 3</span>
@@ -25,13 +25,13 @@ export default function UpsellMethod2() {
                         </span>
                     </h2>
 
-                    <p className="text-[16px] md:text-[22px] font-normal text-gray-800 leading-[1.4] md:leading-[1.2] mt-4 font-body">
+                    <p className="text-[16px] md:text-[1.1458vw] font-normal text-gray-800 leading-[1.4] md:leading-[1.2] mt-4 font-body">
                         Você terá acesso ao conteúdo usado para treinar profissionais que precisam se comunicar com <strong className="font-bold text-black">precisão, sob pressão e sem margem para erro.</strong>
                     </p>
                 </div>
 
                 {/* 2. PASTA ZONE - Side by Side, Larger on Desktop */}
-                <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 lg:gap-10 w-full max-w-[1600px] mb-12 md:mb-16 px-0">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-[1.0417vw] lg:gap-[1.5625vw] w-full md:max-w-[83.3333vw] mb-12 md:mb-[4.1667vw] px-0">
                     {/* Pasta 1 (Opacity 60%) */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -43,7 +43,7 @@ export default function UpsellMethod2() {
                         <img
                             src="/oratoria-de-elite/assets/pasta-1.webp"
                             alt="Clareza"
-                            className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-2xl"
+                            className="w-full max-w-[340px] md:max-w-[22.9167vw] lg:max-w-[27.0833vw] h-auto drop-shadow-2xl"
                             width={453}
                             height={346}
                             loading="lazy"
@@ -62,7 +62,7 @@ export default function UpsellMethod2() {
                         <img
                             src="/oratoria-de-elite/assets/pasta-2-verde.webp"
                             alt="Confiança - Desbloqueado"
-                            className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
+                            className="w-full max-w-[340px] md:max-w-[22.9167vw] lg:max-w-[27.0833vw] h-auto drop-shadow-xl"
                             width={453}
                             height={346}
                             loading="lazy"
@@ -81,7 +81,7 @@ export default function UpsellMethod2() {
                         <img
                             src="/oratoria-de-elite/assets/pasta-3.webp"
                             alt="Domínio"
-                            className="w-full max-w-[340px] md:max-w-[440px] lg:max-w-[520px] h-auto drop-shadow-xl"
+                            className="w-full max-w-[340px] md:max-w-[22.9167vw] lg:max-w-[27.0833vw] h-auto drop-shadow-xl"
                             width={453}
                             height={346}
                             loading="lazy"
