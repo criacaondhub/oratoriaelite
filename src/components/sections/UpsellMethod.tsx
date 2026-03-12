@@ -91,9 +91,11 @@ export default function UpsellMethod() {
                 </div>
 
                 {/* 3. CTA ZONE */}
-                <div className="w-full flex justify-center">
+                <div className="w-full flex flex-col items-center gap-4">
                     <motion.a
-                        href="#preco"
+                        href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"
@@ -105,6 +107,12 @@ export default function UpsellMethod() {
                         />
                         <span className="text-white px-8 py-5 md:py-4 text-center w-full relative z-10 uppercase">Quero Garantir os 3 Cs</span>
                     </motion.a>
+                    <a
+                        href="https://elprofessordaoratoria.com.br/evento-02/"
+                        className="text-black/60 hover:text-black transition-all text-sm underline uppercase font-bold"
+                    >
+                        RECUSAR ESSA OFERTA
+                    </a>
                 </div>
             </div>
         </section>

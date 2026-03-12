@@ -90,10 +90,10 @@ const UpsellPricing = () => {
 
                             {/* Refuse Offer Link */}
                             <a
-                                href="https://hub.la/g/M1w9Tsjvc5zJadbwasPZ"
-                                className="text-white font-body font-bold text-[14px] md:text-[0.8333vw] uppercase underline decoration-white hover:text-white/80 transition-all mt-[-20px]"
+                                href="https://elprofessordaoratoria.com.br/evento-02/"
+                                className="text-white/60 hover:text-white transition-all text-sm underline uppercase font-bold mt-[-20px]"
                             >
-                                RECUSAR ESSA OFERTA ESPECIAL
+                                RECUSAR ESSA OFERTA
                             </a>
 
                             {/* Trust badges */}

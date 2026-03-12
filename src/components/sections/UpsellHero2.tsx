@@ -64,33 +64,41 @@ export default function UpsellHero2() {
                         </p>
 
                         {/* Video Container */}
-                        <div className="w-full md:max-w-[44.2708vw] aspect-video rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10">
-                            <iframe
-                                width="100%"
-                                height="100%"
-                                src="https://www.youtube.com/embed/pocDdLe64vA"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                className="w-full h-full"
-                            ></iframe>
-                        </div>
+                        <div 
+                            className="w-full md:max-w-[44.2708vw] aspect-video rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10 relative"
+                            dangerouslySetInnerHTML={{ __html: `
+                                <div id="ifr_69b2f51a243e791f0728dbe5_wrapper" style="margin: 0 auto; width: 100%; "> 
+                                    <div style="position: relative; padding: 56.25% 0 0 0;" id="ifr_69b2f51a243e791f0728dbe5_aspect"> 
+                                        <iframe frameborder="0" allowfullscreen src="about:blank" id="ifr_69b2f51a243e791f0728dbe5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" referrerpolicy="origin" onload="this.onload=null, this.src='https://scripts.converteai.net/69acc469-7ca6-4905-a042-9dae89c1548f/players/69b2f51a243e791f0728dbe5/v4/embed.html' +(location.search||'?') +'&vl=' +encodeURIComponent(location.href)"></iframe> 
+                                    </div> 
+                                </div>
+                            `}}
+                        />
 
                         {/* CTA */}
-                        <motion.a
-                            href="#metodo"
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center mt-4 transition-all font-body isolate"
-                        >
-                            <motion.div
-                                animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
-                                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                                className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
-                            />
-                            <span className="text-white px-8 md:px-12 py-5 text-center w-full relative z-10 uppercase whitespace-nowrap">Garantir presente especial</span>
-                        </motion.a>
+                        <div className="flex flex-col items-center gap-4 w-full mt-4">
+                            <motion.a
+                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center transition-all font-body isolate"
+                            >
+                                <motion.div
+                                    animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
+                                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                                    className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
+                                />
+                                <span className="text-white px-8 md:px-12 py-5 text-center w-full relative z-10 uppercase whitespace-nowrap">Garantir presente especial</span>
+                            </motion.a>
+                            <a
+                                href="https://elprofessordaoratoria.com.br/evento-02/"
+                                className="text-white/60 hover:text-white transition-all text-sm underline uppercase font-bold"
+                            >
+                                RECUSAR ESSA OFERTA
+                            </a>
+                        </div>
                     </motion.div>
                 </div>
             </section>

@@ -37,14 +37,13 @@ function UpsellPage2() {
             <div className="relative z-10">
                 <UpsellHero2 />
                 <UpsellMethod2 />
-                <UpsellForWhom />
-                <UpsellModules />
+                {/* <UpsellForWhom /> */}
+                {/* <UpsellModules /> */}
                 <UpsellBonus2 />
-                <Testimonials />
-                <Guarantee />
+                {/* <Testimonials /> */}
+                {/* <Guarantee /> */}
                 <UpsellPricing2 />
-
-                <UpsellSupport />
+                {/* <UpsellSupport /> */}
                 <Footer />
             </div>
         </main>
