@@ -73,7 +73,7 @@ const UpsellPricing = () => {
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
-                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh"
+                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}

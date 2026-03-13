@@ -78,7 +78,7 @@ export default function UpsellHero2() {
                         {/* CTA */}
                         <div className="flex flex-col items-center gap-4 w-full mt-4">
                             <motion.a
-                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh"
+                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
