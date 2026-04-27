@@ -49,6 +49,8 @@ const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answ
         <div className="border-b border-neutral-200">
             <button
                 onClick={onClick}
+                aria-expanded={isOpen}
+                aria-label={isOpen ? `Fechar pergunta: ${question}` : `Abrir pergunta: ${question}`}
                 className="w-full py-6 flex items-center justify-between text-left group focus:outline-none"
             >
                 <span className={`text-[18px] md:text-[1.0417vw] font-body font-bold uppercase transition-colors ${isOpen ? 'text-[#CC0000]' : 'text-neutral-800'}`}>

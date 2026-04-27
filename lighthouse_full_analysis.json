@@ -1,0 +1,248 @@
+{
+  "scores": {
+    "performance": 0.78,
+    "accessibility": 0.9,
+    "best-practices": 0.77,
+    "seo": 1
+  },
+  "failedAudits": [
+    {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.99,
+      "displayValue": "0.6 s",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/)."
+    },
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.32,
+      "displayValue": "3.0 s",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)"
+    },
+    {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "score": 0.63,
+      "displayValue": "2.0 s",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/)."
+    },
+    {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "score": 0.99,
+      "displayValue": "80 ms",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/)."
+    },
+    {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "score": 0.93,
+      "displayValue": "110 ms",
+      "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
+    },
+    {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "score": 0.98,
+      "displayValue": "0.055",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls)."
+    },
+    {
+      "id": "errors-in-console",
+      "title": "Browser errors were logged to the console",
+      "score": 0,
+      "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+    },
+    {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "score": 0.79,
+      "displayValue": "3.0 s",
+      "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/)."
+    },
+    {
+      "id": "deprecations",
+      "title": "Uses deprecated APIs",
+      "score": 0,
+      "displayValue": "1 warning found",
+      "description": "Deprecated APIs will eventually be removed from the browser. [Learn more about deprecated APIs](https://developer.chrome.com/docs/lighthouse/best-practices/deprecations/)."
+    },
+    {
+      "id": "mainthread-work-breakdown",
+      "title": "Minimize main-thread work",
+      "score": 0,
+      "displayValue": "2.6 s",
+      "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+    },
+    {
+      "id": "button-name",
+      "title": "Buttons do not have an accessible name",
+      "score": 0,
+      "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.11/button-name)."
+    },
+    {
+      "id": "total-byte-weight",
+      "title": "Avoid enormous network payloads",
+      "score": 0.5,
+      "displayValue": "Total size was 9,305 KiB",
+      "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+    },
+    {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0,
+      "displayValue": "Est savings of 203 KiB",
+      "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+    },
+    {
+      "id": "bf-cache",
+      "title": "Page prevented back/forward cache restoration",
+      "score": 0,
+      "displayValue": "1 failure reason",
+      "description": "Many navigations are performed by going back to a previous page, or forwards again. The back/forward cache (bfcache) can speed up these return navigations. [Learn more about the bfcache](https://developer.chrome.com/docs/lighthouse/performance/bf-cache/)"
+    },
+    {
+      "id": "cache-insight",
+      "title": "Use efficient cache lifetimes",
+      "score": 0.5,
+      "displayValue": "Est savings of 162 KiB",
+      "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+    },
+    {
+      "id": "forced-reflow-insight",
+      "title": "Forced reflow",
+      "score": 0,
+      "description": "A forced reflow occurs when JavaScript queries geometric properties (such as `offsetWidth`) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow) and possible mitigations."
+    },
+    {
+      "id": "image-delivery-insight",
+      "title": "Improve image delivery",
+      "score": 0,
+      "displayValue": "Est savings of 5,443 KiB",
+      "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)"
+    },
+    {
+      "id": "legacy-javascript-insight",
+      "title": "Legacy JavaScript",
+      "score": 0.5,
+      "displayValue": "Est savings of 12 KiB",
+      "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)"
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "title": "Network dependency tree",
+      "score": 0,
+      "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load."
+    },
+    {
+      "id": "render-blocking-insight",
+      "title": "Render-blocking requests",
+      "score": 0,
+      "displayValue": "Est savings of 150 ms",
+      "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path."
+    }
+  ],
+  "lcpElement": null,
+  "consoleErrors": [
+    {
+      "source": "network",
+      "description": "Failed to load resource: the server responded with a status of 404 ()",
+      "sourceLocation": {
+        "type": "source-location",
+        "url": "https://fonts.gstatic.com/s/bigshouldersdisplay/v30/69bmF692D6JfvL7SxzMStInN4-89p9K-NnU.woff2",
+        "urlProvider": "network",
+        "line": 0,
+        "column": 0
+      }
+    }
+  ],
+  "imageIssues": [],
+  "unusedJs": [
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5D9MX8XB",
+      "totalBytes": 131641,
+      "wastedBytes": 62846,
+      "wastedPercent": 47.74008738691372
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-Y3N0PSRB3N&cx=c&gtm=4e64m2",
+      "totalBytes": 179829,
+      "wastedBytes": 54898,
+      "wastedPercent": 30.52778823325033
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "totalBytes": 98941,
+      "wastedBytes": 34028,
+      "wastedPercent": 34.39255674125561
+    },
+    {
+      "url": "https://cursos.elprofessordaoratoria.com.br/oratoria-de-elite/assets/index-CgT6XfWG.js",
+      "totalBytes": 86185,
+      "wastedBytes": 30914,
+      "wastedPercent": 35.868825351118836,
+      "subItems": {
+        "type": "subitems",
+        "items": [
+          {
+            "source": "…node_modules/react-dom/cjs/react-dom-client.production.js",
+            "sourceBytes": 54251,
+            "sourceWastedBytes": 19725
+          },
+          {
+            "source": "…node_modules/react-router/dist/development/chunk-LFPYN7LY.mjs",
+            "sourceBytes": 10942,
+            "sourceWastedBytes": 6751
+          },
+          {
+            "source": "…src/components/sections/Pricing.tsx",
+            "sourceBytes": 2072,
+            "sourceWastedBytes": 2069
+          },
+          {
+            "source": "…src/components/sections/Bonus.tsx",
+            "sourceBytes": 1374,
+            "sourceWastedBytes": 1371
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://cursos.elprofessordaoratoria.com.br/oratoria-de-elite/assets/utils-Bw29kHei.js",
+      "totalBytes": 53880,
+      "wastedBytes": 24759,
+      "wastedPercent": 45.95126505226107,
+      "subItems": {
+        "type": "subitems",
+        "items": [
+          {
+            "source": "…motion-dom/dist/es/projection/node/create-projection-node.mjs",
+            "sourceBytes": 7437,
+            "sourceWastedBytes": 6220
+          },
+          {
+            "source": "…framer-motion/dist/es/gestures/drag/VisualElementDragControls.mjs",
+            "sourceBytes": 2487,
+            "sourceWastedBytes": 2477
+          },
+          {
+            "source": "…embla-carousel/esm/embla-carousel.esm.js",
+            "sourceBytes": 6328,
+            "sourceWastedBytes": 1559
+          },
+          {
+            "source": "…framer-motion/dist/es/gestures/pan/PanSession.mjs",
+            "sourceBytes": 1263,
+            "sourceWastedBytes": 1247
+          },
+          {
+            "source": "…react/cjs/react.production.js",
+            "sourceBytes": 2555,
+            "sourceWastedBytes": 1035
+          }
+        ]
+      }
+    }
+  ]
+}

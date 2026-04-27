@@ -53,6 +53,7 @@ export const PrevButton: React.FC<PropType> = (props) => {
         <button
             className="embla__button embla__button--prev"
             type="button"
+            aria-label="Slide anterior"
             {...restProps}
         >
             <i className="fi fi-rr-angle-left flex text-2xl" />
@@ -68,6 +69,7 @@ export const NextButton: React.FC<PropType> = (props) => {
         <button
             className="embla__button embla__button--next"
             type="button"
+            aria-label="Próximo slide"
             {...restProps}
         >
             <i className="fi fi-rr-angle-right flex text-2xl" />

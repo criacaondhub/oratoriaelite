@@ -8,8 +8,8 @@ export default function Hero() {
 
                     {/* Left Content */}
                     <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        initial={{ x: -50 }}
+                        animate={{ x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="lg:col-span-8 flex flex-col gap-[18px] md:gap-6 items-center lg:items-start text-center lg:text-left"
                     >
@@ -89,6 +89,7 @@ export default function Hero() {
             >
                 <picture className="w-full h-auto lg:h-full">
                     <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp?v=13" />
+                    <source media="(min-width: 1024px)" srcSet="assets/hero-ode.webp?v=13" />
                     <img
                         src="assets/hero-ode.webp?v=13"
                         alt="Giovanni Begossi"

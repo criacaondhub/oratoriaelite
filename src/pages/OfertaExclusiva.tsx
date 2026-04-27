@@ -1,9 +1,9 @@
 import { lazy, Suspense } from "react"
 import Hero from "../components/sections/Hero"
-import Method from "../components/sections/Method"
-import Pandemic from "../components/sections/Pandemic"
-import ForWhom from "../components/sections/ForWhom"
-import Modules from "../components/sections/Modules"
+const Method = lazy(() => import("../components/sections/Method"))
+const Pandemic = lazy(() => import("../components/sections/Pandemic"))
+const ForWhom = lazy(() => import("../components/sections/ForWhom"))
+const Modules = lazy(() => import("../components/sections/Modules"))
 import BonusOferta from "../components/sections/BonusOferta"
 
 const Testimonials = lazy(() => import("../components/sections/Testimonials"))
@@ -21,13 +21,12 @@ function OfertaExclusiva() {
 
             <div className="relative z-10">
                 <Hero />
-                <Method />
-                <Pandemic />
-                <ForWhom />
-                <Modules />
-                <BonusOferta />
-                
                 <Suspense fallback={<div className="min-h-[200px]" />}>
+                    <Method />
+                    <Pandemic />
+                    <ForWhom />
+                    <Modules />
+                    <BonusOferta />
                     <Testimonials />
                     <Guarantee />
                     <PricingOferta />

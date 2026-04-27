@@ -21,7 +21,15 @@ export default function Method() {
         <section ref={containerRef} className="relative h-[400vh] overflow-visible bg-white">
 
             {/* Top Image (Mobile Only) */}
-            <img src="assets/method-mobile-1.webp" alt="" className="w-full h-auto block md:hidden object-cover" />
+            <img 
+                src="assets/method-mobile-1.webp" 
+                alt="Metodologia Oratória de Elite" 
+                className="w-full h-auto block md:hidden object-cover" 
+                width={390}
+                height={668}
+                loading="lazy"
+                decoding="async"
+            />
 
             {/* Sticky Container */}
             <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center gap-8 md:gap-10 py-12 md:py-[4.1667vw] px-6 lg:px-16 overflow-hidden -mt-[35px] md:mt-0">
