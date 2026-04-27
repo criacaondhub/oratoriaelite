@@ -20,12 +20,16 @@ export default function Hero() {
                                 src="assets/logo-ode-left.svg"
                                 alt="Logo Oratória de Elite"
                                 className="h-16 md:h-24 w-auto hidden md:block"
+                                width={300}
+                                height={100}
                             />
                             {/* Logo Mobile */}
                             <img
                                 src="assets/logo-ode-center.svg"
                                 alt="Logo Oratória de Elite"
                                 className="h-16 md:h-24 w-auto block md:hidden mx-auto"
+                                width={200}
+                                height={80}
                             />
                         </div>
 
@@ -80,10 +84,7 @@ export default function Hero() {
             </div>
 
             {/* Right Image - FIXED TOTAL HEIGHT */}
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1, delay: 0.2 }}
+            <div
                 className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-auto lg:flex lg:justify-end lg:items-end"
             >
                 <picture className="w-full h-auto lg:h-full">
@@ -98,7 +99,7 @@ export default function Hero() {
                         decoding="async"
                     />
                 </picture>
-            </motion.div>
+            </div>
 
             {/* Scroll Indicator - Desktop Only */}
             <motion.div

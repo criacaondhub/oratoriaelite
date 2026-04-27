@@ -80,6 +80,7 @@ const PricingOferta = () => {
                                 href="https://pay.hub.la/gWQo7P2XZh3OEn2gHb2y"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Quero ter acesso ao Oratória de Elite - Comprar Agora"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[15px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"
@@ -128,7 +129,7 @@ const PricingOferta = () => {
                         <div className="flex items-center gap-[12px] justify-start w-full">
                             <div className="w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
                                 <img
-                                    alt="Giovanni"
+                                    alt="Foto de Giovanni Begossi"
                                     className="w-full h-full object-cover"
                                     src="assets/avatar-giovanni.webp"
                                     width={59}

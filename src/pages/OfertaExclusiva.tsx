@@ -1,17 +1,18 @@
-
+import { lazy, Suspense } from "react"
 import Hero from "../components/sections/Hero"
 import Method from "../components/sections/Method"
 import Pandemic from "../components/sections/Pandemic"
 import ForWhom from "../components/sections/ForWhom"
 import Modules from "../components/sections/Modules"
 import BonusOferta from "../components/sections/BonusOferta"
-import Testimonials from "../components/sections/Testimonials"
-import Guarantee from "../components/sections/Guarantee"
-import PricingOferta from "../components/sections/PricingOferta"
-import About from "../components/sections/About"
-import FAQ from "../components/sections/FAQ"
-import FloatingWhatsApp from "../components/FloatingWhatsApp"
-import Footer from "../components/sections/Footer"
+
+const Testimonials = lazy(() => import("../components/sections/Testimonials"))
+const Guarantee = lazy(() => import("../components/sections/Guarantee"))
+const PricingOferta = lazy(() => import("../components/sections/PricingOferta"))
+const About = lazy(() => import("../components/sections/About"))
+const FAQ = lazy(() => import("../components/sections/FAQ"))
+const FloatingWhatsApp = lazy(() => import("../components/FloatingWhatsApp"))
+const Footer = lazy(() => import("../components/sections/Footer"))
 
 
 function OfertaExclusiva() {
@@ -25,14 +26,16 @@ function OfertaExclusiva() {
                 <ForWhom />
                 <Modules />
                 <BonusOferta />
-                <Testimonials />
-                <Guarantee />
-                <PricingOferta />
-                <About />
-                <FAQ />
-
-                <FloatingWhatsApp />
-                <Footer />
+                
+                <Suspense fallback={<div className="min-h-[200px]" />}>
+                    <Testimonials />
+                    <Guarantee />
+                    <PricingOferta />
+                    <About />
+                    <FAQ />
+                    <FloatingWhatsApp />
+                    <Footer />
+                </Suspense>
             </div>
         </main>
     )

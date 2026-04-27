@@ -112,7 +112,7 @@ const BonusOferta = () => {
                         {/* Image */}
                         <img
                             src="assets/bonus-5.webp"
-                            alt="Bônus 3"
+                            alt="Hiper Persuasão - Giovanni Begossi"
                             className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}
                             height={420}
@@ -148,7 +148,7 @@ const BonusOferta = () => {
                         {/* Image */}
                         <img
                             src="assets/bonus-6.webp"
-                            alt="Bônus 4"
+                            alt="Mentoria Ao Vivo em Grupo - Oratória de Elite"
                             className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}
                             height={420}
