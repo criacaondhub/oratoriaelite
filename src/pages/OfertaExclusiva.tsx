@@ -4,17 +4,17 @@ import Method from "../components/sections/Method"
 import Pandemic from "../components/sections/Pandemic"
 import ForWhom from "../components/sections/ForWhom"
 import Modules from "../components/sections/Modules"
-import Bonus from "../components/sections/Bonus"
+import BonusOferta from "../components/sections/BonusOferta"
 import Testimonials from "../components/sections/Testimonials"
 import Guarantee from "../components/sections/Guarantee"
-import Pricing from "../components/sections/Pricing"
+import PricingOferta from "../components/sections/PricingOferta"
 import About from "../components/sections/About"
 import FAQ from "../components/sections/FAQ"
 import FloatingWhatsApp from "../components/FloatingWhatsApp"
 import Footer from "../components/sections/Footer"
 
 
-function HomePage() {
+function OfertaExclusiva() {
     return (
         <main className="relative min-h-screen bg-transparent">
 
@@ -24,10 +24,10 @@ function HomePage() {
                 <Pandemic />
                 <ForWhom />
                 <Modules />
-                <Bonus />
+                <BonusOferta />
                 <Testimonials />
                 <Guarantee />
-                <Pricing />
+                <PricingOferta />
                 <About />
                 <FAQ />
 
@@ -38,4 +38,4 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default OfertaExclusiva

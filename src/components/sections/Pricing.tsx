@@ -104,7 +104,7 @@ const Pricing = () => {
                                 </div>
                                 <img
                                     alt="Formas de Pagamento"
-                                    className="w-full max-w-[15.6250vw] h-auto opacity-100 transition-all"
+                                    className="w-full max-w-[200px] md:max-w-[15.6250vw] h-auto opacity-100 transition-all"
                                     src="assets/Credit_Card_Logos.webp"
                                     width={300}
                                     height={40}

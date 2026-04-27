@@ -109,7 +109,7 @@ const LastNoticePricing = () => {
                                 </div>
                                 <img
                                     alt="Formas de Pagamento"
-                                    className="w-full md:max-w-[15.6250vw] max-w-[300px] h-auto opacity-100 transition-all"
+                                    className="w-full max-w-[200px] md:max-w-[15.6250vw] h-auto opacity-100 transition-all"
                                     src="/oratoria-de-elite/assets/Credit_Card_Logos.webp"
                                 />
                             </div>

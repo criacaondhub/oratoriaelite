@@ -8,6 +8,7 @@ const UpsellPage2 = lazy(() => import("./pages/UpsellPage2"))
 const TenTechniquesPage = lazy(() => import("./pages/TenTechniquesPage"))
 const LastNoticePage = lazy(() => import("./pages/LastNoticePage"))
 const TrainingPage = lazy(() => import("./pages/TrainingPage"))
+const OfertaExclusiva = lazy(() => import("./pages/OfertaExclusiva"))
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/presente2" element={<UpsellPage2 />} />
           <Route path="/ultimo-aviso" element={<LastNoticePage />} />
           <Route path="/treinamento" element={<TrainingPage />} />
+          <Route path="/oferta-exclusiva" element={<OfertaExclusiva />} />
         </Routes>
       </Suspense>
     </Router>

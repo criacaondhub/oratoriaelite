@@ -1,11 +1,11 @@
 import { motion } from "framer-motion"
 
-const UpsellPricing2 = () => {
+const PricingOferta = () => {
     return (
         <section id="preco" className="relative w-full py-[70px] bg-transparent overflow-hidden font-body">
             <div className="container mx-auto px-6 lg:px-16 relative z-10 flex flex-col items-center">
 
-                <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[3.1250vw] w-full md:max-w-[98.9583vw]">
+                <div className="flex flex-col xl:flex-row items-center justify-center gap-10 xl:gap-[3.1250vw] w-full max-w-[1900px]">
 
                     {/* Left Side: Features List - Order 1 on mobile */}
                     <motion.div
@@ -17,11 +17,12 @@ const UpsellPricing2 = () => {
                     >
                         <div className="flex flex-col gap-[20px] xl:gap-[1.5625vw] w-fit">
                             {[
-                                { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 997,00" },
+                                { text: "Treinamento Completo Oratória de Elite - ", price: "R$ 3.500,00" },
+                                { text: "Hiper Persuasão (Regravado) - ", price: "R$ 3.000,00" },
+                                { text: "Mentoria Ao Vivo em Grupo - ", price: "R$ 6.000,00" },
                                 { text: "Argumentação: Como Vencer Debates - ", price: "R$ 297,00" },
                                 { text: "Treinamento Pense Rápido, Fale Melhor - ", price: "R$ 197,00" },
-                                { text: "Protocolo Zero Timidez - ", price: "R$ 97,00" },
-                                { text: "ECONOMIA DE: ", price: "R$ 1.240,10", highlight: true }
+                                { text: "ECONOMIA DE: ", price: "R$ 11.997,00", highlight: true }
                             ].map((item, i) => (
                                 <div key={i} className="flex items-center gap-[16px]">
                                     <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
@@ -56,24 +57,27 @@ const UpsellPricing2 = () => {
                             <img
                                 alt="Oratória de Elite"
                                 className="md:w-[14.5833vw] w-[200px] h-auto drop-shadow-lg"
-                                src="/oratoria-de-elite/assets/logo-ode-center.svg"
+                                src="assets/logo-ode-center.svg"
+                                width={280}
+                                height={80}
+                                decoding="async"
                             />
 
                             {/* Prices */}
-                            <div className="flex flex-col items-center gap-4">
+                            <div className="flex flex-col items-center md:gap-[0.8333vw] gap-4">
                                 <div className="flex flex-col items-center">
-                                    <span className="text-white/50 font-body text-[14px] md:text-[1.1458vw] line-through">De R$ 997,00</span>
+                                    <span className="text-white/50 font-body text-[14px] md:text-[1.1458vw] line-through">De R$ 3.500,00</span>
                                     <span className="text-white font-body text-[16px] md:text-[1.2500vw]">por apenas 12x de</span>
                                 </div>
                                 <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[3.6458vw] lg:text-[4.1667vw] xl:text-[5.2083vw] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
-                                    R$ 36,50
+                                    R$ 104,58
                                 </div>
-                                <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$ 347,90 à vista</span>
+                                <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$997,00 à vista</span>
                             </div>
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
-                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
+                                href="https://pay.hub.la/gWQo7P2XZh3OEn2gHb2y"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}
@@ -88,17 +92,9 @@ const UpsellPricing2 = () => {
                                 <span className="text-white px-8 py-5 text-center w-full relative z-10">Quero ter acesso ao <br className="md:hidden" /> Oratória de Elite</span>
                             </motion.a>
 
-                            {/* Refuse Offer Link */}
-                            <a
-                                href="https://elprofessordaoratoria.com.br/evento-02/"
-                                className="text-white/60 hover:text-white transition-all text-sm underline uppercase font-bold mt-[-20px]"
-                            >
-                                RECUSAR ESSA OFERTA
-                            </a>
-
                             {/* Trust badges */}
                             <div className="flex flex-col items-center gap-6 w-full pt-2">
-                                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-[#9CA3AF]">
+                                <div className="flex flex-wrap items-center justify-center md:gap-[0.8333vw] gap-4 md:gap-8 text-[#9CA3AF]">
                                     <div className="flex items-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#CC0000]">
                                             <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
@@ -111,7 +107,11 @@ const UpsellPricing2 = () => {
                                 <img
                                     alt="Formas de Pagamento"
                                     className="w-full max-w-[200px] md:max-w-[15.6250vw] h-auto opacity-100 transition-all"
-                                    src="/oratoria-de-elite/assets/Credit_Card_Logos.webp"
+                                    src="assets/Credit_Card_Logos.webp"
+                                    width={300}
+                                    height={40}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                         </div>
@@ -126,11 +126,15 @@ const UpsellPricing2 = () => {
                         className="flex flex-col items-start xl:items-start gap-[20px] xl:gap-[1.5625vw] flex-1 w-full xl:w-auto text-left min-w-[300px] order-3 xl:order-3"
                     >
                         <div className="flex items-center gap-[12px] justify-start w-full">
-                            <div className="md:w-[3.0729vw] md:h-[3.0729vw] w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
+                            <div className="w-[59px] h-[59px] rounded-full overflow-hidden shrink-0 border border-white/10 relative bg-neutral-800">
                                 <img
                                     alt="Giovanni"
                                     className="w-full h-full object-cover"
-                                    src="/oratoria-de-elite/assets/avatar-giovanni.webp"
+                                    src="assets/avatar-giovanni.webp"
+                                    width={59}
+                                    height={59}
+                                    loading="lazy"
+                                    decoding="async"
                                     onError={(e) => {
                                         (e.target as HTMLImageElement).src = "https://ui-avatars.com/api/?name=Giovanni+Begossi&background=CC0000&color=fff";
                                     }}
@@ -152,4 +156,4 @@ const UpsellPricing2 = () => {
     )
 }
 
-export default UpsellPricing2
+export default PricingOferta
