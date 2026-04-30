@@ -63,7 +63,7 @@ export default function ForWhom() {
             <div
                 className="absolute inset-x-0 top-0 bottom-0 pointer-events-none hidden md:block"
                 style={{
-                    backgroundImage: `url('assets/papel-rasgado.webp?v=1.1')`,
+                    backgroundImage: `url('/oratoria-de-elite/assets/papel-rasgado.webp?v=1.1')`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
@@ -108,7 +108,7 @@ export default function ForWhom() {
                                     className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[5.2083vw]"
                                 >
                                     <img
-                                        src="assets/check-square-green.svg"
+                                        src="/oratoria-de-elite/assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
                                         width={32}
@@ -131,7 +131,7 @@ export default function ForWhom() {
                                     className="flex items-center gap-4 p-5 md:p-6 bg-black/5 border border-black/5 rounded-2xl hover:bg-black/10 transition-all group lg:min-h-[5.2083vw]"
                                 >
                                     <img
-                                        src="assets/check-square-green.svg"
+                                        src="/oratoria-de-elite/assets/check-square-green.svg"
                                         alt="Check"
                                         className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
                                         width={32}

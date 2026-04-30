@@ -55,7 +55,7 @@ const Pricing = () => {
                             <img
                                 alt="Oratória de Elite"
                                 className="md:w-[14.5833vw] w-[200px] h-auto drop-shadow-lg"
-                                src="assets/logo-ode-center.svg"
+                                src="/oratoria-de-elite/assets/logo-ode-center.svg"
                                 width={280}
                                 height={80}
                                 decoding="async"
@@ -105,7 +105,7 @@ const Pricing = () => {
                                 <img
                                     alt="Formas de Pagamento"
                                     className="w-full max-w-[200px] md:max-w-[15.6250vw] h-auto opacity-100 transition-all"
-                                    src="assets/Credit_Card_Logos.webp"
+                                    src="/oratoria-de-elite/assets/Credit_Card_Logos.webp"
                                     width={300}
                                     height={40}
                                     loading="lazy"
@@ -128,7 +128,7 @@ const Pricing = () => {
                                 <img
                                     alt="Giovanni"
                                     className="w-full h-full object-cover"
-                                    src="assets/avatar-giovanni.webp"
+                                    src="/oratoria-de-elite/assets/avatar-giovanni.webp"
                                     width={59}
                                     height={59}
                                     loading="lazy"

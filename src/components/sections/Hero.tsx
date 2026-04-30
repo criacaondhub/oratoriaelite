@@ -17,7 +17,7 @@ export default function Hero() {
                         <div className="w-fit mb-2 md:mb-4">
                             {/* Logo Desktop */}
                             <img
-                                src="assets/logo-ode-left.svg"
+                                src="/oratoria-de-elite/assets/logo-ode-left.svg"
                                 alt="Logo Oratória de Elite"
                                 className="h-16 md:h-24 w-auto hidden md:block"
                                 width={300}
@@ -25,7 +25,7 @@ export default function Hero() {
                             />
                             {/* Logo Mobile */}
                             <img
-                                src="assets/logo-ode-center.svg"
+                                src="/oratoria-de-elite/assets/logo-ode-center.svg"
                                 alt="Logo Oratória de Elite"
                                 className="h-16 md:h-24 w-auto block md:hidden mx-auto"
                                 width={200}
@@ -88,10 +88,10 @@ export default function Hero() {
                 className="absolute inset-x-0 top-0 w-full z-[1] order-first lg:order-last lg:h-screen lg:right-0 lg:left-auto lg:w-auto lg:flex lg:justify-end lg:items-end"
             >
                 <picture className="w-full h-auto lg:h-full">
-                    <source media="(max-width: 1023px)" srcSet="assets/hero-ode-mobile.webp?v=13" />
-                    <source media="(min-width: 1024px)" srcSet="assets/hero-ode.webp?v=13" />
+                    <source media="(max-width: 1023px)" srcSet="/oratoria-de-elite/assets/hero-ode-mobile.webp?v=13" />
+                    <source media="(min-width: 1024px)" srcSet="/oratoria-de-elite/assets/hero-ode.webp?v=13" />
                     <img
-                        src="assets/hero-ode.webp?v=13"
+                        src="/oratoria-de-elite/assets/hero-ode.webp?v=13"
                         alt="Giovanni Begossi"
                         className="w-full h-auto lg:h-full lg:w-auto object-contain lg:object-cover object-top lg:object-right-bottom scale-100 origin-top lg:origin-bottom"
                         width={1616}

@@ -38,7 +38,7 @@ export default function Pandemic() {
                             className="block lg:hidden w-full"
                         >
                             <img
-                                src="assets/news-2.webp"
+                                src="/oratoria-de-elite/assets/news-2.webp"
                                 alt="Notícia Má Comunicação"
                                 className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
                                 width={750}
@@ -98,7 +98,7 @@ export default function Pandemic() {
                                 className="relative z-30 w-full"
                             >
                                 <img
-                                    src="assets/news-1.webp"
+                                    src="/oratoria-de-elite/assets/news-1.webp"
                                     alt="Notícia 1"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
                                     width={750}
@@ -117,7 +117,7 @@ export default function Pandemic() {
                                 className="relative z-20 w-[105%] -mt-10"
                             >
                                 <img
-                                    src="assets/news-2.webp"
+                                    src="/oratoria-de-elite/assets/news-2.webp"
                                     alt="Notícia 2"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
                                     width={750}
@@ -136,7 +136,7 @@ export default function Pandemic() {
                                 className="relative z-10 w-[110%] -mt-10"
                             >
                                 <img
-                                    src="assets/news-3.webp"
+                                    src="/oratoria-de-elite/assets/news-3.webp"
                                     alt="Notícia 3"
                                     className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.7)]"
                                     width={750}

@@ -139,7 +139,7 @@ const FAQ = () => {
                             {/* Inner Content */}
                             <div className="relative flex flex-col items-center lg:items-start lg:flex-row lg:items-center gap-6 p-6 md:p-8 bg-[#3FB05E] rounded-[14px] z-10 w-full h-full text-center lg:text-left">
                                 <img
-                                    src="assets/icon-whats.webp"
+                                    src="/oratoria-de-elite/assets/icon-whats.webp"
                                     alt="WhatsApp"
                                     className="w-12 h-12 md:w-16 md:h-16 shrink-0 object-contain drop-shadow-md"
                                     width={64}
@@ -170,7 +170,7 @@ const FAQ = () => {
                         >
                             <div className="flex justify-center w-full">
                                 <img
-                                    src="assets/faq-vector.svg"
+                                    src="/oratoria-de-elite/assets/faq-vector.svg"
                                     alt="Perguntas Frequentes"
                                     className="h-[120px] md:h-[9.3750vw] w-auto"
                                     width={180}

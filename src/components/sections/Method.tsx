@@ -22,7 +22,7 @@ export default function Method() {
 
             {/* Top Image (Mobile Only) */}
             <img 
-                src="assets/method-mobile-1.webp" 
+                src="/oratoria-de-elite/assets/method-mobile-1.webp" 
                 alt="Metodologia Oratória de Elite" 
                 className="w-full h-auto block md:hidden object-cover" 
                 width={390}
@@ -63,7 +63,7 @@ export default function Method() {
                     {/* Imagem Fixa Esquerda (Desktop Only) */}
                     <div className="hidden 2xl:block absolute right-[104%] top-1/2 -translate-y-1/2 w-[16.6667vw] h-auto">
                         <img
-                            src="assets/img-1.webp?v=1.2"
+                            src="/oratoria-de-elite/assets/img-1.webp?v=1.2"
                             alt="Visual de apoio 1"
                             className="w-full h-auto"
                             width={320}
@@ -76,7 +76,7 @@ export default function Method() {
                     {/* Pasta 1 (Clareza) - Base */}
                     <div className="absolute inset-0 z-10 flex items-center justify-center">
                         <img
-                            src="assets/pasta-1.webp?v=1.1"
+                            src="/oratoria-de-elite/assets/pasta-1.webp?v=1.1"
                             alt="Clareza - Passo 1"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                             width={582}
@@ -92,7 +92,7 @@ export default function Method() {
                         className="absolute inset-0 z-20 flex items-center justify-center"
                     >
                         <img
-                            src="assets/pasta-2.webp?v=1.1"
+                            src="/oratoria-de-elite/assets/pasta-2.webp?v=1.1"
                             alt="Confiança - Passo 2"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                             width={582}
@@ -108,7 +108,7 @@ export default function Method() {
                         className="absolute inset-0 z-30 flex items-center justify-center"
                     >
                         <img
-                            src="assets/pasta-3.webp?v=1.1"
+                            src="/oratoria-de-elite/assets/pasta-3.webp?v=1.1"
                             alt="Domínio - Passo 3"
                             className="max-h-full w-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
                             width={582}
@@ -121,7 +121,7 @@ export default function Method() {
                     {/* Imagem Fixa Direita (Desktop Only) */}
                     <div className="hidden 2xl:block absolute left-[104%] top-1/2 -translate-y-1/2 w-[16.6667vw] h-auto">
                         <img
-                            src="assets/img-2.webp?v=1.2"
+                            src="/oratoria-de-elite/assets/img-2.webp?v=1.2"
                             alt="Visual de apoio 2"
                             className="w-full h-auto"
                             width={320}

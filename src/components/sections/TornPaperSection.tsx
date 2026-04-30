@@ -30,7 +30,7 @@ const TornPaperSection = () => {
 
     const ListIcon = () => (
         <img
-            src="assets/check-square.svg"
+            src="/oratoria-de-elite/assets/check-square.svg"
             alt="Check"
             className="w-5 h-5 flex-shrink-0"
             style={{ filter: 'invert(15%) sepia(85%) saturate(7434%) hue-rotate(351deg) brightness(87%) contrast(107%)' }}
@@ -56,7 +56,7 @@ const TornPaperSection = () => {
             <div
                 className="absolute inset-x-0 top-0 bottom-0 pointer-events-none hidden md:block"
                 style={{
-                    backgroundImage: `url('assets/papel-rasgado.webp')`,
+                    backgroundImage: `url('/oratoria-de-elite/assets/papel-rasgado.webp')`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',

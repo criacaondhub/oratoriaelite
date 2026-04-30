@@ -39,7 +39,7 @@ const Bonus = () => {
                     >
                         {/* Image */}
                         <img
-                            src="assets/bonus-1.webp?v=1.1"
+                            src="/oratoria-de-elite/assets/bonus-1.webp?v=1.1"
                             alt="Argumentação: Como Vencer Debates"
                             className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}
@@ -75,7 +75,7 @@ const Bonus = () => {
                     >
                         {/* Image */}
                         <img
-                            src="assets/bonus-2.webp?v=1.1"
+                            src="/oratoria-de-elite/assets/bonus-2.webp?v=1.1"
                             alt="Pense Rápido, Fale Melhor"
                             className="h-[320px] lg:h-[18.2292vw] xl:h-[21.8750vw] w-auto block z-20 object-contain drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]"
                             width={420}

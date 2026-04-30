@@ -39,7 +39,7 @@ const PoliceElite = () => {
                 className="w-full flex justify-center"
             >
                 <img
-                    src="assets/galeria-policial.webp"
+                    src="/oratoria-de-elite/assets/galeria-policial.webp"
                     alt="Método validado pela Elite"
                     className="w-full h-auto object-cover"
                 />
