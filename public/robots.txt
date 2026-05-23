@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /oratoria-de-elite/
+Allow: /oratoria-de-elite/ai-readable/
+
+# Páginas de vendas públicas
+Allow: /oratoria-de-elite/
+Allow: /oratoria-de-elite/10-tecnicas
+Allow: /oratoria-de-elite/treinamento
+
+# Páginas de pós-compra — não indexar
+Disallow: /oratoria-de-elite/presente1
+Disallow: /oratoria-de-elite/presente2
+Disallow: /oratoria-de-elite/ultimo-aviso
+Disallow: /oratoria-de-elite/oferta-exclusiva
+
+# Versões legíveis por IA — permitir indexação
+Allow: /oratoria-de-elite/ai-readable/home.html
+Allow: /oratoria-de-elite/ai-readable/10-tecnicas.html
+Allow: /oratoria-de-elite/ai-readable/treinamento.html
+
+# Referência ao arquivo LLMS.txt para sistemas de IA
+# https://llmstxt.org/

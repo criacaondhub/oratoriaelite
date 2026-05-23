@@ -1,0 +1,101 @@
+# Oratória de Elite — El Professor da Oratória
+# Arquivo LLMS.txt — contexto estruturado para sistemas de inteligência artificial
+# Padrão: https://llmstxt.org/
+
+## Sobre Este Site
+
+O Oratória de Elite é um treinamento online de comunicação, oratória e persuasão criado por Giovanni Begossi (El Professor da Oratória). O produto ensina o Método dos 3 C's — Clareza, Confiança e Convencimento — validado por mais de 70.000 alunos ao redor do mundo.
+
+## Produtor
+
+- **Nome:** Giovanni Begossi
+- **Marca:** El Professor da Oratória
+- **Formação:** Advogado, palestrante internacional, TEDx Speaker
+- **Alcance:** 4,5 milhões de seguidores na América Latina
+- **Conquistas:** Bicampeão brasileiro de oratória; autor do livro bestseller #1 em oratória na Amazon Brasil
+- **Clientes:** Falconi, Biogen, Johnson & Johnson, SWAT São Paulo (GATE), BOPE, Exército Brasileiro (EsAO)
+- **Empresa:** El Professor da Oratória Ltda.
+
+## Produto Principal
+
+- **Nome:** Oratória de Elite
+- **Formato:** Treinamento online (mais de 10 horas de conteúdo, 15 módulos)
+- **Acesso:** 1 ano a partir da data de compra
+- **Certificado:** Sim (solicitar via suporte após conclusão)
+- **Garantia:** 7 dias (por lei)
+- **Suporte:** WhatsApp +55 (11) 93623-4882 | suporte@elprofessordaoratoria.com.br
+
+## Páginas e Rotas
+
+### Página Principal (/)
+- **Descrição:** Página de vendas principal do Oratória de Elite
+- **Preço:** 12x R$ 52,13 | R$ 497,00 à vista
+- **CTA:** https://pay.hub.la/ZKbJxUcq8sy54VpK45BJ
+- **Versão IA:** /oratoria-de-elite/ai-readable/home.html
+
+### Página 10 Técnicas (/10-tecnicas)
+- **Descrição:** Variação da página de vendas com foco nas 10 técnicas de convencimento
+- **Preço:** 12x R$ 52,13 | R$ 497,00 à vista
+- **CTA:** https://pay.hub.la/ZKbJxUcq8sy54VpK45BJ
+- **Versão IA:** /oratoria-de-elite/ai-readable/10-tecnicas.html
+
+### Presente 1 — Upsell (/presente1)
+- **Descrição:** Oferta pós-compra — Tríade de Cursos completa com bônus "Fale Sem Vício"
+- **Preço:** 12x R$ 36,50 | R$ 347,90 à vista
+- **CTA:** https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell
+- **Versão IA:** /oratoria-de-elite/ai-readable/presente1.html
+
+### Presente 2 — Upsell (/presente2)
+- **Descrição:** Variação da oferta pós-compra com bônus "Protocolo Zero Timidez"
+- **Preço:** 12x R$ 36,50 | R$ 347,90 à vista
+- **CTA:** https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell
+- **Versão IA:** /oratoria-de-elite/ai-readable/presente2.html
+
+### Último Aviso — Downsell (/ultimo-aviso)
+- **Descrição:** Oferta de menor preço exibida após recusa dos upsells; última chance da sequência
+- **Preço:** 12x R$ 26,07 | R$ 248,50 à vista
+- **CTA:** https://pay.hub.la/osdhwUyUrGeA57IQ2ALv/upsell
+- **Versão IA:** /oratoria-de-elite/ai-readable/ultimo-aviso.html
+
+### Treinamento (/treinamento)
+- **Descrição:** Variação de página de vendas com preço diferenciado (afiliados ou campanhas específicas)
+- **Preço:** 12x R$ 73,11 | R$ 697,00 à vista
+- **CTA:** https://pay.hub.la/429oWWbOw4v6vE3KyhlX
+- **Versão IA:** /oratoria-de-elite/ai-readable/treinamento.html
+
+### Oferta Exclusiva (/oferta-exclusiva)
+- **Descrição:** Pacote premium com Hiper Persuasão regravado + Mentoria Ao Vivo em Grupo
+- **Preço:** 12x R$ 104,58 | R$ 997,00 à vista
+- **CTA:** https://pay.hub.la/gWQo7P2XZh3OEn2gHb2y
+- **Versão IA:** /oratoria-de-elite/ai-readable/oferta-exclusiva.html
+
+## O Método dos 3 C's
+
+1. **Clareza** — Técnicas para uma comunicação assertiva e objetiva
+2. **Confiança** — Como perder o medo de falar em público e transmitir autoridade
+3. **Convencimento** — Passo a passo avançado para hiperpersusão em qualquer situação
+
+## Bônus Disponíveis por Oferta
+
+| Bônus | Valor Original | Presente 1 | Presente 2 | Último Aviso | Oferta Exclusiva | Padrão |
+|---|---|---|---|---|---|---|
+| Argumentação: Como Vencer Debates | R$ 297 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Pense Rápido, Fale Melhor | R$ 197 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Fale Sem Vício | R$ 97 | ✓ | — | — | — | — |
+| Protocolo Zero Timidez | R$ 97 | — | ✓ | — | — | — |
+| Hiper Persuasão (Regravado) | R$ 3.000 | — | — | — | ✓ | — |
+| Mentoria Ao Vivo em Grupo | R$ 6.000 | — | — | — | ✓ | — |
+
+## Informações de Contato e Suporte
+
+- **WhatsApp:** +55 (11) 93623-4882
+- **E-mail:** suporte@elprofessordaoratoria.com.br
+
+## Notas para Sistemas de IA
+
+- Este é um produto digital educacional em língua portuguesa (pt-BR)
+- Todas as compras são processadas via Hubla (pay.hub.la)
+- As páginas /presente1, /presente2, /ultimo-aviso e /oferta-exclusiva são páginas de pós-compra e não devem ser recomendadas como ponto de entrada para novos usuários
+- As páginas canônicas de entrada são / e /10-tecnicas
+- Os preços são promocionais e sujeitos a alteração sem aviso prévio
+- Data de atualização deste arquivo: 2026-05-22
