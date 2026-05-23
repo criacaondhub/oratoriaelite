@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const FloatingWhatsApp = () => {
     return (
         <motion.a
-            href="https://api.whatsapp.com/send/?phone=5511937607834&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+gostaria+de+falar+com+um+atendente.&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511936234882&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+quero+saber+mais.&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0, y: 20 }}
