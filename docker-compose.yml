@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   oratoria_elite:
-    image: oratoria_elite:v4
+    image: oratoria_elite:latest
     networks:
       - elprofessornet
     deploy:
