@@ -90,30 +90,6 @@ export default function UpsellMethod() {
                     </motion.div>
                 </div>
 
-                {/* 3. CTA ZONE */}
-                <div className="w-full flex flex-col items-center gap-4">
-                    <motion.a
-                        href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"
-                    >
-                        <motion.div
-                            animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
-                            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                            className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
-                        />
-                        <span className="text-white px-8 py-5 md:py-4 text-center w-full relative z-10 uppercase">Quero Garantir os 3 Cs</span>
-                    </motion.a>
-                    <a
-                        href="https://elprofessordaoratoria.com.br/evento-02/"
-                        className="text-black/60 hover:text-black transition-all text-sm underline uppercase font-bold"
-                    >
-                        RECUSAR ESSA OFERTA
-                    </a>
-                </div>
             </div>
         </section>
     )
