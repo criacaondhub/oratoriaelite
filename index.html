@@ -204,6 +204,7 @@
     const buttons = document.querySelectorAll("#" + CHECKOUT_BUTTON_ID);
     buttons.forEach((button) => {
       if (!button) return;
+      if (button.getAttribute("data-lastlink-utm-applied") === "true") return;
       if (button.tagName.toLowerCase() === "a" && button.href) {
         button.href = appendParamsToUrl(button.href, finalParams);
         button.setAttribute("data-lastlink-utm-applied", "true");
