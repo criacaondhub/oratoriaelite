@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import UpsellHero2 from "../components/sections/UpsellHero2"
 import UpsellMethod2 from "../components/sections/UpsellMethod2"
 // import UpsellForWhom from "../components/sections/UpsellForWhom"
@@ -10,6 +11,16 @@ import UpsellPricing2 from "../components/sections/UpsellPricing2"
 import Footer from "../components/sections/Footer"
 
 function UpsellPage2() {
+    useEffect(() => {
+        const script = document.createElement('script')
+        script.src = 'https://cdn.lastlink.com/upsell.min.js'
+        script.async = true
+        document.body.appendChild(script)
+        return () => {
+            document.body.removeChild(script)
+        }
+    }, [])
+
     return (
         <main className="relative min-h-screen bg-transparent">
 

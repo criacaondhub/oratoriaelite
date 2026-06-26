@@ -31,7 +31,7 @@ function OfertaExclusiva() {
                     <Guarantee />
                     <PricingOferta />
                     <About />
-                    <FAQ />
+                    <FAQ pricingAnswer="12x de 106,17 no cartão de crédito ou 997,00 à vista com desconto. Lembrando que este preço é promocional e poderá ser alterado a qualquer momento." />
                     <FloatingWhatsApp />
                     <Footer />
                 </Suspense>

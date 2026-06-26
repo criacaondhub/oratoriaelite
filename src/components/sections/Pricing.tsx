@@ -68,14 +68,15 @@ const Pricing = () => {
                                     <span className="text-white font-body text-[16px] md:text-[1.2500vw]">por apenas 12x de</span>
                                 </div>
                                 <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[3.6458vw] lg:text-[4.1667vw] xl:text-[5.2083vw] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
-                                    R$ 52,13
+                                    R$ 52,93
                                 </div>
                                 <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$497,00 à vista</span>
                             </div>
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
-                                href="https://pay.hub.la/ZKbJxUcq8sy54VpK45BJ"
+                                id="btn_checkout"
+                                href="https://lastlink.com/p/CA8E25A14/checkout-payment"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.05 }}

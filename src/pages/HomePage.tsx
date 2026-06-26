@@ -29,7 +29,7 @@ function HomePage() {
                 <Guarantee />
                 <Pricing />
                 <About />
-                <FAQ />
+                <FAQ pricingAnswer="12x de 52,93 no cartão de crédito ou 497,00 à vista com desconto. Lembrando que este preço é promocional e poderá ser alterado a qualquer momento." />
 
                 <FloatingWhatsApp />
                 <Footer />

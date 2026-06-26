@@ -76,28 +76,29 @@ export default function UpsellHero2() {
                         />
 
                         {/* CTA */}
-                        <div className="flex flex-col items-center gap-4 w-full mt-4">
-                            <motion.a
-                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[16px] md:text-xl leading-[1.1] uppercase flex items-center justify-center transition-all font-body isolate"
+                        <div style={{ fontFamily: 'DM Sans', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', cursor: 'pointer', width: '100%' }} className="mt-4">
+                            <div
+                                className="button-default button-accept w-full"
+                                style={{ padding: '17px 32px', lineHeight: '22px', borderRadius: '12px', fontWeight: 700, backgroundColor: 'rgb(52, 226, 60)', color: 'rgb(0, 0, 0)', textAlign: 'center' }}
+                                id="llupsell-CA0D637DE-"
                             >
-                                <motion.div
-                                    animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
-                                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                                    className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
-                                />
-                                <span className="text-white px-8 md:px-12 py-5 text-center w-full relative z-10 uppercase whitespace-nowrap">Garantir presente especial</span>
-                            </motion.a>
-                            <a
-                                href="https://elprofessordaoratoria.com.br/evento-02/"
-                                className="text-white/60 hover:text-white transition-all text-sm underline uppercase font-bold"
+                                GARANTIR OFERTA ESPECIAL
+                            </div>
+                            <div
+                                className="button-default button-deny w-full"
+                                style={{ textDecoration: 'underline', lineHeight: '22px', fontSize: '16px', fontWeight: 700, color: 'rgb(178, 178, 178)', textAlign: 'center' }}
+                                id="denyButton9214351"
+                                onClick={() => {
+                                    const currentUrl = new URL(window.location.href)
+                                    const newUrl = new URL("https://lastlink.com/app/member/dashboardV2")
+                                    currentUrl.searchParams.forEach((value, key) => {
+                                        newUrl.searchParams.append(key, value)
+                                    })
+                                    window.location.href = newUrl.toString()
+                                }}
                             >
-                                RECUSAR ESSA OFERTA
-                            </a>
+                                Recusar esta oferta
+                            </div>
                         </div>
                     </motion.div>
                 </div>

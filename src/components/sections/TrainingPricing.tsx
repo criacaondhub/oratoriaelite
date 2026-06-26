@@ -75,6 +75,7 @@ const TrainingPricing = () => {
 
                             {/* Button - Styled like Hero CTA */}
                             <motion.a
+                                id="btn_checkout"
                                 href="https://lastlink.com/p/C1BD33FC1/checkout-payment"
                                 target="_blank"
                                 rel="noopener noreferrer"

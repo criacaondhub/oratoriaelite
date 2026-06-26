@@ -60,41 +60,42 @@ const UpsellPricing2 = () => {
                             />
 
                             {/* Prices */}
-                            <div className="flex flex-col items-center gap-4">
+                            <div className="flex flex-col items-center md:gap-[0.8333vw] gap-4">
                                 <div className="flex flex-col items-center">
                                     <span className="text-white/50 font-body text-[14px] md:text-[1.1458vw] line-through">De R$ 997,00</span>
                                     <span className="text-white font-body text-[16px] md:text-[1.2500vw]">por apenas 12x de</span>
                                 </div>
                                 <div className="text-[#59FF74] font-body font-bold text-[56px] md:text-[3.6458vw] lg:text-[4.1667vw] xl:text-[5.2083vw] leading-none tracking-tighter -my-2 whitespace-nowrap drop-shadow-lg">
-                                    R$ 36,50
+                                    R$ 51,90
                                 </div>
-                                <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$ 347,90 à vista</span>
+                                <span className="text-white font-body text-[16px] md:text-[1.2500vw] font-medium transition-all">Ou apenas R$ 487,90 à vista</span>
                             </div>
 
-                            {/* Button - Styled like Hero CTA */}
-                            <motion.a
-                                href="https://pay.hub.la/96ud5NuEe5gGJQ3MlFCh/upsell"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="relative group w-full md:w-fit rounded-[0.5rem] font-bold text-[15px] md:text-xl leading-[1.1] uppercase flex items-center justify-center text-center transition-all font-body isolate"
-                            >
-                                <motion.div
-                                    animate={{ scale: [1, 1.05, 1], boxShadow: ["0px 0px 0px rgba(204,0,0,0)", "0px 0px 50px rgba(204,0,0,1)", "0px 0px 0px rgba(204,0,0,0)"] }}
-                                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                                    className="absolute inset-0 bg-[#CC0000] group-hover:bg-[#EE0000] rounded-[0.5rem] transition-colors -z-10"
-                                />
-                                <span className="text-white px-8 py-5 text-center w-full relative z-10">Quero ter acesso ao <br className="md:hidden" /> Oratória de Elite</span>
-                            </motion.a>
-
-                            {/* Refuse Offer Link */}
-                            <a
-                                href="https://elprofessordaoratoria.com.br/evento-02/"
-                                className="text-white/60 hover:text-white transition-all text-sm underline uppercase font-bold mt-[-20px]"
-                            >
-                                RECUSAR ESSA OFERTA
-                            </a>
+                            {/* Lastlink Upsell Buttons */}
+                            <div style={{ fontFamily: 'DM Sans', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', cursor: 'pointer', width: '100%' }}>
+                                <div
+                                    className="button-default button-accept w-full"
+                                    style={{ padding: '17px 32px', lineHeight: '22px', borderRadius: '12px', fontWeight: 700, backgroundColor: 'rgb(52, 226, 60)', color: 'rgb(0, 0, 0)', textAlign: 'center' }}
+                                    id="llupsell-CA0D637DE-"
+                                >
+                                    GARANTIR OFERTA ESPECIAL
+                                </div>
+                                <div
+                                    className="button-default button-deny w-full"
+                                    style={{ textDecoration: 'underline', lineHeight: '22px', fontSize: '16px', fontWeight: 700, color: 'rgb(178, 178, 178)', textAlign: 'center' }}
+                                    id="denyButton9214351"
+                                    onClick={() => {
+                                        const currentUrl = new URL(window.location.href)
+                                        const newUrl = new URL("https://lastlink.com/app/member/dashboardV2")
+                                        currentUrl.searchParams.forEach((value, key) => {
+                                            newUrl.searchParams.append(key, value)
+                                        })
+                                        window.location.href = newUrl.toString()
+                                    }}
+                                >
+                                    Recusar esta oferta
+                                </div>
+                            </div>
 
                             {/* Trust badges */}
                             <div className="flex flex-col items-center gap-6 w-full pt-2">
