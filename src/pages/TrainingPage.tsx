@@ -29,7 +29,7 @@ function TrainingPage() {
                 <Guarantee />
                 <TrainingPricing />
                 <About />
-                <FAQ />
+                <FAQ pricingAnswer="12x de 74,22 no cartão de crédito ou 697,00 à vista com desconto. Lembrando que este preço é promocional e poderá ser alterado a qualquer momento." />
 
                 <FloatingWhatsApp />
                 <Footer />

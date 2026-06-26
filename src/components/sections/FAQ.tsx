@@ -88,8 +88,14 @@ const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answ
     )
 }
 
-const FAQ = () => {
+const FAQ = ({ pricingAnswer }: { pricingAnswer?: string } = {}) => {
     const [openIndex, setOpenIndex] = useState<number | null>(0)
+
+    const items = faqs.map(faq =>
+        faq.question === "Quanto custa o treinamento?" && pricingAnswer
+            ? { ...faq, answer: pricingAnswer }
+            : faq
+    )
 
     return (
         <section id="faq" className="relative w-full py-24 bg-white overflow-hidden">
@@ -180,7 +186,7 @@ const FAQ = () => {
                                 />
                             </div>
                             <div className="flex flex-col border-t border-neutral-200">
-                                {faqs.map((faq, index) => (
+                                {items.map((faq, index) => (
                                     <FAQItem
                                         key={index}
                                         question={faq.question}
