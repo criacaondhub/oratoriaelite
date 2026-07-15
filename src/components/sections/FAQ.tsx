@@ -40,7 +40,7 @@ const faqs = [
     },
     {
         question: "Qual o contato do suporte?",
-        answer: "Nosso suporte atende diretamente no WhatsApp no número +55 11 93623-4882 ou via e-mail contato suporte@elprofessordaoratoria.com.br"
+        answer: "Nosso suporte atende diretamente no WhatsApp no número +55 11 93623-7310 ou via e-mail contato suporte@elprofessordaoratoria.com.br"
     }
 ]
 
@@ -129,7 +129,7 @@ const FAQ = ({ pricingAnswer }: { pricingAnswer?: string } = {}) => {
 
                         {/* WhatsApp Button Card with Animated Border */}
                         <motion.a
-                            href="https://api.whatsapp.com/send/?phone=5511362348824&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+quero+saber+mais.&type=phone_number&app_absent=0"
+                            href="https://api.whatsapp.com/send/?phone=5511936237310&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+quero+saber+mais.&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0.95 }}
