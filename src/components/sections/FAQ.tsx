@@ -129,7 +129,7 @@ const FAQ = ({ pricingAnswer }: { pricingAnswer?: string } = {}) => {
 
                         {/* WhatsApp Button Card with Animated Border */}
                         <motion.a
-                            href="https://api.whatsapp.com/send/?phone=5511936237310&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+quero+saber+mais.&type=phone_number&app_absent=0"
+                            href="https://api.whatsapp.com/send/?phone=5511936234882&text=Olá%21+vim+da+página+do+Oratória+de+Elite+e+quero+saber+mais.&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0.95 }}
